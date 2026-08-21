@@ -1,13 +1,26 @@
 {
-  "total": 282,
+  "total": 592,
+  "tiers": {
+    "active": 190,
+    "archived": 176,
+    "vendor-user": 226
+  },
   "by_source": {
-    "agents_canonical": 141,
+    "agents_canonical": 142,
     "agents_archive": 110,
     "opencode": 3,
     "saaas_primary": 14,
-    "saaas_toto": 14
+    "saaas_toto": 14,
+    "gemini_plugins": 59,
+    "gemini_antigravity": 8,
+    "grok_user_skills": 13,
+    "grok_installed_plugins": 38,
+    "jcode_mirror": 121,
+    "daimon_backup": 66,
+    "pep_engine": 1,
+    "vinnyos_sync": 2,
+    "vinnyos_skills": 1
   },
-  "manus_internal": 31,
-  "generated_at": "2026-08-20T20:56:51.579102",
-  "version": "1.0.0"
+  "generated_at": "2026-08-21T14:30:41.354725",
+  "version": "2.0.0"
 }

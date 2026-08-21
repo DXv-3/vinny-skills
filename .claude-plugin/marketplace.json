@@ -7,7 +7,7 @@
     {
       "name": "agents-canonical",
       "source": "./skills/agents-canonical",
-      "description": "141 skills from agents_canonical"
+      "description": "142 skills from agents_canonical"
     },
     {
       "name": "agents-archive",
@@ -28,6 +28,51 @@
       "name": "saaas-toto",
       "source": "./skills/saaas-toto",
       "description": "14 skills from saaas_toto"
+    },
+    {
+      "name": "gemini-plugins",
+      "source": "./skills/gemini-plugins",
+      "description": "59 skills from gemini_plugins"
+    },
+    {
+      "name": "gemini-antigravity",
+      "source": "./skills/gemini-antigravity",
+      "description": "8 skills from gemini_antigravity"
+    },
+    {
+      "name": "grok-user-skills",
+      "source": "./skills/grok-user-skills",
+      "description": "13 skills from grok_user_skills"
+    },
+    {
+      "name": "grok-installed-plugins",
+      "source": "./skills/grok-installed-plugins",
+      "description": "38 skills from grok_installed_plugins"
+    },
+    {
+      "name": "jcode-mirror",
+      "source": "./skills/jcode-mirror",
+      "description": "121 skills from jcode_mirror"
+    },
+    {
+      "name": "daimon-backup",
+      "source": "./skills/daimon-backup",
+      "description": "66 skills from daimon_backup"
+    },
+    {
+      "name": "pep-engine",
+      "source": "./skills/pep-engine",
+      "description": "1 skills from pep_engine"
+    },
+    {
+      "name": "vinnyos-sync",
+      "source": "./skills/vinnyos-sync",
+      "description": "2 skills from vinnyos_sync"
+    },
+    {
+      "name": "vinnyos-skills",
+      "source": "./skills/vinnyos-skills",
+      "description": "1 skills from vinnyos_skills"
     }
   ]
 }

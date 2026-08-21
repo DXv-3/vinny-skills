@@ -1,9 +1,9 @@
 # Vinny Skills — Entire Skill Index
 
-[![Skills](https://img.shields.io/badge/skills-282-blue)](./catalog.json) [![Manus](https://img.shields.io/badge/manus-31%20internal-orange)](./manus-audit.json) [![Indexer](https://img.shields.io/badge/indexer-0.003s-green)](./skills-indexer) [![Claude Marketplace](https://img.shields.io/badge/marketplace-claude--code-purple)](./.claude-plugin/marketplace.json)
+[![Skills](https://img.shields.io/badge/skills-592-blue)](./catalog.json) [![Manus](https://img.shields.io/badge/manus-31%20internal-orange)](./manus-audit.json) [![Indexer](https://img.shields.io/badge/indexer-0.003s-green)](./skills-indexer) [![Claude Marketplace](https://img.shields.io/badge/marketplace-claude--code-purple)](./.claude-plugin/marketplace.json)
 
 
-> **282 skills** across **5 local sources** + **31 Manus internal** + **5 Manus profiles** — one searchable registry. Generated 2026-08-20.
+> **592 skills** across **14 local sources** + **35 Manus internal** + **5 Manus profiles** — one searchable registry. Generated 2026-08-20.
 
 `cat catalog.json` in 0.003s instead of `find ... SKILL.md` in 120s. For agents, by agents.
 
@@ -17,7 +17,7 @@
 | `saaas_primary` | 14 | `~/Documents/05_PERSONAL/SAAAS/skills/` |
 | `saaas_toto` | 14 | `~/Documents/01_ACTIVE/toto-ecosystem/.../SAAAS/skills/` |
 | **Manus internal** | 35 | 5 LevelDB profiles (only 2 common) |
-| **Manus accounts** | 5 | imvinny, colorbyvinny, vinny.gilberti, promptployboy, tobealive.03 |
+| **Manus accounts** | 5 | 5 gmail accounts (redacted here; full mapping in local SYSTEM-STATE.md) |
 
 **Total cataloged:** `282 + 35 manus internal + 20+ AGENTS.md`
 
@@ -88,7 +88,11 @@ vinny-skills/
 ├── skills-indexer            # 0.3s rebuild, 0.03s query (chmod +x)
 ├── bin/skills-indexer        # same, in bin/
 ├── skills/skill-dashboard/   # SKILL.md + references/dashboard-spec.md
-└── manus-audit.json          # 5 profiles × 31 skills divergence
+├── agents-md/                # 16 AGENTS.md files (Octopus protocol etc)
+├── tier-mapper/              # Manus API v2 (32 endpoints) + sandbox routes + platform tiers
+├── provenance/               # .skill-lock.json — GitHub source + hash per archived skill
+├── search.html               # zero-build web UI (works on GitHub Pages)
+├── manus-audit.json          # 5 profiles × 35 skills divergence matrix
 ```
 
 ## Rebuild Locally

@@ -1,7 +1,8 @@
-# Skills Inventory — 2026-08-20T20:56:51.579102
+# Skills Inventory v2 — 2026-08-21T14:30:41
 
-**Total:** 282
-## agents_archive (110)
+**Total:** 592 | **Tiers:** {'active': 190, 'archived': 176, 'vendor-user': 226}
+
+## agents_archive (110) [archived]
 - `ai-automation-workflows` — "Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event
 - `ai-avatar-video` — "Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, 
 - `ai-content-pipeline` — "Build multi-step AI content creation pipelines combining image, video, audio, and text. Workflow examples: generate ima
@@ -113,11 +114,11 @@
 - `xlsx` — "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to:
 - `youtube-thumbnail-design` — "YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, 
 
-## agents_canonical (141)
+## agents_canonical (142) [active]
 - `accessorysetupkit` — "Discover and configure Bluetooth and Wi-Fi accessories using AccessorySetupKit. Use when presenting a privacy-preservin
 - `activitykit` — "Implement, review, or improve Live Activities and Dynamic Island experiences in iOS apps using ActivityKit. Use when bu
 - `adattributionkit` — "Measure ad effectiveness with privacy-preserving attribution using AdAttributionKit. Use when registering ad impression
-- `agent-browser` — >-
+- `agent-browser` — >- Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take scr
 - `agent-tools` — "Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models:
 - `agent-ui` — "Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming
 - `alarmkit` — "Implement AlarmKit alarms and countdown timers for iOS and iPadOS with Lock Screen, Dynamic Island, StandBy, and paired
@@ -135,8 +136,8 @@
 - `browserenginekit` — "Build alternative browser engines using BrowserEngineKit. Use when developing a non-WebKit browser engine for iOS/iPadO
 - `callkit` — "Implement VoIP calling with CallKit and PushKit. Use when building incoming/outgoing call flows, registering for VoIP p
 - `carplay` — "Build CarPlay-enabled apps using the CarPlay framework. Use when creating navigation, audio, communication, EV charging
-- `chat-archaeologist` — 
-- `clipboardlux-macos-debugging` — 
+- `chat-archaeologist` — Skill: chat-archaeologist
+- `clipboardlux-macos-debugging` — ClipboardLUX macOS Debugging Skill
 - `cloudkit` — "Implement, review, or improve CloudKit and iCloud sync in iOS/macOS apps. Use when working with CKContainer, CKRecord, 
 - `contacts-framework` — "Read, create, update, and pick contacts using the Contacts and ContactsUI frameworks. Use when fetching contact data, s
 - `continue-claude-work` — Recover actionable context from local session artifacts (Claude Code `~/.claude/projects` OR Kilo Code `~/.kilocode/task
@@ -150,7 +151,7 @@
 - `custom-brainstorm-storm` — Custom Stanford-tuned build synthesized from STORM/Co-STORM parts. A custom Stanford-tuned brainstorm+STORM engine with 
 - `debugging-instruments` — "Debug iOS apps and profile performance using LLDB, the interactive Memory Graph Debugger, and Instruments. Use for cras
 - `deep-research` — Use when the user needs multi-source research with citation tracking, evidence persistence, and structured report genera
-- `deep-research-free` — >
+- `deep-research-free` — > Use when the user requests deep research, exhaustive research, comprehensive report, thorough investigation, deep dive
 - `device-integrity` — "Verify device legitimacy and app integrity using DeviceCheck (DCDevice per-device bits) and App Attest (DCAppAttestServ
 - `dockkit` — "Control motorized camera docks and enable intelligent subject tracking using DockKit. Use when discovering DockKit-comp
 - `energykit` — "Query grid electricity forecasts and submit load events using EnergyKit to help users optimize home electricity usage. 
@@ -159,7 +160,7 @@
 - `financekit` — "Access eligible Wallet financial data using FinanceKit and FinanceKitUI. Use when querying transactions or balances, re
 - `find-skills` — Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is th
 - `find-skills/out/scaffold` — Custom Stanford-tuned build synthesized from STORM/Co-STORM parts. A custom Stanford-tuned brainstorm+STORM engine with 
-- `firecrawl-deep-research` — |
+- `firecrawl-deep-research` — | Produce an intensive, cited analytical report: executive summary, multi-angle findings, contrarian views, open questio
 - `focus-engine` — "Implements keyboard, directional, and scene-level focus behavior across SwiftUI and UIKit. Use when managing @FocusStat
 - `frontend-design` — Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to 
 - `gamekit` — "Integrate Game Center features using GameKit. Use when authenticating GKLocalPlayer, checking player restrictions, subm
@@ -167,23 +168,23 @@
 - `healthkit` — "Read, write, and query Apple Health data using HealthKit. Covers HKHealthStore authorization, sample queries, statistic
 - `homekit` — "Control smart-home accessories and commission Matter devices using HomeKit and MatterSupport. Use when managing homes/r
 - `ios-accessibility` — "Build and audit SwiftUI, UIKit, and AppKit accessibility for VoiceOver, Voice Control, Switch Control, Full Keyboard Ac
-- `ios-ai-integration` — 
-- `ios-animation-master` — 
-- `ios-camera-ar-pipeline` — 
-- `ios-data-persistence` — 
-- `ios-deep-link-universal` — 
+- `ios-ai-integration` — Skill: ios-ai-integration
+- `ios-animation-master` — Skill: ios-animation-master
+- `ios-camera-ar-pipeline` — Skill: ios-camera-ar-pipeline
+- `ios-data-persistence` — Skill: ios-data-persistence
+- `ios-deep-link-universal` — Skill: ios-deep-link-universal
 - `ios-ettrace-performance` — "Use when capturing or analyzing ETTrace profiles for a focused iOS launch or runtime flow, including exact-build dSYM U
-- `ios-fullstack` — 
+- `ios-fullstack` — Skill: ios-fullstack
 - `ios-localization` — "Implement, review, or improve localization and internationalization in iOS/macOS apps — String Catalogs (.xcstrings), g
 - `ios-memgraph-analysis` — "Use when capturing or analyzing an iOS .memgraph, especially when the task mentions a memory leak, heap growth, persist
 - `ios-networking` — "Build, review, or improve networking code in iOS/macOS apps using URLSession with async/await, structured concurrency, 
-- `ios-offline-first` — 
-- `ios-performance-debug` — 
-- `ios-release-polish` — 
-- `ios-security-auth` — 
+- `ios-offline-first` — Skill: ios-offline-first
+- `ios-performance-debug` — Skill: ios-performance-debug
+- `ios-release-polish` — Skill: ios-release-polish
+- `ios-security-auth` — Skill: ios-security-auth
 - `ios-simulator` — "Manages iOS Simulator devices and app tests with xcrun simctl: lifecycle, install/launch, push and location simulation,
-- `ios-swift-development` — >
-- `macos-gui-automation` — 
+- `ios-swift-development` — > Develop native iOS apps with Swift. Covers MVVM architecture, SwiftUI, URLSession for networking, Combine for reactive
+- `macos-gui-automation` — macOS GUI Automation Skill
 - `mapkit` — "Implement, review, or improve maps and location features in iOS/macOS apps using MapKit and CoreLocation. Use when work
 - `metrickit` — Use when collecting or analyzing production iOS or iPadOS performance telemetry with MetricKit, including iOS 27 MetricM
 - `microsoft-foundry` — "Deploy, evaluate, fine-tune, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, 
@@ -192,10 +193,10 @@
 - `microsoft-foundry/models/deploy-model/capacity` — "Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availabili
 - `microsoft-foundry/models/deploy-model/customize` — "Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of m
 - `microsoft-foundry/models/deploy-model/preset` — "Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automa
-- `modern-web-guidance` — |
+- `modern-web-guidance` — | Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tas
 - `musickit` — "Integrate Apple Music playback, catalog search, and Now Playing metadata using MusicKit and MediaPlayer. Use when addin
 - `natural-language` — "Tokenize, tag, and analyze natural language text using Apple's NaturalLanguage framework and translate between language
-- `osint-datasets` — 
+- `osint-datasets` — OSINT Datasets Skill
 - `paperkit` — "Add drawings, shapes, and a consistent markup experience using PaperKit. Use when integrating PaperMarkupViewController
 - `parallel-deep-research` — "ONLY use when user explicitly says 'deep research', 'exhaustive', 'comprehensive report', or 'thorough investigation'. 
 - `passkit` — "Integrate Apple Pay payments and Wallet passes using PassKit. Use when adding Apple Pay buttons, creating payment reque
@@ -204,13 +205,14 @@
 - `permissionkit` — "Create child communication safety experiences using PermissionKit to request parental permission for children. Use when
 - `photokit` — "Implement, review, or improve photo picking, camera capture, and media handling in iOS apps using PhotoKit and AVFounda
 - `pop-motion` — "Enforce VinnyOS Pop Motion animation style on any project. Use when building or reviewing UI that needs GPU-accelerated
-- `progress-report` — 
+- `progress-report` — Skill: Progress Report Generator
 - `push-notifications` — "Implement, review, or debug push notifications in iOS/macOS apps — local notifications, remote (APNs) notifications, ri
 - `realitykit` — "Build iOS augmented reality and 3D experiences with RealityKit and ARKit. Use when adding RealityView content, loading 
 - `relevancekit` — "Increase widget visibility on Apple Watch using RelevanceKit. Use when providing contextual relevance signals for watch
 - `scenekit` — "Maintain and extend existing SceneKit 3D scenes and visualizations. Use when working with SCNView, SCNScene, SCNNode sc
 - `sensorkit` — "Access research-grade sensor data using SensorKit for approved studies. Use when an app needs SensorKit entitlement set
 - `shareplay-activities` — "Build shared real-time experiences using GroupActivities and SharePlay. Use when implementing shared media playback, co
+- `skill-dashboard` — Unified local skill registry and sync dashboard for Vinny's machine. Indexes all SKILL.md across .agents/skills, .agents
 - `skill-workflow` — "Meta-skill that scans all available agent skills, analyzes the current conversation/context, and recommends a workflow 
 - `speech-recognition` — "Transcribe speech to text using Apple's Speech framework. Use when implementing live microphone transcription with AVAu
 - `spm-build-analysis` — Analyze Swift Package Manager dependencies, package plugins, module variants, and CI-oriented build overhead that slow X
@@ -256,12 +258,332 @@
 - `xcode-project-analyzer` — Audit Xcode project configuration, build settings, scheme behavior, and script phases to find build-time improvements wi
 - `xcode-project-setup` — Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project n
 
-## opencode (3)
+## daimon_backup (66) [archived]
+- `daimon-share/daimon/plugin-packages/audio_generation/skills/audio_generation` — |- Generate audio in two ways: text-to-speech, or custom sound effects. ### Speech (text-to-speech): - High-quality text
+- `daimon-share/daimon/plugin-packages/image_generation/skills/image_generation` — |- Create an image based on a text description using AI image generation. ### Features: - Generate high-quality images f
+- `daimon-share/daimon/plugin-packages/imf/skills/imf` — "IMF provides global macroeconomic data through the World Economic Outlook database, including historical statistics and
+- `daimon-share/daimon/plugin-packages/kimi-webbridge/skills/kimi-webbridge` — | Kimi WebBridge lets AI control the user's real browser — navigate, click, type, read, screenshot, and interact with an
+- `daimon-share/daimon/plugin-packages/scholar/skills/scholar` — "A freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of
+- `daimon-share/daimon/plugin-packages/sec_edgar/skills/sec_edgar` — "SEC EDGAR provides comprehensive US public company filings and financial data, including company info, filings, XBRL fa
+- `daimon-share/daimon/plugin-packages/world_bank_open_data/skills/world_bank_open_data` — "World Bank Open Data is a free global development data platform with access to countries worldwide and 29,000+ indicato
+- `daimon-share/daimon/plugin-packages/yahoo_finance/skills/yahoo_finance` — "Yahoo Finance provides stock information for a given ticker symbol, including stock price and trading information, comp
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/audio_generation/skills/audio_generation` — |- Generate audio in two ways: text-to-speech, or custom sound effects. ### Speech (text-to-speech): - High-quality text
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/image_generation/skills/image_generation` — |- Create an image based on a text description using AI image generation. ### Features: - Generate high-quality images f
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/imf/skills/imf` — "IMF provides global macroeconomic data through the World Economic Outlook database, including historical statistics and
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/kimi-webbridge/skills/kimi-webbridge` — | Kimi WebBridge lets AI control the user's real browser — navigate, click, type, read, screenshot, and interact with an
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/scholar/skills/scholar` — "A freely accessible web search engine that indexes the full text or metadata of scholarly literature across an array of
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/sec_edgar/skills/sec_edgar` — "SEC EDGAR provides comprehensive US public company filings and financial data, including company info, filings, XBRL fa
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/world_bank_open_data/skills/world_bank_open_data` — "World Bank Open Data is a free global development data platform with access to countries worldwide and 29,000+ indicato
+- `daimon-share/daimon/runtime/kimi-code/home/plugins/managed/yahoo_finance/skills/yahoo_finance` — "Yahoo Finance provides stock information for a given ticker symbol, including stock price and trading information, comp
+- `daimon-share/daimon/skills/ad-creative` — "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad vari
+- `daimon-share/daimon/skills/automation` — Use when creating, reading, updating, deleting, running, cancelling, scheduling, condition-triggering, or inspecting Dai
+- `daimon-share/daimon/skills/batch-download` — > Multi-agent batch download and data collection orchestration. Use this skill whenever the task requires discovering, v
+- `daimon-share/daimon/skills/binding` — Use when creating, reading, validating, repairing, deleting, or troubleshooting Daimon Blueprint automation_widget Bindi
+- `daimon-share/daimon/skills/blueprint` — Use when choosing between Daimon Blueprint Automation, Widget, Binding, and Canvas tools or routing a request to the cor
+- `daimon-share/daimon/skills/campaign-plan` — Generate a full campaign brief with objectives, audience, messaging, channel strategy, content calendar, and success met
+- `daimon-share/daimon/skills/canvas` — Use when creating, reading, updating, or deleting Daimon Blueprint Canvases and when placing, moving, resizing, ordering
+- `daimon-share/daimon/skills/churn-prevention` — "Reduce voluntary and involuntary churn through cancel flow design, save offers, exit surveys, and dunning sequences. Us
+- `daimon-share/daimon/skills/content-research-writer` — Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outlines
+- `daimon-share/daimon/skills/copy-editing` — "When the user wants to edit, review, or improve existing marketing copy. Also use when the user mentions 'edit this cop
+- `daimon-share/daimon/skills/copywriting` — When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, prici
+- `daimon-share/daimon/skills/daily-report` — Generate a professional daily intelligence brief PDF covering global geopolitics, macro policy, industrial supply chains
+- `daimon-share/daimon/skills/daimon-widget-cards` — Render Daimon display cards for assistant results. Use automatically when showing local files, images, videos, final gen
+- `daimon-share/daimon/skills/docx` — "Create, edit, repair, and review Word documents (.docx). Use for docx-js document creation, in-place editing of existin
+- `daimon-share/daimon/skills/general-writing` — > General writing skill — covers fiction, fanfiction, poetry, lyrics, drama, screenplay, essay, game writing, murder mys
+- `daimon-share/daimon/skills/general-writing/_fallback` — > Fallback creative writing handler for genres that do not match any specific sub-skill. Applies the general-writing pip
+- `daimon-share/daimon/skills/general-writing/drama` — > Stage drama writing — plays, operas, musicals, and other works intended for live theatrical performance. Handles dialo
+- `daimon-share/daimon/skills/general-writing/essay` — > Essay and prose writing — personal essays, literary essays, argumentative essays, 随笔, 杂文, and other non-fiction prose 
+- `daimon-share/daimon/skills/general-writing/fanfiction` — > Fanfiction and derivative creative writing — stories based on existing works (anime, manga, novels, games, film, TV, e
+- `daimon-share/daimon/skills/general-writing/fiction` — > Fiction writing — novels, novellas, short stories, flash fiction, and serialized narratives. All literary and genre fi
+- `daimon-share/daimon/skills/general-writing/game-writing` — > Game narrative and writing — world bibles, character bibles, quest design, dialogue trees, item/skill descriptions, lo
+- `daimon-share/daimon/skills/general-writing/letter` — > Letter and epistle writing — personal letters, love letters, open letters, thank-you letters, condolence letters, form
+- `daimon-share/daimon/skills/general-writing/lyrics` — > Lyrics and songwriting — original lyrics for pop, rock, hip-hop, R&B, folk, electronic, classical vocal, Chinese-style
+- `daimon-share/daimon/skills/general-writing/murder-mystery` — > Murder mystery game writing (剧本杀) — truth design, character scripts, clue systems, timeline grids, host guides, and sp
+- `daimon-share/daimon/skills/general-writing/poetry` — > Poetry writing — free verse, formal verse, classical Chinese poetry, modern poetry, prose poetry, and all poetic forms
+- `daimon-share/daimon/skills/general-writing/screenplay` — > Screenplay and teleplay writing — scripts for film, television, animation, short drama, and other screen media. Handle
+- `daimon-share/daimon/skills/general-writing/trpg` — > TRPG scenario and module writing — one-shots, campaigns, NPCs, encounters, handouts, and safety tools for CoC, DnD, Pa
+- `daimon-share/daimon/skills/humanizer-zh` — | 去除文本中的 AI 生成痕迹。适用于编辑或审阅文本，使其听起来更自然、更像人类书写。 基于维基百科的"AI 写作特征"综合指南。检测并修复以下模式：夸大的象征意义、 宣传性语言、以 -ing 结尾的肤浅分析、模糊的归因、破折号过度使用、
+- `daimon-share/daimon/skills/kimi-design-skill` — Use when generating, modifying, or reviewing Kimi-style Web UI, and draft Kimi-style Mobile UI. This skill applies Kimi 
+- `daimon-share/daimon/skills/kimi-slides` — Create and edit presentations in PPTX format. This skill defines a .pptd intermediate format to simplify OOXML operation
+- `daimon-share/daimon/skills/kimi-webbridge` — | Kimi WebBridge lets AI control the user's real browser — navigate, click, type, read, screenshot, and interact with an
+- `daimon-share/daimon/skills/legal-risk-assessment` — Assess and classify legal risks using a severity-by-likelihood framework with escalation criteria. Use when evaluating c
+- `daimon-share/daimon/skills/longread` — > Use this skill when an agent (main agent or subagent) encounters a file too large to read in a single pass — e.g. cat,
+- `daimon-share/daimon/skills/md-to-pdf` — Convert Markdown documents to PDF format. Use when the user needs to transform .md files into .pdf, including documentat
+- `daimon-share/daimon/skills/memory-widget` — "Use when the user wants to SEE their own memory/vault as a visual widget - a dashboard, calendar, table, tag gallery, o
+- `daimon-share/daimon/skills/paper-writing` — > End-to-end academic paper creation — outline design, structured content writing, review, and assembly. Covers survey p
+- `daimon-share/daimon/skills/pdf` — "Create and process PDF files. Creation covers reports, papers, and documents with charts, tables, math formulas, and co
+- `daimon-share/daimon/skills/pricing-strategy` — "Design, optimize, and communicate SaaS pricing — tier structure, value metrics, pricing pages, and price increase strat
+- `daimon-share/daimon/skills/process-doc` — Document a business process — flowcharts, RACI, and SOPs. Use when formalizing a process that lives in someone's head, b
+- `daimon-share/daimon/skills/report-writing` — > End-to-end long-form report creation — outline design, multi-chapter content writing, review, and assembly. Covers ind
+- `daimon-share/daimon/skills/saas-metrics-coach` — SaaS financial health advisor. Use when a user shares revenue or customer numbers, or mentions ARR, MRR, churn, LTV, CAC
+- `daimon-share/daimon/skills/scientific-problem-selection` — This skill should be used when scientists need help with research problem selection, project ideation, troubleshooting s
+- `daimon-share/daimon/skills/seaborn-visualization` — charting, plotting, graphing, visualization, seaborn, matplotlib, pandas reports, Chinese chart labels, and data-viz cod
+- `daimon-share/daimon/skills/seo-audit` — When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions "SEO audit,"
+- `daimon-share/daimon/skills/skill-creator` — Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an exist
+- `daimon-share/daimon/skills/swarm-coding` — Coordinate swarm coding work for substantial software tasks, including general repositories and webapps. Use when a task
+- `daimon-share/daimon/skills/webapp-building` — Tools for building modern React webapps with TypeScript, Tailwind CSS and shadcn/ui on the local machine. Best suited fo
+- `daimon-share/daimon/skills/widget` — Use when creating, showing, updating, validating, deleting, rendering, or troubleshooting Daimon Blueprint Widgets, thei
+- `daimon-share/daimon/skills/widgetdesign` — Use when creating or reviewing a responsive Daimon/Kimi conversational, Blueprint, or Canvas widget; use for generic vis
+- `daimon-share/daimon/skills/xlsx` — "Create and analyze Excel spreadsheets (.xlsx/.csv). Supports formula-driven analysis, charts, conditional formatting, s
+
+## gemini_antigravity (8) [vendor-user]
+- `Google.securecoder.securecoder/skills/create_security_implementation_plan` — > Generate a security verification plan when creating new code or fixing a vulnerability from the security scanner. Use 
+- `Google.securecoder.securecoder/skills/determine_threat_model` — > Build a threat model for the current repository or component. Use this skill to identify entry points, trust boundarie
+- `Google.securecoder.securecoder/skills/generate_security_audit_report` — > Generate a security audit report as a walkthrough artifact after completing code generation. This skill documents all 
+- `Google.securecoder.securecoder/skills/run_poc` — > Generate and reason through a Proof-of-Concept (PoC) to verify that a security fix is effective. Use this skill after 
+- `Google.securecoder.securecoder/skills/run_security_scanner` — > Run the security scanner on source files to detect vulnerabilities. Use this skill to scan files for common security i
+- `Google.securecoder.securecoder/skills/scan_dependencies` — > CRITICAL: MUST be called BEFORE any new package is imported or added to dependencies. This tool is the EXCLUSIVE autho
+- `Google.securecoder.securecoder/skills/securecoder_generation` — > CRITICAL: You MUST use this skill for ALL code generation and design tasks. It defines mandatory secure coding rules f
+- `Google.securecoder.securecoder/skills/securecoder_persona` — > Defines the SecureCoder agent's role, task, and workflow rules when fixing security vulnerabilities. This skill is aut
+
+## gemini_plugins (59) [vendor-user]
+- `chrome-devtools-plugin/skills/a11y-debugging` — Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing s
+- `chrome-devtools-plugin/skills/chrome-devtools` — Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pag
+- `chrome-devtools-plugin/skills/debug-optimize-lcp` — Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever 
+- `chrome-devtools-plugin/skills/memory-leak-debugging` — Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM e
+- `chrome-devtools-plugin/skills/troubleshooting` — Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_pa
+- `firebase/skills/firebase_ai_logic_basics` — Official skill for integrating Firebase AI Logic (Gemini API) into web applications. Covers setup, multimodal inference,
+- `firebase/skills/firebase_app_hosting_basics` — Deploy and manage web apps with Firebase App Hosting. Use this skill when deploying Next.js/Angular apps with backends.
+- `firebase/skills/firebase_auth_basics` — Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user m
+- `firebase/skills/firebase_basics` — >- Provides foundational setup, authentication, and project management workflows for Firebase using the Firebase CLI. Us
+- `firebase/skills/firebase_crashlytics` — Comprehensive guide for Firebase Crashlytics, including provisioning and SDK usage. Use this skill when the user needs h
+- `firebase/skills/firebase_data_connect_basics` — Builds and deploys Firebase SQL Connect (aka Firebase Data Connect) backends with PostgreSQL securely. Use when designin
+- `firebase/skills/firebase_firestore` — >- Sets up, manages, and executes queries against Cloud Firestore database instances. You MUST unconditionally activate 
+- `firebase/skills/firebase_hosting_basics` — Skill for working with Firebase Hosting (Classic). Use this when you want to deploy static web apps, Single Page Apps (S
+- `firebase/skills/firebase_remote_config_basics` — Comprehensive guide for Firebase Remote Config, including template management and SDK usage. Use this skill when the use
+- `firebase/skills/firebase_security_rules_auditor` — A skill to evaluate how secure Firestore security rules are. Use this when Firestore security rules are updated to ensur
+- `firebase/skills/xcode_project_setup` — Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project n
+- `google-antigravity-sdk` — "Design, implement, and debug autonomous AI agents and multi-agent systems using the Google Antigravity (AGY) SDK. ACTIV
+- `google-antigravity-sdk/skills/google-antigravity-sdk` — "Design, implement, and debug autonomous AI agents and multi-agent systems using the Google Antigravity (AGY) SDK. ACTIV
+- `modern-web-guidance-plugin/skills/chrome-extensions` — > Build and publish Chrome Extensions using Manifest V3 best practices. Use this skill whenever the user asks to create,
+- `modern-web-guidance-plugin/skills/modern-web-guidance` — | Search tool for modern web development best practices. MANDATORY: Execute FIRST for all HTML/CSS and clientside JS tas
+- `science/skills/alphafold_database_fetch_and_analyze` — > Retrieve and analyze AlphaFold predicted structures for a protein. Use when the user provides a specific UniProt Acces
+- `science/skills/alphagenome_single_variant_analysis` — > Analyzes genetic variant effects on gene expression (RNA-seq), chromatin accessibility (DNASE), histone marks (ChIP), 
+- `science/skills/chembl_database` — > Query the ChEMBL database for bioactive molecules, drug targets, bioactivity data, approved drugs, and chemical struct
+- `science/skills/clinical_trials_database` — > Query ClinicalTrials.gov via APIv2. Use when you want to search for trials by condition, drug, location, status, or ph
+- `science/skills/clinvar_database` — > Use when needing clinical significance, pathogenicity classifications (e.g., Pathogenic, Benign, VUS), clinical eviden
+- `science/skills/credentials` — >- Instructions for handling API keys and credentials safely, verifying their presence, and prompting the user to add th
+- `science/skills/dbsnp_database` — > Use when you want to look up, map, and search for short genetic variants (SNPs, indels) in NCBI's dbSNP database. Reso
+- `science/skills/embl_ebi_ols` — > Query and search the EMBL-EBI Ontology Lookup Service (OLS) for biomedical ontology terms, definitions, and hierarchie
+- `science/skills/encode_ccres_database` — > Query the ENCODE Registry of cis-Regulatory Elements (cCREs) via the SCREEN GraphQL API, or make custom queries to the
+- `science/skills/ensembl_database` — > Query the Ensembl database to resolve gene, transcript, and protein IDs, fetch genomic or protein sequences, retrieve 
+- `science/skills/foldseek_structural_search` — > Performs 3D structural searches of proteins against various databases (PDB, AlphaFold, CATH, MGnify, etc.) using the F
+- `science/skills/gnomad_database` — > Query the Genome Aggregation Database (gnomAD). Use when determining the rarity or allele frequency of specific geneti
+- `science/skills/gtex_database` — > Use when you want to retrieve quantitative RNA expression data and variant eQTL information from the GTEx (Genotype-Ti
+- `science/skills/human_protein_atlas_database` — > Use when you want to retrieve semi-quantitative protein expression and spatial localisation data from the Human Protei
+- `science/skills/interpro_database` — > Identify domains, families, and sites in proteins; find all proteins in a family or sharing a domain; explore species 
+- `science/skills/jaspar_database` — > Query the JASPAR database for Transcription Factor (TF) binding profiles. Use when retrieving Position Frequency Matri
+- `science/skills/literature_search_arxiv` — > Search for scientific papers, preprints, and publications on arXiv. Extract metadata, abstracts, and download full-tex
+- `science/skills/literature_search_biorxiv` — > Browse, filter, and download life sciences, biology, and medical preprints from bioRxiv and medRxiv. Supports fetching
+- `science/skills/literature_search_europepmc` — > Search Europe PMC for scientific literature and download open-access full texts and PDFs. Retrieve full-text XML/plain
+- `science/skills/literature_search_openalex` — > Query the OpenAlex scholarly database for research papers, authors, institutions, topics, sources, publishers, funders
+- `science/skills/ncbi_sequence_fetch` — > Retrieve protein and nucleotide sequences from NCBI databases using E-utilities. Supports direct accession lookup, CDS
+- `science/skills/openfda_database` — > Query, search, and download data from the openFDA API for drugs, devices, foods, tobacco, cosmetics, animal and veteri
+- `science/skills/opentargets_database` — > Query Open Targets Platform for target-disease associations, drug target discovery, tractability/safety data, genetics
+- `science/skills/pdb_database` — > Use when you want to search for or download experimentally-determined 3D structures for biomolecules (proteins, nuclei
+- `science/skills/predictingthepast` — > Ancient text restoration, attribution, dating, contextualization, and embedding via Aeneas (Latin) / Ithaca (Ancient G
+- `science/skills/protein_sequence_msa` — > Performs multiple sequence alignment of proteins with EBI Clustal Omega. Use when you need to align multiple sequences
+- `science/skills/protein_sequence_similarity_search` — > Searches for homologous protein sequences using MMseqs2 (fast, default) or BLAST (comprehensive, fallback). Trigger th
+- `science/skills/pubchem_database` — > Query PubChem, search by name/CID/SMILES, retrieve properties, similarity/substructure searches, bioactivity, for chem
+- `science/skills/pubmed_database` — >- Search PubMed for scientific literature, including published clinical trials. Fetch abstracts and full text. Link pub
+- `science/skills/pymol` — > Visualize, analyze, and render protein and molecular structures using PyMOL. Use when the user wants to create images 
+- `science/skills/quickgo_database` — > Query the QuickGO and Evidence & Conclusion Ontology (ECO) REST API. Use this when you need to map genes to biological
+- `science/skills/reactome_database` — > Query the Reactome database (Analysis and Content Services). Use when the user asks about pathway analysis, gene list 
+- `science/skills/science_skills_common` — >- Shared Python package for Science Skills, currently containing http_client -- a unified HTTP client with rate limitin
+- `science/skills/string_database` — > Query the STRING database for protein-protein interactions (PPIs), functional enrichment, and homology. Use when the u
+- `science/skills/ucsc_conservation_and_tfbs` — > Fetch Evolutionary Conservation scores (phyloP, phastCons) and Transcription Factor Binding Sites (TFBS) from the UCSC
+- `science/skills/unibind_database` — >- Queries the UniBind database for experimentally validated transcription factor (TF) binding sites. Use when retrievin
+- `science/skills/uniprot_database` — >- Access protein metadata, function, taxonomy, and sequences across UniProtKB, UniParc, and UniRef. Use when searching 
+- `science/skills/uv` — >- Checks whether the uv Python package manager is installed and installs it if missing. Ensures uv is on PATH. Use when
+- `science/skills/workflow_skill_creator` — > Distills a completed user workflow or interaction into a reusable agent skill. Use when the user asks to turn their wo
+
+## grok_installed_plugins (38) [vendor-user]
+- `chrome-devtools-mcp-2df60288/skills/a11y-debugging` — Uses Chrome DevTools MCP for accessibility (a11y) debugging and auditing based on web.dev guidelines. Use when testing s
+- `chrome-devtools-mcp-2df60288/skills/chrome-devtools` — Uses Chrome DevTools via MCP for efficient debugging, troubleshooting and browser automation. Use when debugging web pag
+- `chrome-devtools-mcp-2df60288/skills/chrome-devtools-cli` — Use this skill to write shell scripts or run shell commands to automate tasks in the browser or otherwise use Chrome Dev
+- `chrome-devtools-mcp-2df60288/skills/debug-optimize-lcp` — Guides debugging and optimizing Largest Contentful Paint (LCP) using Chrome DevTools MCP tools. Use this skill whenever 
+- `chrome-devtools-mcp-2df60288/skills/memory-leak-debugging` — Diagnoses and resolves memory leaks in JavaScript/Node.js applications. Use when a user reports high memory usage, OOM e
+- `chrome-devtools-mcp-2df60288/skills/troubleshooting` — Uses Chrome DevTools MCP and documentation to troubleshoot connection and target issues. Trigger this skill when list_pa
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-agent` — | AI-powered autonomous data extraction that navigates complex sites and returns structured JSON. Use this skill when th
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-cli` — | Search, scrape, and interact with the web via the Firecrawl CLI. Use this skill whenever the user wants to search the 
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-crawl` — | Bulk extract content from an entire website or site section. Use this skill when the user wants to crawl a site, extra
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-download` — | Download an entire website as local files — markdown, screenshots, or multiple formats per page. Use this skill when t
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-interact` — | Control and interact with a live browser session on any scraped page — click buttons, fill forms, navigate flows, and 
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-map` — | Discover and list all URLs on a website, with optional search filtering. Use this skill when the user wants to find a 
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-monitor` — | Detect when content on a website changes and get notified by webhook or email — no cron jobs, scrapers, or diff script
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-parse` — | Efficiently extract and convert the contents of any local file—such as PDF, DOCX, DOC, ODT, RTF, XLSX, XLS, or HTML—in
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-scrape` — | Extract clean markdown from any URL, including JavaScript-rendered SPAs. Use this skill whenever the user provides a U
+- `firecrawl-grok-plugin-ba077673/skills/firecrawl-search` — | Web search with full page content extraction. Use this skill whenever the user asks to search the web, find articles, 
+- `skills-39968d19/skills/agents-sdk` — Build AI agents on Cloudflare Workers using the Agents SDK. Load when creating stateful agents, durable workflows, real-
+- `skills-39968d19/skills/cloudflare` — Comprehensive Cloudflare platform skill covering Workers, Pages, storage (KV, D1, R2), AI (Workers AI, Vectorize, Agents
+- `skills-39968d19/skills/cloudflare-email-service` — Send and receive transactional emails with Cloudflare Email Service (Email Sending + Email Routing). Use when building e
+- `skills-39968d19/skills/durable-objects` — Create and review Cloudflare Durable Objects. Use when building stateful coordination (chat rooms, multiplayer games, bo
+- `skills-39968d19/skills/sandbox-sdk` — Build sandboxed applications for secure code execution. Load when building AI code execution, code interpreters, CI/CD s
+- `skills-39968d19/skills/web-perf` — Analyzes web performance using Chrome DevTools MCP. Measures Core Web Vitals (LCP, INP, CLS) and supplementary metrics (
+- `skills-39968d19/skills/workers-best-practices` — Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing 
+- `skills-39968d19/skills/wrangler` — Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, C
+- `superpowers-21e2a56d/skills/brainstorming` — "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying
+- `superpowers-21e2a56d/skills/dispatching-parallel-agents` — Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
+- `superpowers-21e2a56d/skills/executing-plans` — Use when you have a written implementation plan to execute in a separate session with review checkpoints
+- `superpowers-21e2a56d/skills/finishing-a-development-branch` — Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completio
+- `superpowers-21e2a56d/skills/receiving-code-review` — Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or techni
+- `superpowers-21e2a56d/skills/requesting-code-review` — Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+- `superpowers-21e2a56d/skills/subagent-driven-development` — Use when executing implementation plans with independent tasks in the current session
+- `superpowers-21e2a56d/skills/systematic-debugging` — Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+- `superpowers-21e2a56d/skills/test-driven-development` — Use when implementing any feature or bugfix, before writing implementation code
+- `superpowers-21e2a56d/skills/using-git-worktrees` — Use when starting feature work that needs isolation from current workspace or before executing implementation plans - en
+- `superpowers-21e2a56d/skills/using-superpowers` — Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY 
+- `superpowers-21e2a56d/skills/verification-before-completion` — Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verifi
+- `superpowers-21e2a56d/skills/writing-plans` — Use when you have a spec or requirements for a multi-step task, before touching code
+- `superpowers-21e2a56d/skills/writing-skills` — Use when creating new skills, editing existing skills, or verifying skills work before deployment
+
+## grok_user_skills (13) [active]
+- `12-factor-agents` — Use when designing, building, reviewing, or operating reliable production-grade agents or skills. Teaches the 12-factor 
+- `agent-chat` — > Turn on two-way chat between grok-build and grok-composer-2.5-fast in two terminal tabs. Shared .agent-chat/bus.jsonl,
+- `agent-playbook` — > Vinny's multi-agent orchestration playbook — when to use Task subagents vs /agent-team vs /implement, how to slice par
+- `agent-team` — > Multi-model agent team via shared events.jsonl and a deterministic orchestrator. Runs grok-build (plan/review) and gro
+- `github-morph` — > A smart morphing tool that treats GitHub as a library of parts. Extracts components, patterns, and code snippets from 
+- `github-photo-dedup` — > Treat GitHub as a personal database to discover every repository related to photo/image deduplication—your repos, orgs
+- `hallmark` — "Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Use 
+- `inventory-manager` — > Manage VinnyOS live inventory kit — BRAIN freshness, until_read loop start/stop, micro bites, doctor health, stage-lis
+- `omnifolder` — > Drive OmniFolder (local file index, semantic search, organize) from Grok CLI via MCP. Use when the user mentions OmniF
+- `prompt` — Generate or refine any task into the high-signal 7-section structured prompt template (Objective, Context, Task, Require
+- `prompt-engineer` — Next-generation prompt engineering system with template selection, anti-pattern analysis, fuzz testing, multi-model opti
+- `six-plus-one` — > Run a 6-variant then 1-synthesis pipeline: generate at most 6 diverse candidates (fidelity, structure, density, operat
+- `zai-wrap` — > Wrapper prompt system for Z.AI (GLM Coding Plan) plus build-watch — live terminal/git dashboard so you see what agents
+
+## jcode_mirror (121) [vendor-user]
+- `accessorysetupkit` — "Discover and configure Bluetooth and Wi-Fi accessories using AccessorySetupKit. Use when presenting a privacy-preservin
+- `activitykit` — "Implement, review, or improve Live Activities and Dynamic Island experiences in iOS apps using ActivityKit. Use when bu
+- `adattributionkit` — "Measure ad effectiveness with privacy-preserving attribution using AdAttributionKit. Use when registering ad impression
+- `agent-browser` — >- Browser automation for AI agents via inference.sh. Navigate web pages, interact with elements using @e refs, take scr
+- `agent-tools` — "Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models:
+- `agent-ui` — "Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming
+- `alarmkit` — "Implement AlarmKit alarms and countdown timers for iOS and iPadOS with Lock Screen, Dynamic Island, StandBy, and paired
+- `anti-patterns` — Anti-Patterns: What Not To Do
+- `app-clips` — "Build iOS App Clips with invocation URLs, App Clip Codes, NFC, QR codes, Safari banners, Maps, Messages, target setup, 
+- `app-intents` — "Implement App Intents for Siri, Shortcuts, Spotlight, widgets, Control Center, and Apple Intelligence on iOS. Covers Ap
+- `app-store-optimization` — "Optimize App Store product pages for search visibility and conversion. Use for App Store Optimization (ASO), keyword re
+- `app-store-review` — "Audits App Store submission readiness and rejection risk across current review guidelines, PrivacyInfo.xcprivacy and re
+- `apple-on-device-ai` — "Build private, on-device AI features on iPhone, iPad, and Mac with Foundation Models, Core ML, MLX Swift, or llama.cpp.
+- `appmigrationkit` — "Transfer app data to or from other platforms using AppMigrationKit. Use when implementing system-orchestrated one-time 
+- `audioaccessorykit` — "Support automatic audio switching for paired third-party Bluetooth headphones or earbuds with AudioAccessoryKit. Use wh
+- `authentication` — "Implement iOS authentication flows with AuthenticationServices and LocalAuthentication. Use when building Sign in with 
+- `avkit` — "Create media playback experiences using AVKit. Use when adding video players with AVPlayerViewController, enabling Pict
+- `background-processing` — "Schedule and execute background work on iOS using BGTaskScheduler. Use when registering BGAppRefreshTask for short back
+- `brainstorming` — "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying
+- `browserenginekit` — "Build alternative browser engines using BrowserEngineKit. Use when developing a non-WebKit browser engine for iOS/iPadO
+- `callkit` — "Implement VoIP calling with CallKit and PushKit. Use when building incoming/outgoing call flows, registering for VoIP p
+- `carplay` — "Build CarPlay-enabled apps using the CarPlay framework. Use when creating navigation, audio, communication, EV charging
+- `cloudkit` — "Implement, review, or improve CloudKit and iCloud sync in iOS/macOS apps. Use when working with CKContainer, CKRecord, 
+- `contacts-framework` — "Read, create, update, and pick contacts using the Contacts and ContactsUI frameworks. Use when fetching contact data, s
+- `continue-claude-work` — Recover actionable context from local session artifacts (Claude Code `~/.claude/projects` OR Kilo Code `~/.kilocode/task
+- `core-bluetooth` — "Build direct Bluetooth Low Energy workflows with Core Bluetooth. Use when implementing BLE central or peripheral GATT c
+- `core-data` — "Build, review, or improve Core Data persistence in apps that have not adopted SwiftData. Use when working with NSManage
+- `core-motion` — "Access Core Motion accelerometer, gyroscope, magnetometer, device-motion, pedometer, activity-recognition, altitude, he
+- `core-nfc` — "Read and write NFC tags using CoreNFC. Use when scanning NDEF tags, reading ISO7816/ISO15693/FeliCa/MIFARE tags, writin
+- `coreml` — "Integrate Core ML models in iOS apps for on-device machine learning inference. Covers model loading (.mlmodel, .mlpacka
+- `cryptokit` — "Use Apple CryptoKit for Swift cryptographic primitives. Use when hashing with SHA-2 or SHA-3, generating HMACs, encrypt
+- `cryptotokenkit` — "Access security tokens and smart cards using CryptoTokenKit. Use when building TKTokenDriver or TKSmartCardTokenDriver 
+- `debugging-instruments` — "Debug iOS apps and profile performance using LLDB, the interactive Memory Graph Debugger, and Instruments. Use for cras
+- `deep-research` — Use when the user needs multi-source research with citation tracking, evidence persistence, and structured report genera
+- `deep-research-free` — > Use when the user requests deep research, exhaustive research, comprehensive report, thorough investigation, deep dive
+- `device-integrity` — "Verify device legitimacy and app integrity using DeviceCheck (DCDevice per-device bits) and App Attest (DCAppAttestServ
+- `dockkit` — "Control motorized camera docks and enable intelligent subject tracking using DockKit. Use when discovering DockKit-comp
+- `energykit` — "Query grid electricity forecasts and submit load events using EnergyKit to help users optimize home electricity usage. 
+- `eventkit` — "Create, read, and manage calendar events and reminders using EventKit and EventKitUI. Use when adding events to the use
+- `executing-plans` — Use when you have a written implementation plan to execute in a separate session with review checkpoints
+- `financekit` — "Access eligible Wallet financial data using FinanceKit and FinanceKitUI. Use when querying transactions or balances, re
+- `find-skills` — Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is th
+- `find-skills/out/scaffold` — Custom Stanford-tuned build synthesized from STORM/Co-STORM parts. A custom Stanford-tuned brainstorm+STORM engine with 
+- `firecrawl-deep-research` — | Produce an intensive, cited analytical report: executive summary, multi-angle findings, contrarian views, open questio
+- `focus-engine` — "Implements keyboard, directional, and scene-level focus behavior across SwiftUI and UIKit. Use when managing @FocusStat
+- `frontend-design` — Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to 
+- `gamekit` — "Integrate Game Center features using GameKit. Use when authenticating GKLocalPlayer, checking player restrictions, subm
+- `github-ecosystem` — GitHub Ecosystem Discovery
+- `healthkit` — "Read, write, and query Apple Health data using HealthKit. Covers HKHealthStore authorization, sample queries, statistic
+- `homekit` — "Control smart-home accessories and commission Matter devices using HomeKit and MatterSupport. Use when managing homes/r
+- `ios-accessibility` — "Build and audit SwiftUI, UIKit, and AppKit accessibility for VoiceOver, Voice Control, Switch Control, Full Keyboard Ac
+- `ios-ettrace-performance` — "Use when capturing or analyzing ETTrace profiles for a focused iOS launch or runtime flow, including exact-build dSYM U
+- `ios-localization` — "Implement, review, or improve localization and internationalization in iOS/macOS apps — String Catalogs (.xcstrings), g
+- `ios-memgraph-analysis` — "Use when capturing or analyzing an iOS .memgraph, especially when the task mentions a memory leak, heap growth, persist
+- `ios-networking` — "Build, review, or improve networking code in iOS/macOS apps using URLSession with async/await, structured concurrency, 
+- `ios-simulator` — "Manages iOS Simulator devices and app tests with xcrun simctl: lifecycle, install/launch, push and location simulation,
+- `ios-swift-development` — > Develop native iOS apps with Swift. Covers MVVM architecture, SwiftUI, URLSession for networking, Combine for reactive
+- `mapkit` — "Implement, review, or improve maps and location features in iOS/macOS apps using MapKit and CoreLocation. Use when work
+- `metrickit` — Use when collecting or analyzing production iOS or iPadOS performance telemetry with MetricKit, including iOS 27 MetricM
+- `musickit` — "Integrate Apple Music playback, catalog search, and Now Playing metadata using MusicKit and MediaPlayer. Use when addin
+- `natural-language` — "Tokenize, tag, and analyze natural language text using Apple's NaturalLanguage framework and translate between language
+- `paperkit` — "Add drawings, shapes, and a consistent markup experience using PaperKit. Use when integrating PaperMarkupViewController
+- `parallel-deep-research` — "ONLY use when user explicitly says 'deep research', 'exhaustive', 'comprehensive report', or 'thorough investigation'. 
+- `passkit` — "Integrate Apple Pay payments and Wallet passes using PassKit. Use when adding Apple Pay buttons, creating payment reque
+- `pdfkit` — "Display and manipulate PDF documents using PDFKit. Use when embedding PDFView to show PDF files, creating or modifying 
+- `pencilkit` — "Add Apple Pencil drawing with PKCanvasView, PKToolPicker, PKDrawing serialization/export, stroke inspection, and Pencil
+- `pep-engine` — Persistent behavioral operating system implementing the Prompt Elevation Protocol (PEP) v3.0. Governs how the agent thin
+- `permissionkit` — "Create child communication safety experiences using PermissionKit to request parental permission for children. Use when
+- `photokit` — "Implement, review, or improve photo picking, camera capture, and media handling in iOS apps using PhotoKit and AVFounda
+- `push-notifications` — "Implement, review, or debug push notifications in iOS/macOS apps — local notifications, remote (APNs) notifications, ri
+- `realitykit` — "Build iOS augmented reality and 3D experiences with RealityKit and ARKit. Use when adding RealityView content, loading 
+- `relevancekit` — "Increase widget visibility on Apple Watch using RelevanceKit. Use when providing contextual relevance signals for watch
+- `scenekit` — "Maintain and extend existing SceneKit 3D scenes and visualizations. Use when working with SCNView, SCNScene, SCNNode sc
+- `sensorkit` — "Access research-grade sensor data using SensorKit for approved studies. Use when an app needs SensorKit entitlement set
+- `shareplay-activities` — "Build shared real-time experiences using GroupActivities and SharePlay. Use when implementing shared media playback, co
+- `speech-recognition` — "Transcribe speech to text using Apple's Speech framework. Use when implementing live microphone transcription with AVAu
+- `spm-build-analysis` — Analyze Swift Package Manager dependencies, package plugins, module variants, and CI-oriented build overhead that slow X
+- `spritekit` — "Build 2D games and animations using SpriteKit. Use when creating game scenes with SKScene and SKView, adding sprites wi
+- `storekit` — "Implement, review, or improve in-app purchases and subscriptions using StoreKit 2. Use when building paywalls with Subs
+- `subagent-session-saver` — "Automatically saves and indexes all subagent session outputs. Export chat histories, tool results, and task outputs to 
+- `swift-api-design-guidelines` — "Apply Swift API Design Guidelines to name, label, and document Swift APIs. Covers argument label rules (prepositional p
+- `swift-architecture` — "Selects, reviews, and migrates Apple-platform app architectures across MV with Observation, MVVM, MVI, TCA, Clean Archi
+- `swift-charts` — "Implement, review, or improve data visualizations using Swift Charts. Use when building bar, line, area, point, pie, do
+- `swift-codable` — "Implement Swift Codable models for JSON and property-list encoding and decoding with JSONDecoder, JSONEncoder, CodingKe
+- `swift-concurrency` — "Resolve Swift concurrency compiler errors, adopt approachable concurrency (SE-0466), and write data-race-safe async cod
+- `swift-formatstyle` — "Formats and parses locale-aware numbers, decimals, currencies, percentages, dates, durations, measurements, names, list
+- `swift-language` — "Apply modern Swift language patterns and idioms for non-concurrency, non-SwiftUI code. Covers if/switch expressions (Sw
+- `swift-security` — Use when working with iOS/macOS Keychain Services (SecItem queries, kSecClass, OSStatus errors), biometric authenticatio
+- `swift-testing` — "Writes and migrates Swift Testing framework tests with @Test, @Suite, #expect, #require, confirmation, traits, withKnow
+- `swiftdata` — "Implement, review, or improve data persistence using SwiftData. Use when defining @Model classes with @Attribute, @Rela
+- `swiftlint` — "Configures and enforces SwiftLint in Swift projects using build tool plugins, run scripts, and CI. Covers .swiftlint.ym
+- `swiftui-animation` — "Implement, diagnose, or review SwiftUI motion using explicit and scoped implicit animations, springs, transitions, Phas
+- `swiftui-gestures` — "Implement, review, or improve SwiftUI gesture handling. Use when adding tap, long press, drag, magnify, or rotate gestu
+- `swiftui-layout-components` — "Build SwiftUI layouts using stacks, grids, lists, scroll views, forms, and controls. Covers VStack/HStack/ZStack, LazyV
+- `swiftui-liquid-glass` — "Implement, review, or improve SwiftUI Liquid Glass effects for iOS 26+. Covers glassEffect modifier, GlassEffectContain
+- `swiftui-navigation` — "Implement SwiftUI navigation patterns including NavigationStack, NavigationSplitView, sheet presentation, tab-based nav
+- `swiftui-patterns` — "Builds and reviews SwiftUI views with modern MV architecture, state, composition, isolated previews, and migration guid
+- `swiftui-performance` — "Profile, diagnose, and remediate SwiftUI runtime performance using code review, Instruments, and repeatable measurement
+- `swiftui-uikit-interop` — "Bridges UIKit and SwiftUI with UIViewRepresentable, UIViewControllerRepresentable, UIHostingController, UIHostingConfig
+- `swiftui-webkit` — "Embeds and controls web content in SwiftUI with WebKit for SwiftUI, including WebView, WebPage, navigation policies, Ja
+- `systematic-debugging` — Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+- `tabletopkit` — "Builds multiplayer spatial board games using TabletopKit on visionOS. Use when creating tabletop game experiences with 
+- `test-driven-development` — Use when implementing any feature or bugfix, before writing implementation code
+- `tipkit` — "Implement and review Apple TipKit feature-discovery UI for iOS 17+ apps. Use when adding or auditing in-app tips, conte
+- `tools-ui` — "Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval re
+- `ui-ux-pro-max` — "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product ty
+- `using-superpowers` — Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY 
+- `vinnyos-engine` — Skill Chain: VinnyOS Orchestrator
+- `vision-framework` — "Implement computer vision features including text recognition (OCR), face detection, barcode scanning, image segmentati
+- `weatherkit` — "Fetch WeatherKit current, minute, hourly, and daily forecasts; weather alerts; iOS 18+ changes, historical comparisons,
+- `web-artifacts-builder` — Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (
+- `web-search` — "Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Se
+- `widgetkit` — "Implement, review, or improve WidgetKit widgets and controls. Use when building Home Screen, Lock Screen, StandBy, or C
+- `writing-plans` — Use when you have a spec or requirements for a multi-step task, before touching code
+- `xcode-build-benchmark` — Benchmark Xcode clean and incremental builds with repeatable inputs, timing summaries, and timestamped `.build-benchmark
+- `xcode-build-fixer` — Apply approved Xcode build optimization changes following best practices, then re-benchmark to verify improvement. Use w
+- `xcode-build-orchestrator` — Orchestrate Xcode build optimization by benchmarking first, running the specialist analysis skills, prioritizing finding
+- `xcode-compilation-analyzer` — Analyze Swift and mixed-language compile hotspots using build timing summaries and Swift frontend diagnostics, then prod
+- `xcode-project-analyzer` — Audit Xcode project configuration, build settings, scheme behavior, and script phases to find build-time improvements wi
+- `xcode-project-setup` — Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project n
+- `youtube-ingest` — YouTube Ingest Skill
+
+## opencode (3) [active]
 - `chain-orchestrator` — 4-phase orchestrator that chains VALIDATE → DISCOVER → BUILD → VERIFY. Triggers the right sub-skills at the right time. 
 - `code-doctor` — "Forced chain for debugging, fixing, and reviewing code. Use when the user says 'review and fix', 'debug this', 'check m
 - `hallmark` — "Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Use 
 
-## saaas_primary (14)
+## pep_engine (1) [active]
+- `pep-engine` — Persistent behavioral operating system implementing the Prompt Elevation Protocol (PEP) v3.0. Governs how the agent thin
+
+## saaas_primary (14) [active]
 - `ASR` — Implement speech-to-text (ASR/automatic speech recognition) capabilities using the z-ai-web-dev-sdk. Use this skill when
 - `LLM` — Implement large language model (LLM) chat completions using the z-ai-web-dev-sdk. Use this skill when the user needs to 
 - `TTS` — Implement text-to-speech (TTS) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to convert te
@@ -277,7 +599,7 @@
 - `web-search` — Implement web search capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to search the web, retr
 - `xlsx` — "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and vis
 
-## saaas_toto (14)
+## saaas_toto (14) [active]
 - `ASR` — Implement speech-to-text (ASR/automatic speech recognition) capabilities using the z-ai-web-dev-sdk. Use this skill when
 - `LLM` — Implement large language model (LLM) chat completions using the z-ai-web-dev-sdk. Use this skill when the user needs to 
 - `TTS` — Implement text-to-speech (TTS) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to convert te
@@ -292,3 +614,10 @@
 - `web-reader` — Implement web page content extraction capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to scr
 - `web-search` — Implement web search capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to search the web, retr
 - `xlsx` — "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and vis
+
+## vinnyos_skills (1) [active]
+- `handoff-card` — Generate VINNYOS_HANDOFF_CONTEXT_CARD.md for any project so LLMs resume with zero context loss. Use when starting a new 
+
+## vinnyos_sync (2) [active]
+- `github-ecosystem` — GitHub Ecosystem Discovery
+- `vinnyos-engine` — Skill Chain: VinnyOS Orchestrator

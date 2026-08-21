@@ -1,0 +1,10 @@
+platform,service,kind,route,purpose,source
+manus,File,REST,/file/upload_to_s3,Upload file to S3 (presigned path),[43] THIRD-PARTY
+manus,File,REST,/file/download,Download file,[43] THIRD-PARTY
+manus,Browser,REST,/browser/action,navigate/click/input/screenshot/scroll/press_key/select_option/hover,[27][43] THIRD-PARTY
+manus,Terminal,WS,/terminal/{id}/write,Write stdin to terminal (WebSocket),[27][43] THIRD-PARTY
+manus,Terminal,REST,/terminal/{id}/reset,Reset terminal,[27] THIRD-PARTY
+manus,TextEditor,REST,/text_editor,view/create/write/replace/undo,[27][43] THIRD-PARTY
+manus,Sandbox,REST,/sandbox/init,Sandbox initialization,[43] THIRD-PARTY
+manus,Health,REST,/health,Health check,[43] THIRD-PARTY
+manus,Project,REST,/project/zip,Zip project + upload,[43] THIRD-PARTY

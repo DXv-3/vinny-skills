@@ -1,0 +1,70 @@
+{
+  "platform": "manus",
+  "note": "Sandbox-internal API \u2014 THIRD-PARTY reverse-engineering [43][27], no credential values",
+  "endpoints": [
+    [
+      "File",
+      "REST",
+      "/file/upload_to_s3",
+      "Upload file to S3 (presigned path)",
+      "[43] THIRD-PARTY"
+    ],
+    [
+      "File",
+      "REST",
+      "/file/download",
+      "Download file",
+      "[43] THIRD-PARTY"
+    ],
+    [
+      "Browser",
+      "REST",
+      "/browser/action",
+      "navigate/click/input/screenshot/scroll/press_key/select_option/hover",
+      "[27][43] THIRD-PARTY"
+    ],
+    [
+      "Terminal",
+      "WS",
+      "/terminal/{id}/write",
+      "Write stdin to terminal (WebSocket)",
+      "[27][43] THIRD-PARTY"
+    ],
+    [
+      "Terminal",
+      "REST",
+      "/terminal/{id}/reset",
+      "Reset terminal",
+      "[27] THIRD-PARTY"
+    ],
+    [
+      "TextEditor",
+      "REST",
+      "/text_editor",
+      "view/create/write/replace/undo",
+      "[27][43] THIRD-PARTY"
+    ],
+    [
+      "Sandbox",
+      "REST",
+      "/sandbox/init",
+      "Sandbox initialization",
+      "[43] THIRD-PARTY"
+    ],
+    [
+      "Health",
+      "REST",
+      "/health",
+      "Health check",
+      "[43] THIRD-PARTY"
+    ],
+    [
+      "Project",
+      "REST",
+      "/project/zip",
+      "Zip project + upload",
+      "[43] THIRD-PARTY"
+    ]
+  ],
+  "generated": "2026-08-20"
+}

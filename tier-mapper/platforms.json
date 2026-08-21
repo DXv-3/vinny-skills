@@ -1,0 +1,72 @@
+{
+  "platforms": [
+    {
+      "platform": "manus",
+      "official_base_url": "https://api.manus.ai",
+      "api_version": "v2",
+      "docs_url": "https://open.manus.ai/docs/v2/task.create",
+      "auth_methods": [
+        "API key (Bearer/x-api-key)",
+        "OAuth (web app)",
+        "device pairing via QR (Telegram)"
+      ],
+      "auth_source": "open.manus.ai [30][31]",
+      "tiers": [
+        {
+          "tier": "Free",
+          "price_monthly": 0,
+          "credits_monthly": "300 daily refresh",
+          "concurrency": 5,
+          "agent_modes": [
+            "1.6 Lite only"
+          ],
+          "notes": "Lite-only in Agent Mode [5][17]"
+        },
+        {
+          "tier": "Standard",
+          "price_monthly": 20,
+          "credits_monthly": 4000,
+          "concurrency": 20,
+          "agent_modes": [
+            "1.6 Lite",
+            "1.6",
+            "1.6 Max"
+          ]
+        },
+        {
+          "tier": "Customizable",
+          "price_monthly": 40,
+          "credits_monthly": 8000,
+          "concurrency": 20,
+          "agent_modes": [
+            "1.6 Lite",
+            "1.6",
+            "1.6 Max"
+          ]
+        },
+        {
+          "tier": "Extended",
+          "price_monthly": 200,
+          "credits_monthly": 40000,
+          "concurrency": 20,
+          "agent_modes": [
+            "1.6 Lite",
+            "1.6",
+            "1.6 Max"
+          ]
+        },
+        {
+          "tier": "Team",
+          "price_monthly": 20,
+          "per_seat": true,
+          "credits_monthly": "shared pool",
+          "notes": "SSO/compliance, admin controls [5]"
+        }
+      ],
+      "tier_source": "help.manus.im pricing [5][17]",
+      "checked_at": "2026-08-20"
+    }
+  ],
+  "generated": "2026-08-20",
+  "rule": "public data only; auth methods, never auth material"
+}

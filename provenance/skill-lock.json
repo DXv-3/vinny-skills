@@ -1,0 +1,1916 @@
+{
+  "version": 3,
+  "skills": {
+    "p-image": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/p-image/SKILL.md",
+      "skillFolderHash": "fe9740a43ec4969f8dbd105309c7cbd3be96565f",
+      "installedAt": "2026-03-19T03:21:13.346Z",
+      "updatedAt": "2026-04-06T05:22:46.770Z"
+    },
+    "elevenlabs-tts": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-tts/SKILL.md",
+      "skillFolderHash": "b8f5aba7814cb81358af38c927f9b63b23667d83",
+      "installedAt": "2026-03-19T03:21:13.536Z",
+      "updatedAt": "2026-04-06T05:22:28.444Z"
+    },
+    "ai-rag-pipeline": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/llm/ai-rag-pipeline/SKILL.md",
+      "skillFolderHash": "3be4496ccafb71335ce5010e43f93ae314c9d5da",
+      "installedAt": "2026-03-19T03:21:13.538Z",
+      "updatedAt": "2026-04-06T05:22:53.059Z"
+    },
+    "qwen-image-2": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/qwen-image-2/SKILL.md",
+      "skillFolderHash": "fbb259d833657f081f2c246f7e34c13d5f27ea07",
+      "installedAt": "2026-03-19T03:21:13.757Z",
+      "updatedAt": "2026-04-06T05:22:48.341Z"
+    },
+    "llm-models": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/llm/llm-models/SKILL.md",
+      "skillFolderHash": "abc668a970704c32c58593c35437a4a74e62b260",
+      "installedAt": "2026-03-19T03:21:13.869Z",
+      "updatedAt": "2026-04-06T05:22:54.634Z"
+    },
+    "elevenlabs-voice-changer": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-voice-changer/SKILL.md",
+      "skillFolderHash": "c5a989bd57fcdb34b120b1e919b8c478e21b6009",
+      "installedAt": "2026-03-19T03:21:13.890Z",
+      "updatedAt": "2026-04-06T05:22:29.994Z"
+    },
+    "qwen-image-2-pro": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/qwen-image-2-pro/SKILL.md",
+      "skillFolderHash": "33d6542244d27319cdb9f8f7f827ededb75914bc",
+      "installedAt": "2026-03-19T03:21:14.183Z",
+      "updatedAt": "2026-04-06T05:22:49.920Z"
+    },
+    "web-search": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/llm/web-search/SKILL.md",
+      "skillFolderHash": "a54e16ada6bd9332b4c706e2bb1292653e2a4255",
+      "installedAt": "2026-03-19T03:21:14.202Z",
+      "updatedAt": "2026-04-06T05:22:56.209Z"
+    },
+    "elevenlabs-voice-isolator": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-voice-isolator/SKILL.md",
+      "skillFolderHash": "ba71e6fa9b2e1f80fb86309dcd4cf444952c8e4e",
+      "installedAt": "2026-03-19T03:21:14.238Z",
+      "updatedAt": "2026-04-06T05:22:31.579Z"
+    },
+    "twitter-automation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/social/twitter-automation/SKILL.md",
+      "skillFolderHash": "987be7d5bca7cc744fc86cd0f1ce63e3e6cc1edd",
+      "installedAt": "2026-03-19T03:21:14.551Z",
+      "updatedAt": "2026-04-06T05:22:57.266Z"
+    },
+    "infsh-cli": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/infsh-cli/SKILL.md",
+      "skillFolderHash": "bd074a32a2a3b481c1cd057e418a1b2e695b9cf9",
+      "installedAt": "2026-03-19T03:21:14.605Z",
+      "updatedAt": "2026-04-06T05:22:51.486Z"
+    },
+    "speech-to-text": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/speech-to-text/SKILL.md",
+      "skillFolderHash": "8a91e250ce34d99bf00a81e86be3f4a0b1276b54",
+      "installedAt": "2026-03-19T03:21:14.646Z",
+      "updatedAt": "2026-04-06T05:22:33.659Z"
+    },
+    "agent-browser": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/utilities/agent-browser/SKILL.md",
+      "skillFolderHash": "ac804494a6993a06f7fed50df560f64c1f6dff85",
+      "installedAt": "2026-03-19T03:21:14.893Z",
+      "updatedAt": "2026-04-06T05:22:58.887Z"
+    },
+    "text-to-speech": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/text-to-speech/SKILL.md",
+      "skillFolderHash": "45d7a73fbdfd55f3a24ca1f09e0e23082c24720b",
+      "installedAt": "2026-03-19T03:21:15.015Z",
+      "updatedAt": "2026-04-06T05:22:35.331Z"
+    },
+    "python-executor": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/utilities/python-executor/SKILL.md",
+      "skillFolderHash": "4e58fbd24e217294dcce306b1391ea86f7b60fa9",
+      "installedAt": "2026-03-19T03:21:15.259Z",
+      "updatedAt": "2026-04-06T05:23:00.928Z"
+    },
+    "ai-image-generation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/ai-image-generation/SKILL.md",
+      "skillFolderHash": "fee6d5152110ab70736bbcc1151f0a32e1af9532",
+      "installedAt": "2026-03-19T03:21:15.349Z",
+      "updatedAt": "2026-04-06T05:22:37.328Z"
+    },
+    "related-skill": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/utilities/related-skill/SKILL.md",
+      "skillFolderHash": "866d493eb012a09154b23967e093ddb1793f6638",
+      "installedAt": "2026-03-19T03:21:15.596Z",
+      "updatedAt": "2026-04-06T05:23:02.495Z"
+    },
+    "background-removal": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/background-removal/SKILL.md",
+      "skillFolderHash": "ce9bd60f839809124d72f7bbce494f6806dc5616",
+      "installedAt": "2026-03-19T03:21:15.684Z",
+      "updatedAt": "2026-04-06T05:22:38.901Z"
+    },
+    "ai-avatar-video": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/video/ai-avatar-video/SKILL.md",
+      "skillFolderHash": "b63a4da0c28885f35aeb8595f08454b231c203b4",
+      "installedAt": "2026-03-19T03:21:15.898Z",
+      "updatedAt": "2026-04-06T05:23:04.070Z"
+    },
+    "flux-image": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/flux-image/SKILL.md",
+      "skillFolderHash": "378f61f5e6d2e25d5fbeb92ff521cb55d3cc9eaf",
+      "installedAt": "2026-03-19T03:21:16.066Z",
+      "updatedAt": "2026-04-06T05:22:40.473Z"
+    },
+    "ai-video-generation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/video/ai-video-generation/SKILL.md",
+      "skillFolderHash": "c22268cc49d3ef7b7eb0b79d3031f82e8e51f209",
+      "installedAt": "2026-03-19T03:21:16.275Z",
+      "updatedAt": "2026-04-06T05:23:05.643Z"
+    },
+    "image-upscaling": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/image-upscaling/SKILL.md",
+      "skillFolderHash": "ce4572d9439fb993721f276ba3ac1bf5b20470cd",
+      "installedAt": "2026-03-19T03:21:16.495Z",
+      "updatedAt": "2026-04-06T05:22:42.050Z"
+    },
+    "google-veo": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/video/google-veo/SKILL.md",
+      "skillFolderHash": "aef03c6df766b825142057eb78e8176838234e38",
+      "installedAt": "2026-03-19T03:21:16.595Z",
+      "updatedAt": "2026-04-06T05:23:07.218Z"
+    },
+    "nano-banana": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/nano-banana/SKILL.md",
+      "skillFolderHash": "630b455a3363c9bf3896c53f5f0992eb8e776da7",
+      "installedAt": "2026-03-19T03:21:16.835Z",
+      "updatedAt": "2026-04-06T05:22:43.618Z"
+    },
+    "image-to-video": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/video/image-to-video/SKILL.md",
+      "skillFolderHash": "179065b937fa14519a7e995373e2193b2a3d9424",
+      "installedAt": "2026-03-19T03:21:17.028Z",
+      "updatedAt": "2026-04-06T05:23:08.786Z"
+    },
+    "nano-banana-2": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/image/nano-banana-2/SKILL.md",
+      "skillFolderHash": "cb62f4625da022155cfcb67cb87c62476bdf9875",
+      "installedAt": "2026-03-19T03:21:17.166Z",
+      "updatedAt": "2026-04-06T05:22:45.193Z"
+    },
+    "p-video": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/video/p-video/SKILL.md",
+      "skillFolderHash": "61d3f805fc9679a33084ce554b177a544608a704",
+      "installedAt": "2026-03-19T03:21:17.348Z",
+      "updatedAt": "2026-04-06T05:23:10.363Z"
+    },
+    "remotion-render": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/video/remotion-render/SKILL.md",
+      "skillFolderHash": "b5ab6c4d0d18641924436aa75648a6de76c6d259",
+      "installedAt": "2026-03-19T03:21:17.702Z",
+      "updatedAt": "2026-04-06T05:23:11.935Z"
+    },
+    "agent-ui": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "ui/agent-ui/SKILL.md",
+      "skillFolderHash": "1dcb54db6359d74d58bcdbc34934b0a49a1ccf05",
+      "installedAt": "2026-03-19T03:21:18.038Z",
+      "updatedAt": "2026-04-06T05:23:12.980Z"
+    },
+    "chat-ui": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "ui/chat-ui/SKILL.md",
+      "skillFolderHash": "dd593f6650337789c32620a42764965055ff22bc",
+      "installedAt": "2026-03-19T03:21:18.382Z",
+      "updatedAt": "2026-04-06T05:23:14.553Z"
+    },
+    "tools-ui": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "ui/tools-ui/SKILL.md",
+      "skillFolderHash": "a4fe6df131ff5980a7cd8d21dd68a1e5cb1a49d8",
+      "installedAt": "2026-03-19T03:21:18.706Z",
+      "updatedAt": "2026-04-06T05:23:16.132Z"
+    },
+    "widgets-ui": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "ui/widgets-ui/SKILL.md",
+      "skillFolderHash": "5848408454adf8698c6b63bab4091ac98104b43c",
+      "installedAt": "2026-03-19T03:21:19.083Z",
+      "updatedAt": "2026-04-06T05:23:17.701Z"
+    },
+    "template-skill": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "template/SKILL.md",
+      "skillFolderHash": "a38aa7fa73fd2835b9ce77a60274f7dc62d015a6",
+      "installedAt": "2026-03-19T03:21:43.736Z",
+      "updatedAt": "2026-03-19T03:21:43.736Z"
+    },
+    "algorithmic-art": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/algorithmic-art/SKILL.md",
+      "skillFolderHash": "22db2d12091c56340987a877047435ba84a1cdb2",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:43.996Z",
+      "updatedAt": "2026-03-19T03:21:43.996Z"
+    },
+    "brand-guidelines": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/brand-guidelines/SKILL.md",
+      "skillFolderHash": "7dc45f289fa37f9763a993008d9500e9a157fa4a",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:44.250Z",
+      "updatedAt": "2026-03-19T03:21:44.250Z"
+    },
+    "canvas-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/canvas-design/SKILL.md",
+      "skillFolderHash": "928af0a3279dc4e0c0e6ceaf407a8542a2bb2aa2",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:44.530Z",
+      "updatedAt": "2026-03-19T03:21:44.530Z"
+    },
+    "claude-api": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/claude-api/SKILL.md",
+      "skillFolderHash": "1b3d6cb72f7f20ad60f6c73e7dca729193e8f982",
+      "pluginName": "claude-api",
+      "installedAt": "2026-03-19T03:21:44.814Z",
+      "updatedAt": "2026-03-19T03:21:44.814Z"
+    },
+    "doc-coauthoring": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/doc-coauthoring/SKILL.md",
+      "skillFolderHash": "d9df960e61fe2bafe9183e37de6f9f6b73b74087",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:45.118Z",
+      "updatedAt": "2026-03-19T03:21:45.118Z"
+    },
+    "docx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/docx/SKILL.md",
+      "skillFolderHash": "a0d216202f9793a78da44cf96aabe48f42e627ac",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-19T03:21:45.389Z",
+      "updatedAt": "2026-03-19T03:21:45.389Z"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:45.746Z",
+      "updatedAt": "2026-03-19T03:21:45.746Z"
+    },
+    "internal-comms": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/internal-comms/SKILL.md",
+      "skillFolderHash": "8e2c21adc81f221477a4d3ecec07abcbc8a9320a",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:46.081Z",
+      "updatedAt": "2026-03-19T03:21:46.081Z"
+    },
+    "mcp-builder": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/mcp-builder/SKILL.md",
+      "skillFolderHash": "9173e2c2107aac82d4ca6c726d71e89d11760470",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:46.348Z",
+      "updatedAt": "2026-03-19T03:21:46.348Z"
+    },
+    "pdf": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pdf/SKILL.md",
+      "skillFolderHash": "6369f4649de69bd6857c9bc3b058a77206009238",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-19T03:21:46.606Z",
+      "updatedAt": "2026-03-19T03:21:46.606Z"
+    },
+    "pptx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/pptx/SKILL.md",
+      "skillFolderHash": "10b3d70962e489867ddfee7da92f7da6b0eccc4f",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-19T03:21:46.865Z",
+      "updatedAt": "2026-03-19T03:21:46.865Z"
+    },
+    "audit-website": {
+      "source": "squirrelscan/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/squirrelscan/skills.git",
+      "skillPath": "audit-website/SKILL.md",
+      "skillFolderHash": "ec491d7739b80f4c64126ae674384cbbcac953ae",
+      "installedAt": "2026-03-19T03:21:47.137Z",
+      "updatedAt": "2026-03-19T03:21:47.137Z"
+    },
+    "skill-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/skill-creator/SKILL.md",
+      "skillFolderHash": "98a510d1cfef9f82c3b1eec200229ca68725e613",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:47.180Z",
+      "updatedAt": "2026-03-19T03:21:47.180Z"
+    },
+    "slack-gif-creator": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/slack-gif-creator/SKILL.md",
+      "skillFolderHash": "d5cd683598c6ac0174bdb3b3b5be1dfc35430c12",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:47.419Z",
+      "updatedAt": "2026-03-19T03:21:47.419Z"
+    },
+    "theme-factory": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/theme-factory/SKILL.md",
+      "skillFolderHash": "007940e80de6ae577a87b2b343b1a5eae715df2b",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:47.692Z",
+      "updatedAt": "2026-03-19T03:21:47.692Z"
+    },
+    "web-artifacts-builder": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/web-artifacts-builder/SKILL.md",
+      "skillFolderHash": "9ecbeae7c17caa478c5b753ba1bd258688075b5f",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:47.940Z",
+      "updatedAt": "2026-03-19T03:21:47.940Z"
+    },
+    "webapp-testing": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/webapp-testing/SKILL.md",
+      "skillFolderHash": "74cb751576f9e9af2aedff47e67861ef26db2dc4",
+      "pluginName": "example-skills",
+      "installedAt": "2026-03-19T03:21:48.179Z",
+      "updatedAt": "2026-03-19T03:21:48.179Z"
+    },
+    "xlsx": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/xlsx/SKILL.md",
+      "skillFolderHash": "f5fb1cdb7993b2feee8367e983e9d4d58d2eedd4",
+      "pluginName": "document-skills",
+      "installedAt": "2026-03-19T03:21:48.414Z",
+      "updatedAt": "2026-03-19T03:21:48.414Z"
+    },
+    "ai-automation-workflows": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/content/ai-automation-workflows/SKILL.md",
+      "skillFolderHash": "e20946eb6e8f8fa0173f30ad7422039c258c4eb7",
+      "installedAt": "2026-04-06T05:21:17.655Z",
+      "updatedAt": "2026-04-06T05:21:17.655Z"
+    },
+    "ai-content-pipeline": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/content/ai-content-pipeline/SKILL.md",
+      "skillFolderHash": "1b2772da4c5f644985fa0b8af63dedb0d7494c09",
+      "installedAt": "2026-04-06T05:21:19.214Z",
+      "updatedAt": "2026-04-06T05:21:19.214Z"
+    },
+    "ai-podcast-creation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/content/ai-podcast-creation/SKILL.md",
+      "skillFolderHash": "75dc54cac859bbe7246c3a8c28f5e77ae20730d8",
+      "installedAt": "2026-04-06T05:21:20.260Z",
+      "updatedAt": "2026-04-06T05:21:20.260Z"
+    },
+    "content-repurposing": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/content/content-repurposing/SKILL.md",
+      "skillFolderHash": "aad5191526d82ef7032f114a491673c8d1414428",
+      "installedAt": "2026-04-06T05:21:21.313Z",
+      "updatedAt": "2026-04-06T05:21:21.313Z"
+    },
+    "app-store-screenshots": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/app-store-screenshots/SKILL.md",
+      "skillFolderHash": "8da65a326611ea262130cba62c71ffab3d6cee68",
+      "installedAt": "2026-04-06T05:21:22.881Z",
+      "updatedAt": "2026-04-06T05:21:22.881Z"
+    },
+    "book-cover-design": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/book-cover-design/SKILL.md",
+      "skillFolderHash": "1f4fcfe6b346052178ba1aefa319a8e3b17268cf",
+      "installedAt": "2026-04-06T05:21:23.933Z",
+      "updatedAt": "2026-04-06T05:21:23.933Z"
+    },
+    "character-design-sheet": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/character-design-sheet/SKILL.md",
+      "skillFolderHash": "054bff143463a5547151f7a2709ea4fbaf0b2476",
+      "installedAt": "2026-04-06T05:21:25.505Z",
+      "updatedAt": "2026-04-06T05:21:25.505Z"
+    },
+    "data-visualization": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/data-visualization/SKILL.md",
+      "skillFolderHash": "708bc53b35f694c48dc35631cd10c3f87739086b",
+      "installedAt": "2026-04-06T05:21:27.076Z",
+      "updatedAt": "2026-04-06T05:21:27.076Z"
+    },
+    "email-design": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/email-design/SKILL.md",
+      "skillFolderHash": "739ae9ecd2d5c5bf7fcce76ffac427a8f1e5a2fd",
+      "installedAt": "2026-04-06T05:21:28.128Z",
+      "updatedAt": "2026-04-06T05:21:28.128Z"
+    },
+    "landing-page-design": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/landing-page-design/SKILL.md",
+      "skillFolderHash": "b79dab1cb34809d5641b3d0dc3ef7ae3447d1e22",
+      "installedAt": "2026-04-06T05:21:29.697Z",
+      "updatedAt": "2026-04-06T05:21:29.697Z"
+    },
+    "logo-design-guide": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/logo-design-guide/SKILL.md",
+      "skillFolderHash": "9c6291fb77f783a2c8d0855b052ce954f364d260",
+      "installedAt": "2026-04-06T05:21:30.748Z",
+      "updatedAt": "2026-04-06T05:21:30.748Z"
+    },
+    "og-image-design": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/og-image-design/SKILL.md",
+      "skillFolderHash": "2d3e3d015cc02573acbfc1d4a6d3cb2a1df4402d",
+      "installedAt": "2026-04-06T05:21:31.800Z",
+      "updatedAt": "2026-04-06T05:21:31.800Z"
+    },
+    "pitch-deck-visuals": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/pitch-deck-visuals/SKILL.md",
+      "skillFolderHash": "1c86a91430182dec9948a280cb393bb6fb70ff0d",
+      "installedAt": "2026-04-06T05:21:33.365Z",
+      "updatedAt": "2026-04-06T05:21:33.365Z"
+    },
+    "youtube-thumbnail-design": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/design/youtube-thumbnail-design/SKILL.md",
+      "skillFolderHash": "344dd7fa12f4fabb3c21cbcd0217f33e3f4f607e",
+      "installedAt": "2026-04-06T05:21:34.939Z",
+      "updatedAt": "2026-04-06T05:21:34.939Z"
+    },
+    "ai-product-photography": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/photo/ai-product-photography/SKILL.md",
+      "skillFolderHash": "c952746ca19ca79af9af892098ecbec36c58e00c",
+      "installedAt": "2026-04-06T05:21:35.989Z",
+      "updatedAt": "2026-04-06T05:21:35.989Z"
+    },
+    "product-photography": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/photo/product-photography/SKILL.md",
+      "skillFolderHash": "c2d12fa2e8307176fd6e628ca36e76370e3daafb",
+      "installedAt": "2026-04-06T05:21:37.569Z",
+      "updatedAt": "2026-04-06T05:21:37.569Z"
+    },
+    "competitor-teardown": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/product/competitor-teardown/SKILL.md",
+      "skillFolderHash": "697db1259ff2ff96f044cd9fa695a8ac81883192",
+      "installedAt": "2026-04-06T05:21:39.135Z",
+      "updatedAt": "2026-04-06T05:21:39.135Z"
+    },
+    "customer-persona": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/product/customer-persona/SKILL.md",
+      "skillFolderHash": "8b0f72ddafa15a456e6e17c8a07dddf4d4073d45",
+      "installedAt": "2026-04-06T05:21:40.183Z",
+      "updatedAt": "2026-04-06T05:21:40.183Z"
+    },
+    "product-changelog": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/product/product-changelog/SKILL.md",
+      "skillFolderHash": "c0f5e533c655b0aaa2a4f5c6484e640243797006",
+      "installedAt": "2026-04-06T05:21:41.233Z",
+      "updatedAt": "2026-04-06T05:21:41.233Z"
+    },
+    "product-hunt-launch": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/product/product-hunt-launch/SKILL.md",
+      "skillFolderHash": "5bf9c888393edbf63782a363814567e1aad368ae",
+      "installedAt": "2026-04-06T05:21:42.808Z",
+      "updatedAt": "2026-04-06T05:21:42.808Z"
+    },
+    "prompt-engineering": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/prompting/prompt-engineering/SKILL.md",
+      "skillFolderHash": "2de8ef55bf885f04cd51b2318f2533aecd60a7b1",
+      "installedAt": "2026-04-06T05:21:44.380Z",
+      "updatedAt": "2026-04-06T05:21:44.380Z"
+    },
+    "video-prompting-guide": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/prompting/video-prompting-guide/SKILL.md",
+      "skillFolderHash": "f8bb7d84f84ca6184ffbb7c7340f22c7377ce91d",
+      "installedAt": "2026-04-06T05:21:45.952Z",
+      "updatedAt": "2026-04-06T05:21:45.952Z"
+    },
+    "ai-social-media-content": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/social/ai-social-media-content/SKILL.md",
+      "skillFolderHash": "f0232356742eb3842aaa2239d33e6f5c6414e95d",
+      "installedAt": "2026-04-06T05:21:47.003Z",
+      "updatedAt": "2026-04-06T05:21:47.003Z"
+    },
+    "linkedin-content": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/social/linkedin-content/SKILL.md",
+      "skillFolderHash": "fa29af346335cffe0069d13ad37671dc189cdb25",
+      "installedAt": "2026-04-06T05:21:48.576Z",
+      "updatedAt": "2026-04-06T05:21:48.576Z"
+    },
+    "social-media-carousel": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/social/social-media-carousel/SKILL.md",
+      "skillFolderHash": "e743cc00503a76a801e7231180f17d314e22286b",
+      "installedAt": "2026-04-06T05:21:50.148Z",
+      "updatedAt": "2026-04-06T05:21:50.148Z"
+    },
+    "twitter-thread-creation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/social/twitter-thread-creation/SKILL.md",
+      "skillFolderHash": "554a9e09cd8748e93939d4920dc6419e7c2ab286",
+      "installedAt": "2026-04-06T05:21:51.719Z",
+      "updatedAt": "2026-04-06T05:21:51.719Z"
+    },
+    "ai-marketing-videos": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/video/ai-marketing-videos/SKILL.md",
+      "skillFolderHash": "719c5b8101704c55398aae852d85665701bc8a3c",
+      "installedAt": "2026-04-06T05:21:52.768Z",
+      "updatedAt": "2026-04-06T05:21:52.768Z"
+    },
+    "explainer-video-guide": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/video/explainer-video-guide/SKILL.md",
+      "skillFolderHash": "98b66bbe938ee951af15b470737ef47b1fdc37bb",
+      "installedAt": "2026-04-06T05:21:54.341Z",
+      "updatedAt": "2026-04-06T05:21:54.341Z"
+    },
+    "storyboard-creation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/video/storyboard-creation/SKILL.md",
+      "skillFolderHash": "066a8ca3234e67c037d3dc9df9eb9c083033afbb",
+      "installedAt": "2026-04-06T05:21:55.915Z",
+      "updatedAt": "2026-04-06T05:21:55.915Z"
+    },
+    "talking-head-production": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/video/talking-head-production/SKILL.md",
+      "skillFolderHash": "2eda801019a10f601b8b2e9e79b5f31649618a3c",
+      "installedAt": "2026-04-06T05:21:57.488Z",
+      "updatedAt": "2026-04-06T05:21:57.488Z"
+    },
+    "video-ad-specs": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/video/video-ad-specs/SKILL.md",
+      "skillFolderHash": "5b25e4e45b26499900af934ff5d6e07badb1c0aa",
+      "installedAt": "2026-04-06T05:21:59.061Z",
+      "updatedAt": "2026-04-06T05:21:59.061Z"
+    },
+    "case-study-writing": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/writing/case-study-writing/SKILL.md",
+      "skillFolderHash": "7dfa8f34f1512c632e2297009c6661c2d3d4eb4d",
+      "installedAt": "2026-04-06T05:22:00.633Z",
+      "updatedAt": "2026-04-06T05:22:00.633Z"
+    },
+    "newsletter-curation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/writing/newsletter-curation/SKILL.md",
+      "skillFolderHash": "5f6bd47976d9b38bcf4f0460a581fcbabfc55a19",
+      "installedAt": "2026-04-06T05:22:02.210Z",
+      "updatedAt": "2026-04-06T05:22:02.210Z"
+    },
+    "press-release-writing": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/writing/press-release-writing/SKILL.md",
+      "skillFolderHash": "80533193815992856ef2c90b2568ce241dfe5a87",
+      "installedAt": "2026-04-06T05:22:03.780Z",
+      "updatedAt": "2026-04-06T05:22:03.780Z"
+    },
+    "seo-content-brief": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/writing/seo-content-brief/SKILL.md",
+      "skillFolderHash": "fc68b7be4e33922db387d8b293dd8d1314c863b2",
+      "installedAt": "2026-04-06T05:22:04.823Z",
+      "updatedAt": "2026-04-06T05:22:04.823Z"
+    },
+    "technical-blog-writing": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "guides/writing/technical-blog-writing/SKILL.md",
+      "skillFolderHash": "702ff0637892a4cea844402fb70a287a0c411741",
+      "installedAt": "2026-04-06T05:22:05.875Z",
+      "updatedAt": "2026-04-06T05:22:05.875Z"
+    },
+    "building-inferencesh-apps": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "sdk/building-apps/SKILL.md",
+      "skillFolderHash": "fb05a51bd9bdbd3d981b79123d752f230f329188",
+      "installedAt": "2026-04-06T05:22:07.448Z",
+      "updatedAt": "2026-04-06T05:22:07.448Z"
+    },
+    "javascript-sdk": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "sdk/javascript-sdk/SKILL.md",
+      "skillFolderHash": "6aab1b363b8bd7c8a7186a9ee0765a10c055fd1f",
+      "installedAt": "2026-04-06T05:22:09.019Z",
+      "updatedAt": "2026-04-06T05:22:09.019Z"
+    },
+    "python-sdk": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "sdk/python-sdk/SKILL.md",
+      "skillFolderHash": "b9fd64cf1dec2eec358796f4e9e7adda072d9583",
+      "installedAt": "2026-04-06T05:22:10.606Z",
+      "updatedAt": "2026-04-06T05:22:10.606Z"
+    },
+    "agent-tools": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/agent-tools/SKILL.md",
+      "skillFolderHash": "07fff5cd7b40cd49a49c5d86527de42fae02b476",
+      "installedAt": "2026-04-06T05:22:13.875Z",
+      "updatedAt": "2026-04-06T05:22:13.875Z"
+    },
+    "ai-music-generation": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/ai-music-generation/SKILL.md",
+      "skillFolderHash": "f5d238c46293f11f9000b91598bd8c5f5b7c4b54",
+      "installedAt": "2026-04-06T05:22:15.837Z",
+      "updatedAt": "2026-04-06T05:22:15.837Z"
+    },
+    "ai-voice-cloning": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/ai-voice-cloning/SKILL.md",
+      "skillFolderHash": "0d0abd78502bcfd10bdce375c53ff92318c092f6",
+      "installedAt": "2026-04-06T05:22:17.418Z",
+      "updatedAt": "2026-04-06T05:22:17.418Z"
+    },
+    "dialogue-audio": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/dialogue-audio/SKILL.md",
+      "skillFolderHash": "34c87f2d2cbb73618c2e848233032ccf430635ad",
+      "installedAt": "2026-04-06T05:22:19.505Z",
+      "updatedAt": "2026-04-06T05:22:19.505Z"
+    },
+    "elevenlabs-dialogue": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-dialogue/SKILL.md",
+      "skillFolderHash": "b8445e2a6338e4232607ac1b5b6d580e35cdd783",
+      "installedAt": "2026-04-06T05:22:21.076Z",
+      "updatedAt": "2026-04-06T05:22:21.076Z"
+    },
+    "elevenlabs-dubbing": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-dubbing/SKILL.md",
+      "skillFolderHash": "8104fc3f9431a126f50404e0b37ecb00403b882a",
+      "installedAt": "2026-04-06T05:22:22.648Z",
+      "updatedAt": "2026-04-06T05:22:22.648Z"
+    },
+    "elevenlabs-music": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-music/SKILL.md",
+      "skillFolderHash": "c4feaa3c09ffe209dd39f49223dba7368722f2b5",
+      "installedAt": "2026-04-06T05:22:24.223Z",
+      "updatedAt": "2026-04-06T05:22:24.223Z"
+    },
+    "elevenlabs-sound-effects": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-sound-effects/SKILL.md",
+      "skillFolderHash": "d6c5676bbd3297a5f1c0117f484a5df76c4f75bf",
+      "installedAt": "2026-04-06T05:22:25.271Z",
+      "updatedAt": "2026-04-06T05:22:25.271Z"
+    },
+    "elevenlabs-stt": {
+      "source": "inferen-sh/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/inferen-sh/skills.git",
+      "skillPath": "tools/audio/elevenlabs-stt/SKILL.md",
+      "skillFolderHash": "4ab5e18fc3ef2898fe9e720ce13048824b783267",
+      "installedAt": "2026-04-06T05:22:26.849Z",
+      "updatedAt": "2026-04-06T05:22:26.849Z"
+    },
+    "microsoft-foundry": {
+      "source": "microsoft/azure-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/microsoft/azure-skills.git",
+      "skillPath": ".github/plugins/azure-skills/skills/microsoft-foundry/SKILL.md",
+      "skillFolderHash": "6581c7847178eac3ad2d3257766efacf86ef17bb",
+      "installedAt": "2026-05-22T15:58:22.159Z",
+      "updatedAt": "2026-06-04T01:21:39.489Z"
+    },
+    "xcode-project-setup": {
+      "source": "firebase/agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/firebase/agent-skills.git",
+      "skillPath": "skills/xcode-project-setup/SKILL.md",
+      "skillFolderHash": "fe2d95590b9419aa040333c42da5816c54739502",
+      "installedAt": "2026-07-16T10:13:38.890Z",
+      "updatedAt": "2026-07-16T10:13:38.890Z"
+    },
+    "spm-build-analysis": {
+      "source": "avdlee/xcode-build-optimization-agent-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/avdlee/xcode-build-optimization-agent-skill.git",
+      "skillPath": "skills/spm-build-analysis/SKILL.md",
+      "skillFolderHash": "1129f379d0b0b9005f1620904c899eac1103843f",
+      "pluginName": "xcode-build-skills",
+      "installedAt": "2026-07-16T10:13:39.281Z",
+      "updatedAt": "2026-07-16T10:13:39.281Z"
+    },
+    "xcode-build-benchmark": {
+      "source": "avdlee/xcode-build-optimization-agent-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/avdlee/xcode-build-optimization-agent-skill.git",
+      "skillPath": "skills/xcode-build-benchmark/SKILL.md",
+      "skillFolderHash": "73eb0d4c360f0823ee0a2fcf2fd9ae338b1f5c21",
+      "pluginName": "xcode-build-skills",
+      "installedAt": "2026-07-16T10:13:39.283Z",
+      "updatedAt": "2026-07-16T10:13:39.283Z"
+    },
+    "xcode-build-fixer": {
+      "source": "avdlee/xcode-build-optimization-agent-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/avdlee/xcode-build-optimization-agent-skill.git",
+      "skillPath": "skills/xcode-build-fixer/SKILL.md",
+      "skillFolderHash": "6fad371b4ff719e95ef5b807cec83b726bba8dbf",
+      "pluginName": "xcode-build-skills",
+      "installedAt": "2026-07-16T10:13:39.284Z",
+      "updatedAt": "2026-07-16T10:13:39.284Z"
+    },
+    "xcode-build-orchestrator": {
+      "source": "avdlee/xcode-build-optimization-agent-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/avdlee/xcode-build-optimization-agent-skill.git",
+      "skillPath": "skills/xcode-build-orchestrator/SKILL.md",
+      "skillFolderHash": "598ce4c006438eed1433263a3b2d2fdfcdaae71c",
+      "pluginName": "xcode-build-skills",
+      "installedAt": "2026-07-16T10:13:39.284Z",
+      "updatedAt": "2026-07-16T10:13:39.284Z"
+    },
+    "xcode-compilation-analyzer": {
+      "source": "avdlee/xcode-build-optimization-agent-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/avdlee/xcode-build-optimization-agent-skill.git",
+      "skillPath": "skills/xcode-compilation-analyzer/SKILL.md",
+      "skillFolderHash": "7b772a68bf21087bcca5cf3085a57a414d7bd304",
+      "pluginName": "xcode-build-skills",
+      "installedAt": "2026-07-16T10:13:39.285Z",
+      "updatedAt": "2026-07-16T10:13:39.285Z"
+    },
+    "xcode-project-analyzer": {
+      "source": "avdlee/xcode-build-optimization-agent-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/avdlee/xcode-build-optimization-agent-skill.git",
+      "skillPath": "skills/xcode-project-analyzer/SKILL.md",
+      "skillFolderHash": "25a5b7978d4a95ccd76c56aa873f775814731e08",
+      "pluginName": "xcode-build-skills",
+      "installedAt": "2026-07-16T10:13:39.285Z",
+      "updatedAt": "2026-07-16T10:13:39.285Z"
+    },
+    "ios-swift-development": {
+      "source": "aj-geddes/useful-ai-prompts",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/aj-geddes/useful-ai-prompts.git",
+      "skillPath": "skills/ios-swift-development/SKILL.md",
+      "skillFolderHash": "53e553e619b1b08d424672ab9f33dfae297ca0dc",
+      "installedAt": "2026-07-16T10:13:40.341Z",
+      "updatedAt": "2026-07-16T10:13:40.341Z"
+    },
+    "accessorysetupkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/accessorysetupkit/SKILL.md",
+      "skillFolderHash": "c57dd63736812c2ae9864e5bad606a461daf3356",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.315Z",
+      "updatedAt": "2026-07-16T10:13:46.315Z"
+    },
+    "activitykit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/activitykit/SKILL.md",
+      "skillFolderHash": "aa06e4d68e60cedb6644bb1662197e4657451b20",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.317Z",
+      "updatedAt": "2026-07-16T10:13:46.317Z"
+    },
+    "adattributionkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/adattributionkit/SKILL.md",
+      "skillFolderHash": "be2cf320d6807c42ffb9f1e41bd93434b94b516a",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.318Z",
+      "updatedAt": "2026-07-16T10:13:46.318Z"
+    },
+    "alarmkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/alarmkit/SKILL.md",
+      "skillFolderHash": "32b98a359c1064790caafc7237c27d923b83acd6",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.318Z",
+      "updatedAt": "2026-07-16T10:13:46.318Z"
+    },
+    "app-clips": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/app-clips/SKILL.md",
+      "skillFolderHash": "ad63164133d6c66740b11753ae6fa54427e66a09",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.319Z",
+      "updatedAt": "2026-07-16T10:13:46.319Z"
+    },
+    "app-intents": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/app-intents/SKILL.md",
+      "skillFolderHash": "d12e06ba1618d4674830384e821f2076d404983a",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.320Z",
+      "updatedAt": "2026-07-16T10:13:46.320Z"
+    },
+    "app-store-optimization": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/app-store-optimization/SKILL.md",
+      "skillFolderHash": "e36c2d692aa058888832081c349d9c0d9514143c",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.320Z",
+      "updatedAt": "2026-07-16T10:13:46.320Z"
+    },
+    "app-store-review": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/app-store-review/SKILL.md",
+      "skillFolderHash": "44c89c575691c1b0e221e57982ab83d98068b59a",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.321Z",
+      "updatedAt": "2026-07-16T10:13:46.321Z"
+    },
+    "apple-on-device-ai": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/apple-on-device-ai/SKILL.md",
+      "skillFolderHash": "fc374c8dbf52ebe471b9b9c3844473910a1b9500",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.322Z",
+      "updatedAt": "2026-07-16T10:13:46.322Z"
+    },
+    "appmigrationkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/appmigrationkit/SKILL.md",
+      "skillFolderHash": "69ea75e403af2fdac45bbd55e0fb4f0c4184f9b4",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.322Z",
+      "updatedAt": "2026-07-16T10:13:46.322Z"
+    },
+    "audioaccessorykit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/audioaccessorykit/SKILL.md",
+      "skillFolderHash": "c6b0cca6f89d11ae9948a3e724f9c8cc91979ff6",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.323Z",
+      "updatedAt": "2026-07-16T10:13:46.323Z"
+    },
+    "authentication": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/authentication/SKILL.md",
+      "skillFolderHash": "770b889f9df43ea0073f82af77e1517abadfda86",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.323Z",
+      "updatedAt": "2026-07-16T10:13:46.323Z"
+    },
+    "avkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/avkit/SKILL.md",
+      "skillFolderHash": "e2d09333f9778187517ce7a51be6d69d449d15a9",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.324Z",
+      "updatedAt": "2026-07-16T10:13:46.324Z"
+    },
+    "background-processing": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/background-processing/SKILL.md",
+      "skillFolderHash": "19fa368b7682a422cc3787da66f2f823829d8378",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.324Z",
+      "updatedAt": "2026-07-16T10:13:46.324Z"
+    },
+    "browserenginekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/browserenginekit/SKILL.md",
+      "skillFolderHash": "0ddd22378b154b9e15e2766f2ac66e881f714b00",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.325Z",
+      "updatedAt": "2026-07-16T10:13:46.325Z"
+    },
+    "callkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/callkit/SKILL.md",
+      "skillFolderHash": "ffd1606ce9275dd29ad9b011d183bc7e7eb9a1b0",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.325Z",
+      "updatedAt": "2026-07-16T10:13:46.325Z"
+    },
+    "carplay": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/carplay/SKILL.md",
+      "skillFolderHash": "a7cbc9eb0baa168309ec245285cd529dedcf4c2c",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.326Z",
+      "updatedAt": "2026-07-16T10:13:46.326Z"
+    },
+    "cloudkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/cloudkit/SKILL.md",
+      "skillFolderHash": "320c0e9f8f96efd6b645b2765459dd2fded5a37f",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.326Z",
+      "updatedAt": "2026-07-16T10:13:46.326Z"
+    },
+    "contacts-framework": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/contacts-framework/SKILL.md",
+      "skillFolderHash": "ee31aa49a27d2c70966c3a3ea64758b902562899",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.327Z",
+      "updatedAt": "2026-07-16T10:13:46.327Z"
+    },
+    "core-bluetooth": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/core-bluetooth/SKILL.md",
+      "skillFolderHash": "7b26b3df267e8caadbf249861f99d2f6474205d3",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.327Z",
+      "updatedAt": "2026-07-16T10:13:46.327Z"
+    },
+    "core-data": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/core-data/SKILL.md",
+      "skillFolderHash": "4b0861ada9f768b0dcb6902738fee0661cc1b519",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.327Z",
+      "updatedAt": "2026-07-16T10:13:46.327Z"
+    },
+    "core-motion": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/core-motion/SKILL.md",
+      "skillFolderHash": "ce8fe54e57c06f7b902ec369851c3dd6d80e5676",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.328Z",
+      "updatedAt": "2026-07-16T10:13:46.328Z"
+    },
+    "core-nfc": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/core-nfc/SKILL.md",
+      "skillFolderHash": "64a98eac8e4f82e2d71bc4ecbcc9ed35116986c1",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.329Z",
+      "updatedAt": "2026-07-16T10:13:46.329Z"
+    },
+    "coreml": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/coreml/SKILL.md",
+      "skillFolderHash": "41597166b3b135da70349493588eb878c1282100",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.329Z",
+      "updatedAt": "2026-07-16T10:13:46.329Z"
+    },
+    "cryptokit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/cryptokit/SKILL.md",
+      "skillFolderHash": "cf165cef0c77c950f6fc0d6284e460ce774e27c0",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.330Z",
+      "updatedAt": "2026-07-16T10:13:46.330Z"
+    },
+    "cryptotokenkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/cryptotokenkit/SKILL.md",
+      "skillFolderHash": "e1b78f6cce4b82510603465ef465e9bf5c1ce250",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.330Z",
+      "updatedAt": "2026-07-16T10:13:46.330Z"
+    },
+    "debugging-instruments": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/debugging-instruments/SKILL.md",
+      "skillFolderHash": "158ae018197639209fb73f537f0adaaecc6befa3",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.331Z",
+      "updatedAt": "2026-07-16T10:13:46.331Z"
+    },
+    "device-integrity": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/device-integrity/SKILL.md",
+      "skillFolderHash": "8cc4ec026d78ebb0fbe8d09626307f684ce5d7ea",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.332Z",
+      "updatedAt": "2026-07-16T10:13:46.332Z"
+    },
+    "dockkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/dockkit/SKILL.md",
+      "skillFolderHash": "1ed0bc261ebb502f23c077fbeb26187548ccf49c",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.333Z",
+      "updatedAt": "2026-07-16T10:13:46.333Z"
+    },
+    "energykit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/energykit/SKILL.md",
+      "skillFolderHash": "d93382e0650ec312aa064752466bcb157ebc1943",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.333Z",
+      "updatedAt": "2026-07-16T10:13:46.333Z"
+    },
+    "eventkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/eventkit/SKILL.md",
+      "skillFolderHash": "e777d3cf747e8f543f3abe8d7f877489bff9d7c2",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.335Z",
+      "updatedAt": "2026-07-16T10:13:46.335Z"
+    },
+    "financekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/financekit/SKILL.md",
+      "skillFolderHash": "743894cc0d64af089a0bcae06e0c6c5a033e15d7",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.336Z",
+      "updatedAt": "2026-07-16T10:13:46.336Z"
+    },
+    "focus-engine": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/focus-engine/SKILL.md",
+      "skillFolderHash": "e7295e9de7c8256ca89c0d0df01a29204af5b5d1",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.336Z",
+      "updatedAt": "2026-07-16T10:13:46.336Z"
+    },
+    "gamekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/gamekit/SKILL.md",
+      "skillFolderHash": "2710ee7d81955e97a673452d934824a366f8f1d1",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.337Z",
+      "updatedAt": "2026-07-16T10:13:46.337Z"
+    },
+    "healthkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/healthkit/SKILL.md",
+      "skillFolderHash": "183445064a3a5c7e7eea5320fa1436e1e2ae6577",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.338Z",
+      "updatedAt": "2026-07-16T10:13:46.338Z"
+    },
+    "homekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/homekit/SKILL.md",
+      "skillFolderHash": "b40b5de93b4d311b378171977b11f12bb7ab886a",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.338Z",
+      "updatedAt": "2026-07-16T10:13:46.338Z"
+    },
+    "ios-accessibility": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/ios-accessibility/SKILL.md",
+      "skillFolderHash": "55328ae96950f0c386a21d29a539911c16c11207",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.339Z",
+      "updatedAt": "2026-07-16T10:13:46.339Z"
+    },
+    "ios-ettrace-performance": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/ios-ettrace-performance/SKILL.md",
+      "skillFolderHash": "192e86ace2f9eb3af68ee44ea12dcb0eb8a3d301",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.339Z",
+      "updatedAt": "2026-07-16T10:13:46.339Z"
+    },
+    "ios-localization": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/ios-localization/SKILL.md",
+      "skillFolderHash": "fb8713f856142cecef9806224cf5038b2e3c9922",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.340Z",
+      "updatedAt": "2026-07-16T10:13:46.340Z"
+    },
+    "ios-memgraph-analysis": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/ios-memgraph-analysis/SKILL.md",
+      "skillFolderHash": "33a1e899127bbfd92ce48a772db4f31c69870630",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.341Z",
+      "updatedAt": "2026-07-16T10:13:46.341Z"
+    },
+    "ios-networking": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/ios-networking/SKILL.md",
+      "skillFolderHash": "bf92fbf0f7aa28ec53ab6a2adc0dfc3d5c68f9f2",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.341Z",
+      "updatedAt": "2026-07-16T10:13:46.341Z"
+    },
+    "ios-simulator": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/ios-simulator/SKILL.md",
+      "skillFolderHash": "b19b5072bfbf35e692dd48f10fcd6ecdae57d653",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.342Z",
+      "updatedAt": "2026-07-16T10:13:46.342Z"
+    },
+    "mapkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/mapkit/SKILL.md",
+      "skillFolderHash": "00fe6b1b055d956e2eec7f29703a038377919502",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.342Z",
+      "updatedAt": "2026-07-16T10:13:46.342Z"
+    },
+    "metrickit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/metrickit/SKILL.md",
+      "skillFolderHash": "a368e6b0297bb91c2e9e25f7b049b8ea355f1b83",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.343Z",
+      "updatedAt": "2026-07-16T10:13:46.343Z"
+    },
+    "musickit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/musickit/SKILL.md",
+      "skillFolderHash": "ed32b1fbcc2073f3732afea6cc3c129e9a70ccae",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.343Z",
+      "updatedAt": "2026-07-16T10:13:46.343Z"
+    },
+    "natural-language": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/natural-language/SKILL.md",
+      "skillFolderHash": "99a150939631c7d660735ed849fc5c03fe3497fd",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.344Z",
+      "updatedAt": "2026-07-16T10:13:46.344Z"
+    },
+    "paperkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/paperkit/SKILL.md",
+      "skillFolderHash": "ba107052c5c16d434d28315772ddf754f78261fa",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.344Z",
+      "updatedAt": "2026-07-16T10:13:46.344Z"
+    },
+    "passkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/passkit/SKILL.md",
+      "skillFolderHash": "ad09e78b3c669911e2085148246378c617ac5914",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.345Z",
+      "updatedAt": "2026-07-16T10:13:46.345Z"
+    },
+    "pdfkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/pdfkit/SKILL.md",
+      "skillFolderHash": "129376a495538c8be0623fec4759c1d72ff09f70",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.345Z",
+      "updatedAt": "2026-07-16T10:13:46.345Z"
+    },
+    "pencilkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/pencilkit/SKILL.md",
+      "skillFolderHash": "18d849c97c68476a9aeb7694e43bc1ae7965ec44",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.346Z",
+      "updatedAt": "2026-07-16T10:13:46.346Z"
+    },
+    "permissionkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/permissionkit/SKILL.md",
+      "skillFolderHash": "1644c25aa03d1f7e08a920c2c032ff293e01cffd",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.346Z",
+      "updatedAt": "2026-07-16T10:13:46.346Z"
+    },
+    "photokit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/photokit/SKILL.md",
+      "skillFolderHash": "54cf58cf709f61a3056f9302433a498801e6902f",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.347Z",
+      "updatedAt": "2026-07-16T10:13:46.347Z"
+    },
+    "push-notifications": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/push-notifications/SKILL.md",
+      "skillFolderHash": "bc99146663e04fd7e3a3ae8fccf9e5cd839e666e",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.347Z",
+      "updatedAt": "2026-07-16T10:13:46.347Z"
+    },
+    "realitykit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/realitykit/SKILL.md",
+      "skillFolderHash": "d96d7be1af7580ba29c052e617176949619e1209",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.348Z",
+      "updatedAt": "2026-07-16T10:13:46.348Z"
+    },
+    "relevancekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/relevancekit/SKILL.md",
+      "skillFolderHash": "d30eeb1d3b73c2f1a135626225803f0aa33abd09",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.349Z",
+      "updatedAt": "2026-07-16T10:13:46.349Z"
+    },
+    "scenekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/scenekit/SKILL.md",
+      "skillFolderHash": "fefded77876a9c81ac2cc6335d3f591f7469db9a",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.350Z",
+      "updatedAt": "2026-07-16T10:13:46.350Z"
+    },
+    "sensorkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/sensorkit/SKILL.md",
+      "skillFolderHash": "260817258dbe77ad88d9d8ac669a57a226fb9d02",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.352Z",
+      "updatedAt": "2026-07-16T10:13:46.352Z"
+    },
+    "shareplay-activities": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/shareplay-activities/SKILL.md",
+      "skillFolderHash": "b150658fb70ff29042472facdb0a7c36c6c6475b",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.353Z",
+      "updatedAt": "2026-07-16T10:13:46.353Z"
+    },
+    "speech-recognition": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/speech-recognition/SKILL.md",
+      "skillFolderHash": "e319f4828245e9c79b29e07b2165036c260ee517",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.353Z",
+      "updatedAt": "2026-07-16T10:13:46.353Z"
+    },
+    "spritekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/spritekit/SKILL.md",
+      "skillFolderHash": "27b6302a5c59ee4bb7249ac403771d6e73c97e52",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.354Z",
+      "updatedAt": "2026-07-16T10:13:46.354Z"
+    },
+    "storekit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/storekit/SKILL.md",
+      "skillFolderHash": "473b4b2acfe02de5b753a37db720f2bd2b8b4316",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.356Z",
+      "updatedAt": "2026-07-16T10:13:46.356Z"
+    },
+    "swift-api-design-guidelines": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-api-design-guidelines/SKILL.md",
+      "skillFolderHash": "a351ef8e9b1893070ed859a493a2eedffe51ab53",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.357Z",
+      "updatedAt": "2026-07-16T10:13:46.357Z"
+    },
+    "swift-architecture": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-architecture/SKILL.md",
+      "skillFolderHash": "87cdd0cdae4458bebbdbf676129ca575db069b59",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.359Z",
+      "updatedAt": "2026-07-16T10:13:46.359Z"
+    },
+    "swift-charts": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-charts/SKILL.md",
+      "skillFolderHash": "3ac97aa6e3043aca7e83b50debd363124e0437d9",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.360Z",
+      "updatedAt": "2026-07-16T10:13:46.360Z"
+    },
+    "swift-codable": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-codable/SKILL.md",
+      "skillFolderHash": "a60790b2dfb56bb688dfbf4ea5fa2faa83d1d746",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.360Z",
+      "updatedAt": "2026-07-16T10:13:46.360Z"
+    },
+    "swift-concurrency": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-concurrency/SKILL.md",
+      "skillFolderHash": "9857388a7c9e10774b33de3466363a8c14139028",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.361Z",
+      "updatedAt": "2026-07-16T10:13:46.361Z"
+    },
+    "swift-formatstyle": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-formatstyle/SKILL.md",
+      "skillFolderHash": "fc1a643d7de454f38e665fd2667cf2ccfcada5e0",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.361Z",
+      "updatedAt": "2026-07-16T10:13:46.361Z"
+    },
+    "swift-language": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-language/SKILL.md",
+      "skillFolderHash": "86ef9173429db99a3f9833728475f358a18a1cd3",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.362Z",
+      "updatedAt": "2026-07-16T10:13:46.362Z"
+    },
+    "swift-security": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-security/SKILL.md",
+      "skillFolderHash": "4b27c0545f02b617bdc229e591e0fae7954c1047",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.362Z",
+      "updatedAt": "2026-07-16T10:13:46.362Z"
+    },
+    "swift-testing": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swift-testing/SKILL.md",
+      "skillFolderHash": "b6c2d3397f3ba627157e57defe57de407ef74649",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.362Z",
+      "updatedAt": "2026-07-16T10:13:46.362Z"
+    },
+    "swiftdata": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftdata/SKILL.md",
+      "skillFolderHash": "98132c229f11823d897e917ec30f5ccf421678a8",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.363Z",
+      "updatedAt": "2026-07-16T10:13:46.363Z"
+    },
+    "swiftlint": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftlint/SKILL.md",
+      "skillFolderHash": "3877926a4df91e9c67b27881c000d0e1461b0a4e",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.364Z",
+      "updatedAt": "2026-07-16T10:13:46.364Z"
+    },
+    "swiftui-animation": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-animation/SKILL.md",
+      "skillFolderHash": "d6cca2a00bffcbf633f4eb528c74edaba059c3f8",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.364Z",
+      "updatedAt": "2026-07-16T10:13:46.364Z"
+    },
+    "swiftui-gestures": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-gestures/SKILL.md",
+      "skillFolderHash": "93ca74c0f22ad40e5c0093afdd4280d78a576cad",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.365Z",
+      "updatedAt": "2026-07-16T10:13:46.365Z"
+    },
+    "swiftui-layout-components": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-layout-components/SKILL.md",
+      "skillFolderHash": "cb815010fc5e694f0044b778d5cf124a84e24296",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.365Z",
+      "updatedAt": "2026-07-16T10:13:46.365Z"
+    },
+    "swiftui-liquid-glass": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-liquid-glass/SKILL.md",
+      "skillFolderHash": "56a2e81bf58b6a625ebfba4749682070180a82fa",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.366Z",
+      "updatedAt": "2026-07-16T10:13:46.366Z"
+    },
+    "swiftui-navigation": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-navigation/SKILL.md",
+      "skillFolderHash": "54b204a79c49837a3a14af284e147206d8e90027",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.367Z",
+      "updatedAt": "2026-07-16T10:13:46.367Z"
+    },
+    "swiftui-patterns": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-patterns/SKILL.md",
+      "skillFolderHash": "6eca830cbb06763940409b88ebb64b08ec41b409",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.367Z",
+      "updatedAt": "2026-07-16T10:13:46.367Z"
+    },
+    "swiftui-performance": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-performance/SKILL.md",
+      "skillFolderHash": "b8694ffbf6acd5dc9809a9c0cb9d7929db1611b9",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.368Z",
+      "updatedAt": "2026-07-16T10:13:46.368Z"
+    },
+    "swiftui-uikit-interop": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-uikit-interop/SKILL.md",
+      "skillFolderHash": "10554182748b4d20f25fb02b1f4e7d5bb8d29909",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.368Z",
+      "updatedAt": "2026-07-16T10:13:46.368Z"
+    },
+    "swiftui-webkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/swiftui-webkit/SKILL.md",
+      "skillFolderHash": "e7608a439e832ec17d15108f8a988e0858fc0729",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.369Z",
+      "updatedAt": "2026-07-16T10:13:46.369Z"
+    },
+    "tabletopkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/tabletopkit/SKILL.md",
+      "skillFolderHash": "a8c32740439caff271c922ea31b96eee20066774",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.370Z",
+      "updatedAt": "2026-07-16T10:13:46.370Z"
+    },
+    "tipkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/tipkit/SKILL.md",
+      "skillFolderHash": "8c1529a595228261279daf124a42600590ae5797",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.370Z",
+      "updatedAt": "2026-07-16T10:13:46.370Z"
+    },
+    "vision-framework": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/vision-framework/SKILL.md",
+      "skillFolderHash": "52288a312745bb66187c0eb54f6d9bb94b7462b7",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.372Z",
+      "updatedAt": "2026-07-16T10:13:46.372Z"
+    },
+    "weatherkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/weatherkit/SKILL.md",
+      "skillFolderHash": "f06b3294a2cf1624ea19c15c0dc6422263aaf0ef",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.373Z",
+      "updatedAt": "2026-07-16T10:13:46.373Z"
+    },
+    "widgetkit": {
+      "source": "dpearson2699/swift-ios-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/dpearson2699/swift-ios-skills.git",
+      "skillPath": "skills/widgetkit/SKILL.md",
+      "skillFolderHash": "520b64ba6ff24fae7716f5b5bbef80cbef84dd45",
+      "pluginName": "all-ios-skills",
+      "installedAt": "2026-07-16T10:13:46.374Z",
+      "updatedAt": "2026-07-16T10:13:46.374Z"
+    },
+    "firecrawl-deep-research": {
+      "source": "firecrawl/firecrawl-workflows",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/firecrawl/firecrawl-workflows.git",
+      "skillPath": "skills/firecrawl-deep-research/SKILL.md",
+      "skillFolderHash": "6725c9937e57bb0364e182edbc444cac8ee5b0df",
+      "pluginName": "firecrawl-workflows",
+      "installedAt": "2026-07-16T11:12:22.557Z",
+      "updatedAt": "2026-07-16T12:31:05.569Z"
+    },
+    "deep-research": {
+      "source": "199-biotechnologies/claude-deep-research-skill",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/199-biotechnologies/claude-deep-research-skill.git",
+      "skillPath": "SKILL.md",
+      "skillFolderHash": "f2f2c0fa4e7617ca84c86b63f4bb40f77a746933",
+      "installedAt": "2026-07-16T11:12:24.232Z",
+      "updatedAt": "2026-07-16T12:31:05.750Z"
+    },
+    "parallel-deep-research": {
+      "source": "parallel-web/parallel-agent-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/parallel-web/parallel-agent-skills.git",
+      "skillPath": "skills/parallel-deep-research/SKILL.md",
+      "skillFolderHash": "637453aa4423b08705cfe920917d7e156f0eadd3",
+      "installedAt": "2026-07-16T11:12:26.253Z",
+      "updatedAt": "2026-07-16T12:31:05.480Z"
+    },
+    "continue-claude-work": {
+      "source": "daymade/claude-code-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/daymade/claude-code-skills.git",
+      "skillPath": "daymade-claude-code/continue-claude-work/SKILL.md",
+      "skillFolderHash": "97caff451c276693af9a07b49ac544f8a72bd5c5",
+      "pluginName": "daymade-claude-code",
+      "installedAt": "2026-07-16T18:46:24.203Z",
+      "updatedAt": "2026-07-16T18:46:24.203Z"
+    }
+  },
+  "dismissed": {
+    "findSkillsPrompt": true
+  },
+  "lastSelectedAgents": [
+    "amp",
+    "antigravity",
+    "cline",
+    "codex",
+    "cursor",
+    "deepagents",
+    "dexto",
+    "firebender",
+    "gemini-cli",
+    "github-copilot",
+    "kimi-cli",
+    "opencode",
+    "warp"
+  ]
+}
