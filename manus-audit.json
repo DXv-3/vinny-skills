@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-08-20T20:56:51.579102",
+  "profiles": [
+    {
+      "name": "ManusDesktopApp",
+      "size_mb": 17,
+      "skills": 16,
+      "only": [
+        "codebase-patdown",
+        "gmail-paper-list-export",
+        "ma7p-config",
+        "webdev-llm-integration"
+      ]
+    },
+    {
+      "name": "ChromeBetaDefault",
+      "size_mb": 10,
+      "skills": 16,
+      "only": [
+        "skillx",
+        "ui-ux-pro-max",
+        "ma6p-config"
+      ]
+    },
+    {
+      "name": "CometDefault",
+      "size_mb": 7.5,
+      "skills": 14,
+      "only": [
+        "cinematic-scroll-experiences",
+        "demo-first-design-engineering",
+        "gws-drive",
+        "manus-api",
+        "portable-ai-work-state",
+        "unknown-unknowns-discovery",
+        "webdev-owner-notifications"
+      ]
+    },
+    {
+      "name": "ChromeDefault",
+      "size_mb": 3.7,
+      "skills": 7,
+      "only": [
+        "startup-competitor-battlecards",
+        "startup-investor-pitch-prep"
+      ]
+    },
+    {
+      "name": "ChromeBetaP2",
+      "size_mb": 2.5,
+      "skills": 9,
+      "only": [
+        "reference-cinematic-page-production",
+        "evidence-driven-agent-delivery",
+        "openalex",
+        "read-special-images"
+      ]
+    }
+  ],
+  "all_internal": [
+    "manus-config",
+    "ui-motion-interaction-toolbox",
+    "github-gem-seeker",
+    "imagegen",
+    "automation-and-scheduling",
+    "builtin-llm-models",
+    "webdev-readme-static",
+    "creative-production-orchestrator",
+    "high-agency-executor",
+    "gws-best-practices",
+    "creative-platform-reframing",
+    "codebase-patdown",
+    "startup-competitor-battlecards",
+    "webdev-readme-fullstack",
+    "finance-pro-playbooks",
+    "skillx",
+    "skill-creator",
+    "webdev-llm-integration",
+    "persistent-computing",
+    "ui-ux-pro-max",
+    "demo-first-design-engineering",
+    "unknown-unknowns-discovery",
+    "startup-investor-pitch-prep",
+    "ma7p-config",
+    "gmail-paper-list-export",
+    "ma6p-config",
+    "cinematic-scroll-experiences",
+    "webdev-owner-notifications",
+    "gws-drive",
+    "portable-ai-work-state",
+    "manus-api",
+    "reference-cinematic-page-production",
+    "evidence-driven-agent-delivery",
+    "openalex",
+    "read-special-images"
+  ],
+  "common_to_all": [
+    "manus-config",
+    "github-gem-seeker"
+  ],
+  "accounts": [
+    "imvinnygilberti@gmail.com",
+    "colorbyvinny@gmail.com",
+    "vinny.gilberti@gmail.com",
+    "promptployboy@gmail.com",
+    "tobealive.03@gmail.com"
+  ]
+}

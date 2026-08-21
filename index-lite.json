@@ -1,0 +1,1694 @@
+[
+  {
+    "name": "accessorysetupkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/accessorysetupkit",
+    "searchable": "accessorysetupkit agents_canonical"
+  },
+  {
+    "name": "activitykit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/activitykit",
+    "searchable": "activitykit agents_canonical"
+  },
+  {
+    "name": "adattributionkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/adattributionkit",
+    "searchable": "adattributionkit agents_canonical"
+  },
+  {
+    "name": "agent-browser",
+    "source": "agents_canonical",
+    "id": "agents_canonical/agent-browser",
+    "searchable": "agent-browser agents_canonical"
+  },
+  {
+    "name": "agent-tools",
+    "source": "agents_canonical",
+    "id": "agents_canonical/agent-tools",
+    "searchable": "agent-tools agents_canonical"
+  },
+  {
+    "name": "agent-ui",
+    "source": "agents_canonical",
+    "id": "agents_canonical/agent-ui",
+    "searchable": "agent-ui agents_canonical"
+  },
+  {
+    "name": "alarmkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/alarmkit",
+    "searchable": "alarmkit agents_canonical"
+  },
+  {
+    "name": "app-clips",
+    "source": "agents_canonical",
+    "id": "agents_canonical/app-clips",
+    "searchable": "app-clips agents_canonical"
+  },
+  {
+    "name": "app-intents",
+    "source": "agents_canonical",
+    "id": "agents_canonical/app-intents",
+    "searchable": "app-intents agents_canonical"
+  },
+  {
+    "name": "app-store-optimization",
+    "source": "agents_canonical",
+    "id": "agents_canonical/app-store-optimization",
+    "searchable": "app-store-optimization agents_canonical"
+  },
+  {
+    "name": "app-store-review",
+    "source": "agents_canonical",
+    "id": "agents_canonical/app-store-review",
+    "searchable": "app-store-review agents_canonical"
+  },
+  {
+    "name": "apple-on-device-ai",
+    "source": "agents_canonical",
+    "id": "agents_canonical/apple-on-device-ai",
+    "searchable": "apple-on-device-ai agents_canonical"
+  },
+  {
+    "name": "appmigrationkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/appmigrationkit",
+    "searchable": "appmigrationkit agents_canonical"
+  },
+  {
+    "name": "audioaccessorykit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/audioaccessorykit",
+    "searchable": "audioaccessorykit agents_canonical"
+  },
+  {
+    "name": "authentication",
+    "source": "agents_canonical",
+    "id": "agents_canonical/authentication",
+    "searchable": "authentication agents_canonical"
+  },
+  {
+    "name": "avkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/avkit",
+    "searchable": "avkit agents_canonical"
+  },
+  {
+    "name": "background-processing",
+    "source": "agents_canonical",
+    "id": "agents_canonical/background-processing",
+    "searchable": "background-processing agents_canonical"
+  },
+  {
+    "name": "brainstorming",
+    "source": "agents_canonical",
+    "id": "agents_canonical/brainstorming",
+    "searchable": "brainstorming agents_canonical"
+  },
+  {
+    "name": "browserenginekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/browserenginekit",
+    "searchable": "browserenginekit agents_canonical"
+  },
+  {
+    "name": "callkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/callkit",
+    "searchable": "callkit agents_canonical"
+  },
+  {
+    "name": "carplay",
+    "source": "agents_canonical",
+    "id": "agents_canonical/carplay",
+    "searchable": "carplay agents_canonical"
+  },
+  {
+    "name": "chat-archaeologist",
+    "source": "agents_canonical",
+    "id": "agents_canonical/chat-archaeologist",
+    "searchable": "chat-archaeologist agents_canonical"
+  },
+  {
+    "name": "clipboardlux-macos-debugging",
+    "source": "agents_canonical",
+    "id": "agents_canonical/clipboardlux-macos-debugging",
+    "searchable": "clipboardlux-macos-debugging agents_canonical"
+  },
+  {
+    "name": "cloudkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/cloudkit",
+    "searchable": "cloudkit agents_canonical"
+  },
+  {
+    "name": "contacts-framework",
+    "source": "agents_canonical",
+    "id": "agents_canonical/contacts-framework",
+    "searchable": "contacts-framework agents_canonical"
+  },
+  {
+    "name": "continue-claude-work",
+    "source": "agents_canonical",
+    "id": "agents_canonical/continue-claude-work",
+    "searchable": "continue-claude-work agents_canonical"
+  },
+  {
+    "name": "core-bluetooth",
+    "source": "agents_canonical",
+    "id": "agents_canonical/core-bluetooth",
+    "searchable": "core-bluetooth agents_canonical"
+  },
+  {
+    "name": "core-data",
+    "source": "agents_canonical",
+    "id": "agents_canonical/core-data",
+    "searchable": "core-data agents_canonical"
+  },
+  {
+    "name": "core-motion",
+    "source": "agents_canonical",
+    "id": "agents_canonical/core-motion",
+    "searchable": "core-motion agents_canonical"
+  },
+  {
+    "name": "core-nfc",
+    "source": "agents_canonical",
+    "id": "agents_canonical/core-nfc",
+    "searchable": "core-nfc agents_canonical"
+  },
+  {
+    "name": "coreml",
+    "source": "agents_canonical",
+    "id": "agents_canonical/coreml",
+    "searchable": "coreml agents_canonical"
+  },
+  {
+    "name": "cryptokit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/cryptokit",
+    "searchable": "cryptokit agents_canonical"
+  },
+  {
+    "name": "cryptotokenkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/cryptotokenkit",
+    "searchable": "cryptotokenkit agents_canonical"
+  },
+  {
+    "name": "custom-brainstorm-storm",
+    "source": "agents_canonical",
+    "id": "agents_canonical/custom-brainstorm-storm",
+    "searchable": "custom-brainstorm-storm agents_canonical"
+  },
+  {
+    "name": "debugging-instruments",
+    "source": "agents_canonical",
+    "id": "agents_canonical/debugging-instruments",
+    "searchable": "debugging-instruments agents_canonical"
+  },
+  {
+    "name": "deep-research",
+    "source": "agents_canonical",
+    "id": "agents_canonical/deep-research",
+    "searchable": "deep-research agents_canonical"
+  },
+  {
+    "name": "deep-research-free",
+    "source": "agents_canonical",
+    "id": "agents_canonical/deep-research-free",
+    "searchable": "deep-research-free agents_canonical"
+  },
+  {
+    "name": "device-integrity",
+    "source": "agents_canonical",
+    "id": "agents_canonical/device-integrity",
+    "searchable": "device-integrity agents_canonical"
+  },
+  {
+    "name": "dockkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/dockkit",
+    "searchable": "dockkit agents_canonical"
+  },
+  {
+    "name": "energykit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/energykit",
+    "searchable": "energykit agents_canonical"
+  },
+  {
+    "name": "eventkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/eventkit",
+    "searchable": "eventkit agents_canonical"
+  },
+  {
+    "name": "executing-plans",
+    "source": "agents_canonical",
+    "id": "agents_canonical/executing-plans",
+    "searchable": "executing-plans agents_canonical"
+  },
+  {
+    "name": "financekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/financekit",
+    "searchable": "financekit agents_canonical"
+  },
+  {
+    "name": "find-skills",
+    "source": "agents_canonical",
+    "id": "agents_canonical/find-skills",
+    "searchable": "find-skills agents_canonical"
+  },
+  {
+    "name": "find-skills/out/scaffold",
+    "source": "agents_canonical",
+    "id": "agents_canonical/find-skills/out/scaffold",
+    "searchable": "find-skills/out/scaffold agents_canonical"
+  },
+  {
+    "name": "firecrawl-deep-research",
+    "source": "agents_canonical",
+    "id": "agents_canonical/firecrawl-deep-research",
+    "searchable": "firecrawl-deep-research agents_canonical"
+  },
+  {
+    "name": "focus-engine",
+    "source": "agents_canonical",
+    "id": "agents_canonical/focus-engine",
+    "searchable": "focus-engine agents_canonical"
+  },
+  {
+    "name": "frontend-design",
+    "source": "agents_canonical",
+    "id": "agents_canonical/frontend-design",
+    "searchable": "frontend-design agents_canonical"
+  },
+  {
+    "name": "gamekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/gamekit",
+    "searchable": "gamekit agents_canonical"
+  },
+  {
+    "name": "github-deep-research",
+    "source": "agents_canonical",
+    "id": "agents_canonical/github-deep-research",
+    "searchable": "github-deep-research agents_canonical"
+  },
+  {
+    "name": "healthkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/healthkit",
+    "searchable": "healthkit agents_canonical"
+  },
+  {
+    "name": "homekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/homekit",
+    "searchable": "homekit agents_canonical"
+  },
+  {
+    "name": "ios-accessibility",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-accessibility",
+    "searchable": "ios-accessibility agents_canonical"
+  },
+  {
+    "name": "ios-ai-integration",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-ai-integration",
+    "searchable": "ios-ai-integration agents_canonical"
+  },
+  {
+    "name": "ios-animation-master",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-animation-master",
+    "searchable": "ios-animation-master agents_canonical"
+  },
+  {
+    "name": "ios-camera-ar-pipeline",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-camera-ar-pipeline",
+    "searchable": "ios-camera-ar-pipeline agents_canonical"
+  },
+  {
+    "name": "ios-data-persistence",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-data-persistence",
+    "searchable": "ios-data-persistence agents_canonical"
+  },
+  {
+    "name": "ios-deep-link-universal",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-deep-link-universal",
+    "searchable": "ios-deep-link-universal agents_canonical"
+  },
+  {
+    "name": "ios-ettrace-performance",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-ettrace-performance",
+    "searchable": "ios-ettrace-performance agents_canonical"
+  },
+  {
+    "name": "ios-fullstack",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-fullstack",
+    "searchable": "ios-fullstack agents_canonical"
+  },
+  {
+    "name": "ios-localization",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-localization",
+    "searchable": "ios-localization agents_canonical"
+  },
+  {
+    "name": "ios-memgraph-analysis",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-memgraph-analysis",
+    "searchable": "ios-memgraph-analysis agents_canonical"
+  },
+  {
+    "name": "ios-networking",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-networking",
+    "searchable": "ios-networking agents_canonical"
+  },
+  {
+    "name": "ios-offline-first",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-offline-first",
+    "searchable": "ios-offline-first agents_canonical"
+  },
+  {
+    "name": "ios-performance-debug",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-performance-debug",
+    "searchable": "ios-performance-debug agents_canonical"
+  },
+  {
+    "name": "ios-release-polish",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-release-polish",
+    "searchable": "ios-release-polish agents_canonical"
+  },
+  {
+    "name": "ios-security-auth",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-security-auth",
+    "searchable": "ios-security-auth agents_canonical"
+  },
+  {
+    "name": "ios-simulator",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-simulator",
+    "searchable": "ios-simulator agents_canonical"
+  },
+  {
+    "name": "ios-swift-development",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ios-swift-development",
+    "searchable": "ios-swift-development agents_canonical"
+  },
+  {
+    "name": "macos-gui-automation",
+    "source": "agents_canonical",
+    "id": "agents_canonical/macos-gui-automation",
+    "searchable": "macos-gui-automation agents_canonical"
+  },
+  {
+    "name": "mapkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/mapkit",
+    "searchable": "mapkit agents_canonical"
+  },
+  {
+    "name": "metrickit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/metrickit",
+    "searchable": "metrickit agents_canonical"
+  },
+  {
+    "name": "microsoft-foundry",
+    "source": "agents_canonical",
+    "id": "agents_canonical/microsoft-foundry",
+    "searchable": "microsoft-foundry agents_canonical"
+  },
+  {
+    "name": "microsoft-foundry/finetuning",
+    "source": "agents_canonical",
+    "id": "agents_canonical/microsoft-foundry/finetuning",
+    "searchable": "microsoft-foundry/finetuning agents_canonical"
+  },
+  {
+    "name": "microsoft-foundry/models/deploy-model",
+    "source": "agents_canonical",
+    "id": "agents_canonical/microsoft-foundry/models/deploy-model",
+    "searchable": "microsoft-foundry/models/deploy-model agents_canonical"
+  },
+  {
+    "name": "microsoft-foundry/models/deploy-model/capacity",
+    "source": "agents_canonical",
+    "id": "agents_canonical/microsoft-foundry/models/deploy-model/capacity",
+    "searchable": "microsoft-foundry/models/deploy-model/capacity agents_canonical"
+  },
+  {
+    "name": "microsoft-foundry/models/deploy-model/customize",
+    "source": "agents_canonical",
+    "id": "agents_canonical/microsoft-foundry/models/deploy-model/customize",
+    "searchable": "microsoft-foundry/models/deploy-model/customize agents_canonical"
+  },
+  {
+    "name": "microsoft-foundry/models/deploy-model/preset",
+    "source": "agents_canonical",
+    "id": "agents_canonical/microsoft-foundry/models/deploy-model/preset",
+    "searchable": "microsoft-foundry/models/deploy-model/preset agents_canonical"
+  },
+  {
+    "name": "modern-web-guidance",
+    "source": "agents_canonical",
+    "id": "agents_canonical/modern-web-guidance",
+    "searchable": "modern-web-guidance agents_canonical"
+  },
+  {
+    "name": "musickit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/musickit",
+    "searchable": "musickit agents_canonical"
+  },
+  {
+    "name": "natural-language",
+    "source": "agents_canonical",
+    "id": "agents_canonical/natural-language",
+    "searchable": "natural-language agents_canonical"
+  },
+  {
+    "name": "osint-datasets",
+    "source": "agents_canonical",
+    "id": "agents_canonical/osint-datasets",
+    "searchable": "osint-datasets agents_canonical"
+  },
+  {
+    "name": "paperkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/paperkit",
+    "searchable": "paperkit agents_canonical"
+  },
+  {
+    "name": "parallel-deep-research",
+    "source": "agents_canonical",
+    "id": "agents_canonical/parallel-deep-research",
+    "searchable": "parallel-deep-research agents_canonical"
+  },
+  {
+    "name": "passkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/passkit",
+    "searchable": "passkit agents_canonical"
+  },
+  {
+    "name": "pdfkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/pdfkit",
+    "searchable": "pdfkit agents_canonical"
+  },
+  {
+    "name": "pencilkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/pencilkit",
+    "searchable": "pencilkit agents_canonical"
+  },
+  {
+    "name": "permissionkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/permissionkit",
+    "searchable": "permissionkit agents_canonical"
+  },
+  {
+    "name": "photokit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/photokit",
+    "searchable": "photokit agents_canonical"
+  },
+  {
+    "name": "pop-motion",
+    "source": "agents_canonical",
+    "id": "agents_canonical/pop-motion",
+    "searchable": "pop-motion agents_canonical"
+  },
+  {
+    "name": "progress-report",
+    "source": "agents_canonical",
+    "id": "agents_canonical/progress-report",
+    "searchable": "progress-report agents_canonical"
+  },
+  {
+    "name": "push-notifications",
+    "source": "agents_canonical",
+    "id": "agents_canonical/push-notifications",
+    "searchable": "push-notifications agents_canonical"
+  },
+  {
+    "name": "realitykit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/realitykit",
+    "searchable": "realitykit agents_canonical"
+  },
+  {
+    "name": "relevancekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/relevancekit",
+    "searchable": "relevancekit agents_canonical"
+  },
+  {
+    "name": "scenekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/scenekit",
+    "searchable": "scenekit agents_canonical"
+  },
+  {
+    "name": "sensorkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/sensorkit",
+    "searchable": "sensorkit agents_canonical"
+  },
+  {
+    "name": "shareplay-activities",
+    "source": "agents_canonical",
+    "id": "agents_canonical/shareplay-activities",
+    "searchable": "shareplay-activities agents_canonical"
+  },
+  {
+    "name": "skill-workflow",
+    "source": "agents_canonical",
+    "id": "agents_canonical/skill-workflow",
+    "searchable": "skill-workflow agents_canonical"
+  },
+  {
+    "name": "speech-recognition",
+    "source": "agents_canonical",
+    "id": "agents_canonical/speech-recognition",
+    "searchable": "speech-recognition agents_canonical"
+  },
+  {
+    "name": "spm-build-analysis",
+    "source": "agents_canonical",
+    "id": "agents_canonical/spm-build-analysis",
+    "searchable": "spm-build-analysis agents_canonical"
+  },
+  {
+    "name": "spritekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/spritekit",
+    "searchable": "spritekit agents_canonical"
+  },
+  {
+    "name": "storekit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/storekit",
+    "searchable": "storekit agents_canonical"
+  },
+  {
+    "name": "swift-api-design-guidelines",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-api-design-guidelines",
+    "searchable": "swift-api-design-guidelines agents_canonical"
+  },
+  {
+    "name": "swift-architecture",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-architecture",
+    "searchable": "swift-architecture agents_canonical"
+  },
+  {
+    "name": "swift-charts",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-charts",
+    "searchable": "swift-charts agents_canonical"
+  },
+  {
+    "name": "swift-codable",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-codable",
+    "searchable": "swift-codable agents_canonical"
+  },
+  {
+    "name": "swift-concurrency",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-concurrency",
+    "searchable": "swift-concurrency agents_canonical"
+  },
+  {
+    "name": "swift-formatstyle",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-formatstyle",
+    "searchable": "swift-formatstyle agents_canonical"
+  },
+  {
+    "name": "swift-language",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-language",
+    "searchable": "swift-language agents_canonical"
+  },
+  {
+    "name": "swift-security",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-security",
+    "searchable": "swift-security agents_canonical"
+  },
+  {
+    "name": "swift-testing",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swift-testing",
+    "searchable": "swift-testing agents_canonical"
+  },
+  {
+    "name": "swiftdata",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftdata",
+    "searchable": "swiftdata agents_canonical"
+  },
+  {
+    "name": "swiftlint",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftlint",
+    "searchable": "swiftlint agents_canonical"
+  },
+  {
+    "name": "swiftui-animation",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-animation",
+    "searchable": "swiftui-animation agents_canonical"
+  },
+  {
+    "name": "swiftui-gestures",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-gestures",
+    "searchable": "swiftui-gestures agents_canonical"
+  },
+  {
+    "name": "swiftui-layout-components",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-layout-components",
+    "searchable": "swiftui-layout-components agents_canonical"
+  },
+  {
+    "name": "swiftui-liquid-glass",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-liquid-glass",
+    "searchable": "swiftui-liquid-glass agents_canonical"
+  },
+  {
+    "name": "swiftui-navigation",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-navigation",
+    "searchable": "swiftui-navigation agents_canonical"
+  },
+  {
+    "name": "swiftui-patterns",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-patterns",
+    "searchable": "swiftui-patterns agents_canonical"
+  },
+  {
+    "name": "swiftui-performance",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-performance",
+    "searchable": "swiftui-performance agents_canonical"
+  },
+  {
+    "name": "swiftui-uikit-interop",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-uikit-interop",
+    "searchable": "swiftui-uikit-interop agents_canonical"
+  },
+  {
+    "name": "swiftui-webkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/swiftui-webkit",
+    "searchable": "swiftui-webkit agents_canonical"
+  },
+  {
+    "name": "systematic-debugging",
+    "source": "agents_canonical",
+    "id": "agents_canonical/systematic-debugging",
+    "searchable": "systematic-debugging agents_canonical"
+  },
+  {
+    "name": "tabletopkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/tabletopkit",
+    "searchable": "tabletopkit agents_canonical"
+  },
+  {
+    "name": "test-driven-development",
+    "source": "agents_canonical",
+    "id": "agents_canonical/test-driven-development",
+    "searchable": "test-driven-development agents_canonical"
+  },
+  {
+    "name": "tipkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/tipkit",
+    "searchable": "tipkit agents_canonical"
+  },
+  {
+    "name": "tools-ui",
+    "source": "agents_canonical",
+    "id": "agents_canonical/tools-ui",
+    "searchable": "tools-ui agents_canonical"
+  },
+  {
+    "name": "ui-ux-pro-max",
+    "source": "agents_canonical",
+    "id": "agents_canonical/ui-ux-pro-max",
+    "searchable": "ui-ux-pro-max agents_canonical"
+  },
+  {
+    "name": "using-superpowers",
+    "source": "agents_canonical",
+    "id": "agents_canonical/using-superpowers",
+    "searchable": "using-superpowers agents_canonical"
+  },
+  {
+    "name": "vision-framework",
+    "source": "agents_canonical",
+    "id": "agents_canonical/vision-framework",
+    "searchable": "vision-framework agents_canonical"
+  },
+  {
+    "name": "weatherkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/weatherkit",
+    "searchable": "weatherkit agents_canonical"
+  },
+  {
+    "name": "web-artifacts-builder",
+    "source": "agents_canonical",
+    "id": "agents_canonical/web-artifacts-builder",
+    "searchable": "web-artifacts-builder agents_canonical"
+  },
+  {
+    "name": "web-search",
+    "source": "agents_canonical",
+    "id": "agents_canonical/web-search",
+    "searchable": "web-search agents_canonical"
+  },
+  {
+    "name": "widgetkit",
+    "source": "agents_canonical",
+    "id": "agents_canonical/widgetkit",
+    "searchable": "widgetkit agents_canonical"
+  },
+  {
+    "name": "writing-plans",
+    "source": "agents_canonical",
+    "id": "agents_canonical/writing-plans",
+    "searchable": "writing-plans agents_canonical"
+  },
+  {
+    "name": "xcode-build-benchmark",
+    "source": "agents_canonical",
+    "id": "agents_canonical/xcode-build-benchmark",
+    "searchable": "xcode-build-benchmark agents_canonical"
+  },
+  {
+    "name": "xcode-build-fixer",
+    "source": "agents_canonical",
+    "id": "agents_canonical/xcode-build-fixer",
+    "searchable": "xcode-build-fixer agents_canonical"
+  },
+  {
+    "name": "xcode-build-orchestrator",
+    "source": "agents_canonical",
+    "id": "agents_canonical/xcode-build-orchestrator",
+    "searchable": "xcode-build-orchestrator agents_canonical"
+  },
+  {
+    "name": "xcode-compilation-analyzer",
+    "source": "agents_canonical",
+    "id": "agents_canonical/xcode-compilation-analyzer",
+    "searchable": "xcode-compilation-analyzer agents_canonical"
+  },
+  {
+    "name": "xcode-project-analyzer",
+    "source": "agents_canonical",
+    "id": "agents_canonical/xcode-project-analyzer",
+    "searchable": "xcode-project-analyzer agents_canonical"
+  },
+  {
+    "name": "xcode-project-setup",
+    "source": "agents_canonical",
+    "id": "agents_canonical/xcode-project-setup",
+    "searchable": "xcode-project-setup agents_canonical"
+  },
+  {
+    "name": "ai-automation-workflows",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-automation-workflows",
+    "searchable": "ai-automation-workflows agents_archive"
+  },
+  {
+    "name": "ai-avatar-video",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-avatar-video",
+    "searchable": "ai-avatar-video agents_archive"
+  },
+  {
+    "name": "ai-content-pipeline",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-content-pipeline",
+    "searchable": "ai-content-pipeline agents_archive"
+  },
+  {
+    "name": "ai-image-generation",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-image-generation",
+    "searchable": "ai-image-generation agents_archive"
+  },
+  {
+    "name": "ai-marketing-videos",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-marketing-videos",
+    "searchable": "ai-marketing-videos agents_archive"
+  },
+  {
+    "name": "ai-music-generation",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-music-generation",
+    "searchable": "ai-music-generation agents_archive"
+  },
+  {
+    "name": "ai-podcast-creation",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-podcast-creation",
+    "searchable": "ai-podcast-creation agents_archive"
+  },
+  {
+    "name": "ai-product-photography",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-product-photography",
+    "searchable": "ai-product-photography agents_archive"
+  },
+  {
+    "name": "ai-rag-pipeline",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-rag-pipeline",
+    "searchable": "ai-rag-pipeline agents_archive"
+  },
+  {
+    "name": "ai-social-media-content",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-social-media-content",
+    "searchable": "ai-social-media-content agents_archive"
+  },
+  {
+    "name": "ai-video-generation",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-video-generation",
+    "searchable": "ai-video-generation agents_archive"
+  },
+  {
+    "name": "ai-voice-cloning",
+    "source": "agents_archive",
+    "id": "agents_archive/ai-voice-cloning",
+    "searchable": "ai-voice-cloning agents_archive"
+  },
+  {
+    "name": "algorithmic-art",
+    "source": "agents_archive",
+    "id": "agents_archive/algorithmic-art",
+    "searchable": "algorithmic-art agents_archive"
+  },
+  {
+    "name": "app-store-screenshots",
+    "source": "agents_archive",
+    "id": "agents_archive/app-store-screenshots",
+    "searchable": "app-store-screenshots agents_archive"
+  },
+  {
+    "name": "audit-website",
+    "source": "agents_archive",
+    "id": "agents_archive/audit-website",
+    "searchable": "audit-website agents_archive"
+  },
+  {
+    "name": "background-removal",
+    "source": "agents_archive",
+    "id": "agents_archive/background-removal",
+    "searchable": "background-removal agents_archive"
+  },
+  {
+    "name": "book-cover-design",
+    "source": "agents_archive",
+    "id": "agents_archive/book-cover-design",
+    "searchable": "book-cover-design agents_archive"
+  },
+  {
+    "name": "brand-guidelines",
+    "source": "agents_archive",
+    "id": "agents_archive/brand-guidelines",
+    "searchable": "brand-guidelines agents_archive"
+  },
+  {
+    "name": "building-inferencesh-apps",
+    "source": "agents_archive",
+    "id": "agents_archive/building-inferencesh-apps",
+    "searchable": "building-inferencesh-apps agents_archive"
+  },
+  {
+    "name": "canvas-design",
+    "source": "agents_archive",
+    "id": "agents_archive/canvas-design",
+    "searchable": "canvas-design agents_archive"
+  },
+  {
+    "name": "case-study-writing",
+    "source": "agents_archive",
+    "id": "agents_archive/case-study-writing",
+    "searchable": "case-study-writing agents_archive"
+  },
+  {
+    "name": "character-design-sheet",
+    "source": "agents_archive",
+    "id": "agents_archive/character-design-sheet",
+    "searchable": "character-design-sheet agents_archive"
+  },
+  {
+    "name": "chat-ui",
+    "source": "agents_archive",
+    "id": "agents_archive/chat-ui",
+    "searchable": "chat-ui agents_archive"
+  },
+  {
+    "name": "ckm-banner-design",
+    "source": "agents_archive",
+    "id": "agents_archive/ckm-banner-design",
+    "searchable": "ckm-banner-design agents_archive"
+  },
+  {
+    "name": "ckm-brand",
+    "source": "agents_archive",
+    "id": "agents_archive/ckm-brand",
+    "searchable": "ckm-brand agents_archive"
+  },
+  {
+    "name": "ckm-design",
+    "source": "agents_archive",
+    "id": "agents_archive/ckm-design",
+    "searchable": "ckm-design agents_archive"
+  },
+  {
+    "name": "ckm-design-system",
+    "source": "agents_archive",
+    "id": "agents_archive/ckm-design-system",
+    "searchable": "ckm-design-system agents_archive"
+  },
+  {
+    "name": "ckm-slides",
+    "source": "agents_archive",
+    "id": "agents_archive/ckm-slides",
+    "searchable": "ckm-slides agents_archive"
+  },
+  {
+    "name": "ckm-ui-styling",
+    "source": "agents_archive",
+    "id": "agents_archive/ckm-ui-styling",
+    "searchable": "ckm-ui-styling agents_archive"
+  },
+  {
+    "name": "claude-api",
+    "source": "agents_archive",
+    "id": "agents_archive/claude-api",
+    "searchable": "claude-api agents_archive"
+  },
+  {
+    "name": "competitor-teardown",
+    "source": "agents_archive",
+    "id": "agents_archive/competitor-teardown",
+    "searchable": "competitor-teardown agents_archive"
+  },
+  {
+    "name": "content-repurposing",
+    "source": "agents_archive",
+    "id": "agents_archive/content-repurposing",
+    "searchable": "content-repurposing agents_archive"
+  },
+  {
+    "name": "customer-persona",
+    "source": "agents_archive",
+    "id": "agents_archive/customer-persona",
+    "searchable": "customer-persona agents_archive"
+  },
+  {
+    "name": "data-visualization",
+    "source": "agents_archive",
+    "id": "agents_archive/data-visualization",
+    "searchable": "data-visualization agents_archive"
+  },
+  {
+    "name": "dialogue-audio",
+    "source": "agents_archive",
+    "id": "agents_archive/dialogue-audio",
+    "searchable": "dialogue-audio agents_archive"
+  },
+  {
+    "name": "dispatching-parallel-agents",
+    "source": "agents_archive",
+    "id": "agents_archive/dispatching-parallel-agents",
+    "searchable": "dispatching-parallel-agents agents_archive"
+  },
+  {
+    "name": "doc-coauthoring",
+    "source": "agents_archive",
+    "id": "agents_archive/doc-coauthoring",
+    "searchable": "doc-coauthoring agents_archive"
+  },
+  {
+    "name": "docx",
+    "source": "agents_archive",
+    "id": "agents_archive/docx",
+    "searchable": "docx agents_archive"
+  },
+  {
+    "name": "dogfood",
+    "source": "agents_archive",
+    "id": "agents_archive/dogfood",
+    "searchable": "dogfood agents_archive"
+  },
+  {
+    "name": "electron",
+    "source": "agents_archive",
+    "id": "agents_archive/electron",
+    "searchable": "electron agents_archive"
+  },
+  {
+    "name": "elevenlabs-dialogue",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-dialogue",
+    "searchable": "elevenlabs-dialogue agents_archive"
+  },
+  {
+    "name": "elevenlabs-dubbing",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-dubbing",
+    "searchable": "elevenlabs-dubbing agents_archive"
+  },
+  {
+    "name": "elevenlabs-music",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-music",
+    "searchable": "elevenlabs-music agents_archive"
+  },
+  {
+    "name": "elevenlabs-sound-effects",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-sound-effects",
+    "searchable": "elevenlabs-sound-effects agents_archive"
+  },
+  {
+    "name": "elevenlabs-stt",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-stt",
+    "searchable": "elevenlabs-stt agents_archive"
+  },
+  {
+    "name": "elevenlabs-tts",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-tts",
+    "searchable": "elevenlabs-tts agents_archive"
+  },
+  {
+    "name": "elevenlabs-voice-changer",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-voice-changer",
+    "searchable": "elevenlabs-voice-changer agents_archive"
+  },
+  {
+    "name": "elevenlabs-voice-isolator",
+    "source": "agents_archive",
+    "id": "agents_archive/elevenlabs-voice-isolator",
+    "searchable": "elevenlabs-voice-isolator agents_archive"
+  },
+  {
+    "name": "email-design",
+    "source": "agents_archive",
+    "id": "agents_archive/email-design",
+    "searchable": "email-design agents_archive"
+  },
+  {
+    "name": "explainer-video-guide",
+    "source": "agents_archive",
+    "id": "agents_archive/explainer-video-guide",
+    "searchable": "explainer-video-guide agents_archive"
+  },
+  {
+    "name": "finishing-a-development-branch",
+    "source": "agents_archive",
+    "id": "agents_archive/finishing-a-development-branch",
+    "searchable": "finishing-a-development-branch agents_archive"
+  },
+  {
+    "name": "flux-image",
+    "source": "agents_archive",
+    "id": "agents_archive/flux-image",
+    "searchable": "flux-image agents_archive"
+  },
+  {
+    "name": "google-veo",
+    "source": "agents_archive",
+    "id": "agents_archive/google-veo",
+    "searchable": "google-veo agents_archive"
+  },
+  {
+    "name": "image-to-video",
+    "source": "agents_archive",
+    "id": "agents_archive/image-to-video",
+    "searchable": "image-to-video agents_archive"
+  },
+  {
+    "name": "image-upscaling",
+    "source": "agents_archive",
+    "id": "agents_archive/image-upscaling",
+    "searchable": "image-upscaling agents_archive"
+  },
+  {
+    "name": "infsh-cli",
+    "source": "agents_archive",
+    "id": "agents_archive/infsh-cli",
+    "searchable": "infsh-cli agents_archive"
+  },
+  {
+    "name": "internal-comms",
+    "source": "agents_archive",
+    "id": "agents_archive/internal-comms",
+    "searchable": "internal-comms agents_archive"
+  },
+  {
+    "name": "javascript-sdk",
+    "source": "agents_archive",
+    "id": "agents_archive/javascript-sdk",
+    "searchable": "javascript-sdk agents_archive"
+  },
+  {
+    "name": "landing-page-design",
+    "source": "agents_archive",
+    "id": "agents_archive/landing-page-design",
+    "searchable": "landing-page-design agents_archive"
+  },
+  {
+    "name": "linkedin-content",
+    "source": "agents_archive",
+    "id": "agents_archive/linkedin-content",
+    "searchable": "linkedin-content agents_archive"
+  },
+  {
+    "name": "llm-models",
+    "source": "agents_archive",
+    "id": "agents_archive/llm-models",
+    "searchable": "llm-models agents_archive"
+  },
+  {
+    "name": "logo-design-guide",
+    "source": "agents_archive",
+    "id": "agents_archive/logo-design-guide",
+    "searchable": "logo-design-guide agents_archive"
+  },
+  {
+    "name": "mcp-builder",
+    "source": "agents_archive",
+    "id": "agents_archive/mcp-builder",
+    "searchable": "mcp-builder agents_archive"
+  },
+  {
+    "name": "nano-banana",
+    "source": "agents_archive",
+    "id": "agents_archive/nano-banana",
+    "searchable": "nano-banana agents_archive"
+  },
+  {
+    "name": "nano-banana-2",
+    "source": "agents_archive",
+    "id": "agents_archive/nano-banana-2",
+    "searchable": "nano-banana-2 agents_archive"
+  },
+  {
+    "name": "newsletter-curation",
+    "source": "agents_archive",
+    "id": "agents_archive/newsletter-curation",
+    "searchable": "newsletter-curation agents_archive"
+  },
+  {
+    "name": "og-image-design",
+    "source": "agents_archive",
+    "id": "agents_archive/og-image-design",
+    "searchable": "og-image-design agents_archive"
+  },
+  {
+    "name": "p-image",
+    "source": "agents_archive",
+    "id": "agents_archive/p-image",
+    "searchable": "p-image agents_archive"
+  },
+  {
+    "name": "p-video",
+    "source": "agents_archive",
+    "id": "agents_archive/p-video",
+    "searchable": "p-video agents_archive"
+  },
+  {
+    "name": "pdf",
+    "source": "agents_archive",
+    "id": "agents_archive/pdf",
+    "searchable": "pdf agents_archive"
+  },
+  {
+    "name": "pitch-deck-visuals",
+    "source": "agents_archive",
+    "id": "agents_archive/pitch-deck-visuals",
+    "searchable": "pitch-deck-visuals agents_archive"
+  },
+  {
+    "name": "pptx",
+    "source": "agents_archive",
+    "id": "agents_archive/pptx",
+    "searchable": "pptx agents_archive"
+  },
+  {
+    "name": "press-release-writing",
+    "source": "agents_archive",
+    "id": "agents_archive/press-release-writing",
+    "searchable": "press-release-writing agents_archive"
+  },
+  {
+    "name": "product-changelog",
+    "source": "agents_archive",
+    "id": "agents_archive/product-changelog",
+    "searchable": "product-changelog agents_archive"
+  },
+  {
+    "name": "product-hunt-launch",
+    "source": "agents_archive",
+    "id": "agents_archive/product-hunt-launch",
+    "searchable": "product-hunt-launch agents_archive"
+  },
+  {
+    "name": "product-photography",
+    "source": "agents_archive",
+    "id": "agents_archive/product-photography",
+    "searchable": "product-photography agents_archive"
+  },
+  {
+    "name": "prompt-engineering",
+    "source": "agents_archive",
+    "id": "agents_archive/prompt-engineering",
+    "searchable": "prompt-engineering agents_archive"
+  },
+  {
+    "name": "python-executor",
+    "source": "agents_archive",
+    "id": "agents_archive/python-executor",
+    "searchable": "python-executor agents_archive"
+  },
+  {
+    "name": "python-sdk",
+    "source": "agents_archive",
+    "id": "agents_archive/python-sdk",
+    "searchable": "python-sdk agents_archive"
+  },
+  {
+    "name": "qwen-image-2",
+    "source": "agents_archive",
+    "id": "agents_archive/qwen-image-2",
+    "searchable": "qwen-image-2 agents_archive"
+  },
+  {
+    "name": "qwen-image-2-pro",
+    "source": "agents_archive",
+    "id": "agents_archive/qwen-image-2-pro",
+    "searchable": "qwen-image-2-pro agents_archive"
+  },
+  {
+    "name": "receiving-code-review",
+    "source": "agents_archive",
+    "id": "agents_archive/receiving-code-review",
+    "searchable": "receiving-code-review agents_archive"
+  },
+  {
+    "name": "related-skill",
+    "source": "agents_archive",
+    "id": "agents_archive/related-skill",
+    "searchable": "related-skill agents_archive"
+  },
+  {
+    "name": "remotion-render",
+    "source": "agents_archive",
+    "id": "agents_archive/remotion-render",
+    "searchable": "remotion-render agents_archive"
+  },
+  {
+    "name": "requesting-code-review",
+    "source": "agents_archive",
+    "id": "agents_archive/requesting-code-review",
+    "searchable": "requesting-code-review agents_archive"
+  },
+  {
+    "name": "seo-content-brief",
+    "source": "agents_archive",
+    "id": "agents_archive/seo-content-brief",
+    "searchable": "seo-content-brief agents_archive"
+  },
+  {
+    "name": "skill-creator",
+    "source": "agents_archive",
+    "id": "agents_archive/skill-creator",
+    "searchable": "skill-creator agents_archive"
+  },
+  {
+    "name": "slack",
+    "source": "agents_archive",
+    "id": "agents_archive/slack",
+    "searchable": "slack agents_archive"
+  },
+  {
+    "name": "slack-gif-creator",
+    "source": "agents_archive",
+    "id": "agents_archive/slack-gif-creator",
+    "searchable": "slack-gif-creator agents_archive"
+  },
+  {
+    "name": "social-media-carousel",
+    "source": "agents_archive",
+    "id": "agents_archive/social-media-carousel",
+    "searchable": "social-media-carousel agents_archive"
+  },
+  {
+    "name": "speech-to-text",
+    "source": "agents_archive",
+    "id": "agents_archive/speech-to-text",
+    "searchable": "speech-to-text agents_archive"
+  },
+  {
+    "name": "storyboard-creation",
+    "source": "agents_archive",
+    "id": "agents_archive/storyboard-creation",
+    "searchable": "storyboard-creation agents_archive"
+  },
+  {
+    "name": "subagent-driven-development",
+    "source": "agents_archive",
+    "id": "agents_archive/subagent-driven-development",
+    "searchable": "subagent-driven-development agents_archive"
+  },
+  {
+    "name": "talking-head-production",
+    "source": "agents_archive",
+    "id": "agents_archive/talking-head-production",
+    "searchable": "talking-head-production agents_archive"
+  },
+  {
+    "name": "technical-blog-writing",
+    "source": "agents_archive",
+    "id": "agents_archive/technical-blog-writing",
+    "searchable": "technical-blog-writing agents_archive"
+  },
+  {
+    "name": "template-skill",
+    "source": "agents_archive",
+    "id": "agents_archive/template-skill",
+    "searchable": "template-skill agents_archive"
+  },
+  {
+    "name": "text-to-speech",
+    "source": "agents_archive",
+    "id": "agents_archive/text-to-speech",
+    "searchable": "text-to-speech agents_archive"
+  },
+  {
+    "name": "theme-factory",
+    "source": "agents_archive",
+    "id": "agents_archive/theme-factory",
+    "searchable": "theme-factory agents_archive"
+  },
+  {
+    "name": "twitter-automation",
+    "source": "agents_archive",
+    "id": "agents_archive/twitter-automation",
+    "searchable": "twitter-automation agents_archive"
+  },
+  {
+    "name": "twitter-thread-creation",
+    "source": "agents_archive",
+    "id": "agents_archive/twitter-thread-creation",
+    "searchable": "twitter-thread-creation agents_archive"
+  },
+  {
+    "name": "using-git-worktrees",
+    "source": "agents_archive",
+    "id": "agents_archive/using-git-worktrees",
+    "searchable": "using-git-worktrees agents_archive"
+  },
+  {
+    "name": "vercel-sandbox",
+    "source": "agents_archive",
+    "id": "agents_archive/vercel-sandbox",
+    "searchable": "vercel-sandbox agents_archive"
+  },
+  {
+    "name": "verification-before-completion",
+    "source": "agents_archive",
+    "id": "agents_archive/verification-before-completion",
+    "searchable": "verification-before-completion agents_archive"
+  },
+  {
+    "name": "video-ad-specs",
+    "source": "agents_archive",
+    "id": "agents_archive/video-ad-specs",
+    "searchable": "video-ad-specs agents_archive"
+  },
+  {
+    "name": "video-prompting-guide",
+    "source": "agents_archive",
+    "id": "agents_archive/video-prompting-guide",
+    "searchable": "video-prompting-guide agents_archive"
+  },
+  {
+    "name": "webapp-testing",
+    "source": "agents_archive",
+    "id": "agents_archive/webapp-testing",
+    "searchable": "webapp-testing agents_archive"
+  },
+  {
+    "name": "widgets-ui",
+    "source": "agents_archive",
+    "id": "agents_archive/widgets-ui",
+    "searchable": "widgets-ui agents_archive"
+  },
+  {
+    "name": "writing-skills",
+    "source": "agents_archive",
+    "id": "agents_archive/writing-skills",
+    "searchable": "writing-skills agents_archive"
+  },
+  {
+    "name": "xlsx",
+    "source": "agents_archive",
+    "id": "agents_archive/xlsx",
+    "searchable": "xlsx agents_archive"
+  },
+  {
+    "name": "youtube-thumbnail-design",
+    "source": "agents_archive",
+    "id": "agents_archive/youtube-thumbnail-design",
+    "searchable": "youtube-thumbnail-design agents_archive"
+  },
+  {
+    "name": "chain-orchestrator",
+    "source": "opencode",
+    "id": "opencode/chain-orchestrator",
+    "searchable": "chain-orchestrator opencode"
+  },
+  {
+    "name": "code-doctor",
+    "source": "opencode",
+    "id": "opencode/code-doctor",
+    "searchable": "code-doctor opencode"
+  },
+  {
+    "name": "hallmark",
+    "source": "opencode",
+    "id": "opencode/hallmark",
+    "searchable": "hallmark opencode"
+  },
+  {
+    "name": "ASR",
+    "source": "saaas_primary",
+    "id": "saaas_primary/ASR",
+    "searchable": "asr saaas_primary"
+  },
+  {
+    "name": "LLM",
+    "source": "saaas_primary",
+    "id": "saaas_primary/LLM",
+    "searchable": "llm saaas_primary"
+  },
+  {
+    "name": "TTS",
+    "source": "saaas_primary",
+    "id": "saaas_primary/TTS",
+    "searchable": "tts saaas_primary"
+  },
+  {
+    "name": "VLM",
+    "source": "saaas_primary",
+    "id": "saaas_primary/VLM",
+    "searchable": "vlm saaas_primary"
+  },
+  {
+    "name": "code-review",
+    "source": "saaas_primary",
+    "id": "saaas_primary/code-review",
+    "searchable": "code-review saaas_primary"
+  },
+  {
+    "name": "docx",
+    "source": "saaas_primary",
+    "id": "saaas_primary/docx",
+    "searchable": "docx saaas_primary"
+  },
+  {
+    "name": "frontend-design",
+    "source": "saaas_primary",
+    "id": "saaas_primary/frontend-design",
+    "searchable": "frontend-design saaas_primary"
+  },
+  {
+    "name": "image-generation",
+    "source": "saaas_primary",
+    "id": "saaas_primary/image-generation",
+    "searchable": "image-generation saaas_primary"
+  },
+  {
+    "name": "pdf",
+    "source": "saaas_primary",
+    "id": "saaas_primary/pdf",
+    "searchable": "pdf saaas_primary"
+  },
+  {
+    "name": "pptx",
+    "source": "saaas_primary",
+    "id": "saaas_primary/pptx",
+    "searchable": "pptx saaas_primary"
+  },
+  {
+    "name": "video-generation",
+    "source": "saaas_primary",
+    "id": "saaas_primary/video-generation",
+    "searchable": "video-generation saaas_primary"
+  },
+  {
+    "name": "web-reader",
+    "source": "saaas_primary",
+    "id": "saaas_primary/web-reader",
+    "searchable": "web-reader saaas_primary"
+  },
+  {
+    "name": "web-search",
+    "source": "saaas_primary",
+    "id": "saaas_primary/web-search",
+    "searchable": "web-search saaas_primary"
+  },
+  {
+    "name": "xlsx",
+    "source": "saaas_primary",
+    "id": "saaas_primary/xlsx",
+    "searchable": "xlsx saaas_primary"
+  },
+  {
+    "name": "ASR",
+    "source": "saaas_toto",
+    "id": "saaas_toto/ASR",
+    "searchable": "asr saaas_toto"
+  },
+  {
+    "name": "LLM",
+    "source": "saaas_toto",
+    "id": "saaas_toto/LLM",
+    "searchable": "llm saaas_toto"
+  },
+  {
+    "name": "TTS",
+    "source": "saaas_toto",
+    "id": "saaas_toto/TTS",
+    "searchable": "tts saaas_toto"
+  },
+  {
+    "name": "VLM",
+    "source": "saaas_toto",
+    "id": "saaas_toto/VLM",
+    "searchable": "vlm saaas_toto"
+  },
+  {
+    "name": "code-review",
+    "source": "saaas_toto",
+    "id": "saaas_toto/code-review",
+    "searchable": "code-review saaas_toto"
+  },
+  {
+    "name": "docx",
+    "source": "saaas_toto",
+    "id": "saaas_toto/docx",
+    "searchable": "docx saaas_toto"
+  },
+  {
+    "name": "frontend-design",
+    "source": "saaas_toto",
+    "id": "saaas_toto/frontend-design",
+    "searchable": "frontend-design saaas_toto"
+  },
+  {
+    "name": "image-generation",
+    "source": "saaas_toto",
+    "id": "saaas_toto/image-generation",
+    "searchable": "image-generation saaas_toto"
+  },
+  {
+    "name": "pdf",
+    "source": "saaas_toto",
+    "id": "saaas_toto/pdf",
+    "searchable": "pdf saaas_toto"
+  },
+  {
+    "name": "pptx",
+    "source": "saaas_toto",
+    "id": "saaas_toto/pptx",
+    "searchable": "pptx saaas_toto"
+  },
+  {
+    "name": "video-generation",
+    "source": "saaas_toto",
+    "id": "saaas_toto/video-generation",
+    "searchable": "video-generation saaas_toto"
+  },
+  {
+    "name": "web-reader",
+    "source": "saaas_toto",
+    "id": "saaas_toto/web-reader",
+    "searchable": "web-reader saaas_toto"
+  },
+  {
+    "name": "web-search",
+    "source": "saaas_toto",
+    "id": "saaas_toto/web-search",
+    "searchable": "web-search saaas_toto"
+  },
+  {
+    "name": "xlsx",
+    "source": "saaas_toto",
+    "id": "saaas_toto/xlsx",
+    "searchable": "xlsx saaas_toto"
+  }
+]

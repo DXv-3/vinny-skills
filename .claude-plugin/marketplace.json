@@ -1,0 +1,33 @@
+{
+  "name": "vinny-skills",
+  "owner": {
+    "name": "Vinny Gilberti"
+  },
+  "plugins": [
+    {
+      "name": "agents-canonical",
+      "source": "./skills/agents-canonical",
+      "description": "141 skills from agents_canonical"
+    },
+    {
+      "name": "agents-archive",
+      "source": "./skills/agents-archive",
+      "description": "110 skills from agents_archive"
+    },
+    {
+      "name": "opencode",
+      "source": "./skills/opencode",
+      "description": "3 skills from opencode"
+    },
+    {
+      "name": "saaas-primary",
+      "source": "./skills/saaas-primary",
+      "description": "14 skills from saaas_primary"
+    },
+    {
+      "name": "saaas-toto",
+      "source": "./skills/saaas-toto",
+      "description": "14 skills from saaas_toto"
+    }
+  ]
+}

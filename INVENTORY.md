@@ -1,0 +1,294 @@
+# Skills Inventory — 2026-08-20T20:56:51.579102
+
+**Total:** 282
+## agents_archive (110)
+- `ai-automation-workflows` — "Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event
+- `ai-avatar-video` — "Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, 
+- `ai-content-pipeline` — "Build multi-step AI content creation pipelines combining image, video, audio, and text. Workflow examples: generate ima
+- `ai-image-generation` — "Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, 
+- `ai-marketing-videos` — "Create AI marketing videos for ads, promos, product launches, and brand content. Models: Veo, Seedance, Wan, FLUX for v
+- `ai-music-generation` — "Generate AI music and songs with ElevenLabs, Diffrythm, Tencent Song Generation via inference.sh CLI. Models: ElevenLab
+- `ai-podcast-creation` — "Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI mu
+- `ai-product-photography` — "Generate professional AI product photography and commercial images. Models: FLUX, Imagen 3, Grok, Seedream for product 
+- `ai-rag-pipeline` — "Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs. Tools: Tavily Search, Exa Search, Exa An
+- `ai-social-media-content` — "Create AI-powered social media content for TikTok, Instagram, YouTube, Twitter/X. Generate: images, videos, reels, shor
+- `ai-video-generation` — "Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Se
+- `ai-voice-cloning` — "AI voice generation, text-to-speech, and voice synthesis via inference.sh CLI. Models: ElevenLabs (22+ premium voices, 
+- `algorithmic-art` — Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users r
+- `app-store-screenshots` — "App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery orderin
+- `audit-website` — Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using th
+- `background-removal` — "Remove backgrounds from images with BiRefNet via inference.sh CLI. Model: BiRefNet (high accuracy background removal). 
+- `book-cover-design` — "Book cover design with genre-specific conventions, typography rules, and AI image generation. Covers fiction and non-fi
+- `brand-guidelines` — Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic'
+- `building-inferencesh-apps` — "Build and deploy applications on inference.sh. Use when getting started, understanding the platform, creating apps, con
+- `canvas-design` — Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user 
+- `case-study-writing` — "B2B case study writing with STAR framework, data visualization, and research. Covers structure, customer quotes, metric
+- `character-design-sheet` — "Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, ex
+- `chat-ui` — "Chat UI building blocks for React/Next.js from ui.inference.sh. Components: container, messages, input, typing indicato
+- `ckm-banner-design` — "Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with A
+- `ckm-brand` — Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, t
+- `ckm-design` — "Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporat
+- `ckm-design-system` — Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), C
+- `ckm-slides` — Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextu
+- `ckm-ui-styling` — Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS util
+- `claude-api` — "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_age
+- `competitor-teardown` — "Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research framework
+- `content-repurposing` — "Content atomization — turn one piece of content into many formats. Covers blog-to-thread, blog-to-carousel, podcast-to-
+- `customer-persona` — "Research-backed customer persona creation with market data and avatar generation. Covers demographics, psychographics, 
+- `data-visualization` — "Data visualization with chart selection, color theory, and annotation best practices. Covers chart types (bar, line, sc
+- `dialogue-audio` — "Multi-speaker dialogue audio creation with ElevenLabs and Dia TTS. Covers speaker tags, emotion control, pacing, conver
+- `dispatching-parallel-agents` — Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies
+- `doc-coauthoring` — Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, pr
+- `docx` — "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers incl
+- `dogfood` — Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to "dogfoo
+- `electron` — Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome De
+- `elevenlabs-dialogue` — "ElevenLabs multi-speaker dialogue generation - create conversations with different voices in a single audio file via in
+- `elevenlabs-dubbing` — "ElevenLabs automatic dubbing - translate and dub audio/video into 29 languages while preserving speaker voice via infer
+- `elevenlabs-music` — "ElevenLabs AI music generation - create original music from text prompts via inference.sh CLI. Capabilities: text-to-mu
+- `elevenlabs-sound-effects` — "Generate AI sound effects from text descriptions with ElevenLabs via inference.sh CLI. Capabilities: text-to-sound-effe
+- `elevenlabs-stt` — "ElevenLabs speech-to-text with Scribe models and forced alignment via inference.sh CLI. Models: Scribe v1/v2 (98%+ accu
+- `elevenlabs-tts` — "ElevenLabs text-to-speech with 22+ premium voices, multilingual support, and voice tuning via inference.sh CLI. Models:
+- `elevenlabs-voice-changer` — "ElevenLabs voice changer - transform any voice to a different voice while preserving speech content and emotion via inf
+- `elevenlabs-voice-isolator` — "ElevenLabs voice isolator - remove background noise and isolate vocals from audio via inference.sh CLI. Capabilities: n
+- `email-design` — "Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences,
+- `explainer-video-guide` — "Explainer video production guide: scripting, voiceover, visuals, and assembly. Covers script formulas, pacing rules, sc
+- `finishing-a-development-branch` — Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completio
+- `flux-image` — "Generate images with FLUX models (Black Forest Labs) via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA wit
+- `google-veo` — "Generate videos with Google Veo models via inference.sh CLI. Models: Veo 3.1, Veo 3.1 Fast, Veo 3, Veo 3 Fast, Veo 2. C
+- `image-to-video` — "Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, 
+- `image-upscaling` — "Upscale and enhance images with Real-ESRGAN, Thera, Topaz, FLUX Upscaler via inference.sh CLI. Models: Real-ESRGAN, The
+- `infsh-cli` — "Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models:
+- `internal-comms` — A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use
+- `javascript-sdk` — "JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sd
+- `landing-page-design` — "Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold 
+- `linkedin-content` — "LinkedIn post writing with hook formulas, formatting rules, and engagement patterns. Covers post types, algorithm signa
+- `llm-models` — "Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI using OpenRouter. Models: Claude Opus 4.5, Claude S
+- `logo-design-guide` — "Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniqu
+- `mcp-builder` — Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services
+- `nano-banana` — "Generate images with Google Gemini native image models via inference.sh CLI. Models: Gemini 3 Pro Image, Gemini 2.5 Fla
+- `nano-banana-2` — "Generate images with Google Gemini 3.1 Flash Image Preview (Nano Banana 2) via inference.sh CLI. Capabilities: text-to-
+- `newsletter-curation` — "Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatti
+- `og-image-design` — "Open Graph and social sharing image design with platform specs, text placement, and branding. Covers OG meta tags, Twit
+- `p-image` — "Generate images with Pruna P-Image models via inference.sh CLI. Models: P-Image, P-Image-LoRA, P-Image-Edit, P-Image-Ed
+- `p-video` — "Generate videos with Pruna P-Video and WAN models via inference.sh CLI. Models: P-Video, WAN-T2V, WAN-I2V. Capabilities
+- `pdf` — Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables fr
+- `pitch-deck-visuals` — "Investor pitch deck structure with slide-by-slide framework, visual design rules, and data presentation. Covers the 12-
+- `pptx` — "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide 
+- `press-release-writing` — "Press release writing in AP style with inverted pyramid structure. Covers formatting, datelines, quotes, boilerplates, 
+- `product-changelog` — "Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and
+- `product-hunt-launch` — "Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, ma
+- `product-photography` — "AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, sha
+- `prompt-engineering` — "Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, 
+- `python-executor` — "Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pan
+- `python-sdk` — "Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip inst
+- `qwen-image-2` — "Generate and edit images with Alibaba Qwen-Image-2.0 models via inference.sh CLI. Models: Qwen-Image-2.0 (fast), Qwen-I
+- `qwen-image-2-pro` — "Generate images with Alibaba Qwen-Image-2.0-Pro via inference.sh CLI. Professional text rendering, fine-grained realism
+- `receiving-code-review` — Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or techni
+- `related-skill` — "Discover and install related skills from inference.sh skill registry. Helps find complementary skills for your AI workf
+- `remotion-render` — "Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: 
+- `requesting-code-review` — Use when completing tasks, implementing major features, or before merging to verify work meets requirements
+- `seo-content-brief` — "SEO content brief creation with keyword research, search intent analysis, and content structure. Covers SERP analysis, 
+- `skill-creator` — Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a sk
+- `slack` — Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slac
+- `slack-gif-creator` — Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and anim
+- `social-media-carousel` — "Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X with layout rules and hooks. Covers slide structure,
+- `speech-to-text` — "Transcribe audio to text with ElevenLabs Scribe and Whisper models via inference.sh CLI. Models: ElevenLabs Scribe v2 (
+- `storyboard-creation` — "Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles
+- `subagent-driven-development` — Use when executing implementation plans with independent tasks in the current session
+- `talking-head-production` — "Talking head video production with AI avatars, lipsync, and voiceover. Covers portrait requirements, audio quality, Omn
+- `technical-blog-writing` — "Technical blog post writing with structure, code examples, and developer audience conventions. Covers post types, code 
+- `template-skill` — Replace with description of the skill and when Claude should use it.
+- `text-to-speech` — "Convert text to natural speech with ElevenLabs, DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI. Models: Ele
+- `theme-factory` — Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. Th
+- `twitter-automation` — "Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-creat
+- `twitter-thread-creation` — "Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, char
+- `using-git-worktrees` — Use when starting feature work that needs isolation from current workspace or before executing implementation plans - cr
+- `vercel-sandbox` — Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when 
+- `verification-before-completion` — Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verifi
+- `video-ad-specs` — "Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensi
+- `video-prompting-guide` — "Best practices and techniques for writing effective AI video generation prompts. Covers: Veo, Seedance, Wan, Grok, Klin
+- `webapp-testing` — Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functional
+- `widgets-ui` — "Declarative UI widgets from JSON for React/Next.js from ui.inference.sh. Render rich interactive UIs from structured ag
+- `writing-skills` — Use when creating new skills, editing existing skills, or verifying skills work before deployment
+- `xlsx` — "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to:
+- `youtube-thumbnail-design` — "YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, 
+
+## agents_canonical (141)
+- `accessorysetupkit` — "Discover and configure Bluetooth and Wi-Fi accessories using AccessorySetupKit. Use when presenting a privacy-preservin
+- `activitykit` — "Implement, review, or improve Live Activities and Dynamic Island experiences in iOS apps using ActivityKit. Use when bu
+- `adattributionkit` — "Measure ad effectiveness with privacy-preserving attribution using AdAttributionKit. Use when registering ad impression
+- `agent-browser` — >-
+- `agent-tools` — "Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models:
+- `agent-ui` — "Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming
+- `alarmkit` — "Implement AlarmKit alarms and countdown timers for iOS and iPadOS with Lock Screen, Dynamic Island, StandBy, and paired
+- `app-clips` — "Build iOS App Clips with invocation URLs, App Clip Codes, NFC, QR codes, Safari banners, Maps, Messages, target setup, 
+- `app-intents` — "Implement App Intents for Siri, Shortcuts, Spotlight, widgets, Control Center, and Apple Intelligence on iOS. Covers Ap
+- `app-store-optimization` — "Optimize App Store product pages for search visibility and conversion. Use for App Store Optimization (ASO), keyword re
+- `app-store-review` — "Audits App Store submission readiness and rejection risk across current review guidelines, PrivacyInfo.xcprivacy and re
+- `apple-on-device-ai` — "Build private, on-device AI features on iPhone, iPad, and Mac with Foundation Models, Core ML, MLX Swift, or llama.cpp.
+- `appmigrationkit` — "Transfer app data to or from other platforms using AppMigrationKit. Use when implementing system-orchestrated one-time 
+- `audioaccessorykit` — "Support automatic audio switching for paired third-party Bluetooth headphones or earbuds with AudioAccessoryKit. Use wh
+- `authentication` — "Implement iOS authentication flows with AuthenticationServices and LocalAuthentication. Use when building Sign in with 
+- `avkit` — "Create media playback experiences using AVKit. Use when adding video players with AVPlayerViewController, enabling Pict
+- `background-processing` — "Schedule and execute background work on iOS using BGTaskScheduler. Use when registering BGAppRefreshTask for short back
+- `brainstorming` — "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying
+- `browserenginekit` — "Build alternative browser engines using BrowserEngineKit. Use when developing a non-WebKit browser engine for iOS/iPadO
+- `callkit` — "Implement VoIP calling with CallKit and PushKit. Use when building incoming/outgoing call flows, registering for VoIP p
+- `carplay` — "Build CarPlay-enabled apps using the CarPlay framework. Use when creating navigation, audio, communication, EV charging
+- `chat-archaeologist` — 
+- `clipboardlux-macos-debugging` — 
+- `cloudkit` — "Implement, review, or improve CloudKit and iCloud sync in iOS/macOS apps. Use when working with CKContainer, CKRecord, 
+- `contacts-framework` — "Read, create, update, and pick contacts using the Contacts and ContactsUI frameworks. Use when fetching contact data, s
+- `continue-claude-work` — Recover actionable context from local session artifacts (Claude Code `~/.claude/projects` OR Kilo Code `~/.kilocode/task
+- `core-bluetooth` — "Build direct Bluetooth Low Energy workflows with Core Bluetooth. Use when implementing BLE central or peripheral GATT c
+- `core-data` — "Build, review, or improve Core Data persistence in apps that have not adopted SwiftData. Use when working with NSManage
+- `core-motion` — "Access Core Motion accelerometer, gyroscope, magnetometer, device-motion, pedometer, activity-recognition, altitude, he
+- `core-nfc` — "Read and write NFC tags using CoreNFC. Use when scanning NDEF tags, reading ISO7816/ISO15693/FeliCa/MIFARE tags, writin
+- `coreml` — "Integrate Core ML models in iOS apps for on-device machine learning inference. Covers model loading (.mlmodel, .mlpacka
+- `cryptokit` — "Use Apple CryptoKit for Swift cryptographic primitives. Use when hashing with SHA-2 or SHA-3, generating HMACs, encrypt
+- `cryptotokenkit` — "Access security tokens and smart cards using CryptoTokenKit. Use when building TKTokenDriver or TKSmartCardTokenDriver 
+- `custom-brainstorm-storm` — Custom Stanford-tuned build synthesized from STORM/Co-STORM parts. A custom Stanford-tuned brainstorm+STORM engine with 
+- `debugging-instruments` — "Debug iOS apps and profile performance using LLDB, the interactive Memory Graph Debugger, and Instruments. Use for cras
+- `deep-research` — Use when the user needs multi-source research with citation tracking, evidence persistence, and structured report genera
+- `deep-research-free` — >
+- `device-integrity` — "Verify device legitimacy and app integrity using DeviceCheck (DCDevice per-device bits) and App Attest (DCAppAttestServ
+- `dockkit` — "Control motorized camera docks and enable intelligent subject tracking using DockKit. Use when discovering DockKit-comp
+- `energykit` — "Query grid electricity forecasts and submit load events using EnergyKit to help users optimize home electricity usage. 
+- `eventkit` — "Create, read, and manage calendar events and reminders using EventKit and EventKitUI. Use when adding events to the use
+- `executing-plans` — Use when you have a written implementation plan to execute in a separate session with review checkpoints
+- `financekit` — "Access eligible Wallet financial data using FinanceKit and FinanceKitUI. Use when querying transactions or balances, re
+- `find-skills` — Helps users discover and install agent skills when they ask questions like "how do I do X", "find a skill for X", "is th
+- `find-skills/out/scaffold` — Custom Stanford-tuned build synthesized from STORM/Co-STORM parts. A custom Stanford-tuned brainstorm+STORM engine with 
+- `firecrawl-deep-research` — |
+- `focus-engine` — "Implements keyboard, directional, and scene-level focus behavior across SwiftUI and UIKit. Use when managing @FocusStat
+- `frontend-design` — Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to 
+- `gamekit` — "Integrate Game Center features using GameKit. Use when authenticating GKLocalPlayer, checking player restrictions, subm
+- `github-deep-research` — Exhaustive GitHub research — recursive topic following, multi-tool search, commit archeology, issue mining, cross-repo d
+- `healthkit` — "Read, write, and query Apple Health data using HealthKit. Covers HKHealthStore authorization, sample queries, statistic
+- `homekit` — "Control smart-home accessories and commission Matter devices using HomeKit and MatterSupport. Use when managing homes/r
+- `ios-accessibility` — "Build and audit SwiftUI, UIKit, and AppKit accessibility for VoiceOver, Voice Control, Switch Control, Full Keyboard Ac
+- `ios-ai-integration` — 
+- `ios-animation-master` — 
+- `ios-camera-ar-pipeline` — 
+- `ios-data-persistence` — 
+- `ios-deep-link-universal` — 
+- `ios-ettrace-performance` — "Use when capturing or analyzing ETTrace profiles for a focused iOS launch or runtime flow, including exact-build dSYM U
+- `ios-fullstack` — 
+- `ios-localization` — "Implement, review, or improve localization and internationalization in iOS/macOS apps — String Catalogs (.xcstrings), g
+- `ios-memgraph-analysis` — "Use when capturing or analyzing an iOS .memgraph, especially when the task mentions a memory leak, heap growth, persist
+- `ios-networking` — "Build, review, or improve networking code in iOS/macOS apps using URLSession with async/await, structured concurrency, 
+- `ios-offline-first` — 
+- `ios-performance-debug` — 
+- `ios-release-polish` — 
+- `ios-security-auth` — 
+- `ios-simulator` — "Manages iOS Simulator devices and app tests with xcrun simctl: lifecycle, install/launch, push and location simulation,
+- `ios-swift-development` — >
+- `macos-gui-automation` — 
+- `mapkit` — "Implement, review, or improve maps and location features in iOS/macOS apps using MapKit and CoreLocation. Use when work
+- `metrickit` — Use when collecting or analyzing production iOS or iPadOS performance telemetry with MetricKit, including iOS 27 MetricM
+- `microsoft-foundry` — "Deploy, evaluate, fine-tune, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, 
+- `microsoft-foundry/finetuning` — "Fine-tune models on Azure AI Foundry using SFT (supervised), DPO (preference), or RFT (reinforcement with graders). Cov
+- `microsoft-foundry/models/deploy-model` — "Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fu
+- `microsoft-foundry/models/deploy-model/capacity` — "Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availabili
+- `microsoft-foundry/models/deploy-model/customize` — "Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of m
+- `microsoft-foundry/models/deploy-model/preset` — "Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automa
+- `modern-web-guidance` — |
+- `musickit` — "Integrate Apple Music playback, catalog search, and Now Playing metadata using MusicKit and MediaPlayer. Use when addin
+- `natural-language` — "Tokenize, tag, and analyze natural language text using Apple's NaturalLanguage framework and translate between language
+- `osint-datasets` — 
+- `paperkit` — "Add drawings, shapes, and a consistent markup experience using PaperKit. Use when integrating PaperMarkupViewController
+- `parallel-deep-research` — "ONLY use when user explicitly says 'deep research', 'exhaustive', 'comprehensive report', or 'thorough investigation'. 
+- `passkit` — "Integrate Apple Pay payments and Wallet passes using PassKit. Use when adding Apple Pay buttons, creating payment reque
+- `pdfkit` — "Display and manipulate PDF documents using PDFKit. Use when embedding PDFView to show PDF files, creating or modifying 
+- `pencilkit` — "Add Apple Pencil drawing with PKCanvasView, PKToolPicker, PKDrawing serialization/export, stroke inspection, and Pencil
+- `permissionkit` — "Create child communication safety experiences using PermissionKit to request parental permission for children. Use when
+- `photokit` — "Implement, review, or improve photo picking, camera capture, and media handling in iOS apps using PhotoKit and AVFounda
+- `pop-motion` — "Enforce VinnyOS Pop Motion animation style on any project. Use when building or reviewing UI that needs GPU-accelerated
+- `progress-report` — 
+- `push-notifications` — "Implement, review, or debug push notifications in iOS/macOS apps — local notifications, remote (APNs) notifications, ri
+- `realitykit` — "Build iOS augmented reality and 3D experiences with RealityKit and ARKit. Use when adding RealityView content, loading 
+- `relevancekit` — "Increase widget visibility on Apple Watch using RelevanceKit. Use when providing contextual relevance signals for watch
+- `scenekit` — "Maintain and extend existing SceneKit 3D scenes and visualizations. Use when working with SCNView, SCNScene, SCNNode sc
+- `sensorkit` — "Access research-grade sensor data using SensorKit for approved studies. Use when an app needs SensorKit entitlement set
+- `shareplay-activities` — "Build shared real-time experiences using GroupActivities and SharePlay. Use when implementing shared media playback, co
+- `skill-workflow` — "Meta-skill that scans all available agent skills, analyzes the current conversation/context, and recommends a workflow 
+- `speech-recognition` — "Transcribe speech to text using Apple's Speech framework. Use when implementing live microphone transcription with AVAu
+- `spm-build-analysis` — Analyze Swift Package Manager dependencies, package plugins, module variants, and CI-oriented build overhead that slow X
+- `spritekit` — "Build 2D games and animations using SpriteKit. Use when creating game scenes with SKScene and SKView, adding sprites wi
+- `storekit` — "Implement, review, or improve in-app purchases and subscriptions using StoreKit 2. Use when building paywalls with Subs
+- `swift-api-design-guidelines` — "Apply Swift API Design Guidelines to name, label, and document Swift APIs. Covers argument label rules (prepositional p
+- `swift-architecture` — "Selects, reviews, and migrates Apple-platform app architectures across MV with Observation, MVVM, MVI, TCA, Clean Archi
+- `swift-charts` — "Implement, review, or improve data visualizations using Swift Charts. Use when building bar, line, area, point, pie, do
+- `swift-codable` — "Implement Swift Codable models for JSON and property-list encoding and decoding with JSONDecoder, JSONEncoder, CodingKe
+- `swift-concurrency` — "Resolve Swift concurrency compiler errors, adopt approachable concurrency (SE-0466), and write data-race-safe async cod
+- `swift-formatstyle` — "Formats and parses locale-aware numbers, decimals, currencies, percentages, dates, durations, measurements, names, list
+- `swift-language` — "Apply modern Swift language patterns and idioms for non-concurrency, non-SwiftUI code. Covers if/switch expressions (Sw
+- `swift-security` — Use when working with iOS/macOS Keychain Services (SecItem queries, kSecClass, OSStatus errors), biometric authenticatio
+- `swift-testing` — "Writes and migrates Swift Testing framework tests with @Test, @Suite, #expect, #require, confirmation, traits, withKnow
+- `swiftdata` — "Implement, review, or improve data persistence using SwiftData. Use when defining @Model classes with @Attribute, @Rela
+- `swiftlint` — "Configures and enforces SwiftLint in Swift projects using build tool plugins, run scripts, and CI. Covers .swiftlint.ym
+- `swiftui-animation` — "Implement, diagnose, or review SwiftUI motion using explicit and scoped implicit animations, springs, transitions, Phas
+- `swiftui-gestures` — "Implement, review, or improve SwiftUI gesture handling. Use when adding tap, long press, drag, magnify, or rotate gestu
+- `swiftui-layout-components` — "Build SwiftUI layouts using stacks, grids, lists, scroll views, forms, and controls. Covers VStack/HStack/ZStack, LazyV
+- `swiftui-liquid-glass` — "Implement, review, or improve SwiftUI Liquid Glass effects for iOS 26+. Covers glassEffect modifier, GlassEffectContain
+- `swiftui-navigation` — "Implement SwiftUI navigation patterns including NavigationStack, NavigationSplitView, sheet presentation, tab-based nav
+- `swiftui-patterns` — "Builds and reviews SwiftUI views with modern MV architecture, state, composition, isolated previews, and migration guid
+- `swiftui-performance` — "Profile, diagnose, and remediate SwiftUI runtime performance using code review, Instruments, and repeatable measurement
+- `swiftui-uikit-interop` — "Bridges UIKit and SwiftUI with UIViewRepresentable, UIViewControllerRepresentable, UIHostingController, UIHostingConfig
+- `swiftui-webkit` — "Embeds and controls web content in SwiftUI with WebKit for SwiftUI, including WebView, WebPage, navigation policies, Ja
+- `systematic-debugging` — Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes
+- `tabletopkit` — "Builds multiplayer spatial board games using TabletopKit on visionOS. Use when creating tabletop game experiences with 
+- `test-driven-development` — Use when implementing any feature or bugfix, before writing implementation code
+- `tipkit` — "Implement and review Apple TipKit feature-discovery UI for iOS 17+ apps. Use when adding or auditing in-app tips, conte
+- `tools-ui` — "Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval re
+- `ui-ux-pro-max` — "UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product ty
+- `using-superpowers` — Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY 
+- `vision-framework` — "Implement computer vision features including text recognition (OCR), face detection, barcode scanning, image segmentati
+- `weatherkit` — "Fetch WeatherKit current, minute, hourly, and daily forecasts; weather alerts; iOS 18+ changes, historical comparisons,
+- `web-artifacts-builder` — Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (
+- `web-search` — "Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Se
+- `widgetkit` — "Implement, review, or improve WidgetKit widgets and controls. Use when building Home Screen, Lock Screen, StandBy, or C
+- `writing-plans` — Use when you have a spec or requirements for a multi-step task, before touching code
+- `xcode-build-benchmark` — Benchmark Xcode clean and incremental builds with repeatable inputs, timing summaries, and timestamped `.build-benchmark
+- `xcode-build-fixer` — Apply approved Xcode build optimization changes following best practices, then re-benchmark to verify improvement. Use w
+- `xcode-build-orchestrator` — Orchestrate Xcode build optimization by benchmarking first, running the specialist analysis skills, prioritizing finding
+- `xcode-compilation-analyzer` — Analyze Swift and mixed-language compile hotspots using build timing summaries and Swift frontend diagnostics, then prod
+- `xcode-project-analyzer` — Audit Xcode project configuration, build settings, scheme behavior, and script phases to find build-time improvements wi
+- `xcode-project-setup` — Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project n
+
+## opencode (3)
+- `chain-orchestrator` — 4-phase orchestrator that chains VALIDATE → DISCOVER → BUILD → VERIFY. Triggers the right sub-skills at the right time. 
+- `code-doctor` — "Forced chain for debugging, fixing, and reviewing code. Use when the user says 'review and fix', 'debug this', 'check m
+- `hallmark` — "Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Use 
+
+## saaas_primary (14)
+- `ASR` — Implement speech-to-text (ASR/automatic speech recognition) capabilities using the z-ai-web-dev-sdk. Use this skill when
+- `LLM` — Implement large language model (LLM) chat completions using the z-ai-web-dev-sdk. Use this skill when the user needs to 
+- `TTS` — Implement text-to-speech (TTS) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to convert te
+- `VLM` — Implement vision-based AI chat capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to analyze im
+- `code-review` — Perform comprehensive code reviews of diffs, patches, PRs, or file changes. Use when asked to review, audit, or check co
+- `docx` — "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservat
+- `frontend-design` — Transform UI style requirements into production-ready frontend code with systematic design tokens, accessibility complia
+- `image-generation` — Implement AI image generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to create imag
+- `pdf` — Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, a
+- `pptx` — "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creat
+- `video-generation` — Implement AI-powered video generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to gen
+- `web-reader` — Implement web page content extraction capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to scr
+- `web-search` — Implement web search capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to search the web, retr
+- `xlsx` — "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and vis
+
+## saaas_toto (14)
+- `ASR` — Implement speech-to-text (ASR/automatic speech recognition) capabilities using the z-ai-web-dev-sdk. Use this skill when
+- `LLM` — Implement large language model (LLM) chat completions using the z-ai-web-dev-sdk. Use this skill when the user needs to 
+- `TTS` — Implement text-to-speech (TTS) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to convert te
+- `VLM` — Implement vision-based AI chat capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to analyze im
+- `code-review` — Perform comprehensive code reviews of diffs, patches, PRs, or file changes. Use when asked to review, audit, or check co
+- `docx` — "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservat
+- `frontend-design` — Transform UI style requirements into production-ready frontend code with systematic design tokens, accessibility complia
+- `image-generation` — Implement AI image generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to create imag
+- `pdf` — Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, a
+- `pptx` — "Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creat
+- `video-generation` — Implement AI-powered video generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to gen
+- `web-reader` — Implement web page content extraction capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to scr
+- `web-search` — Implement web search capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to search the web, retr
+- `xlsx` — "Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and vis

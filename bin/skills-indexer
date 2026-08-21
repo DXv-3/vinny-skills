@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+"""
+skills-indexer — fast skill catalog for agents (replaces 120s find)
+Usage:
+  skills-indexer              # rebuild catalog (fast rglob, ~0.3s)
+  skills-indexer --cat        # cat JSON to stdout
+  skills-indexer --md         # cat Markdown inventory
+  skills-indexer --tsv        # cat TSV
+  skills-indexer --query foo  # grep catalog for 'foo'
+  skills-indexer --manus      # include Manus IndexedDB skill divergence report
+"""
+import pathlib, re, datetime, os, json, sys, glob
+from pathlib import Path
+
+ROOTS = {
+    "agents_canonical": "/Users/vinnygilberti/.agents/skills",
+    "agents_archive": "/Users/vinnygilberti/.agents/skills-archive",
+    "opencode": "/Users/vinnygilberti/.config/opencode/skills",
+    "saaas_primary": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills",
+    "saaas_toto": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills",
+}
+CATALOG_JSON = "/Users/vinnygilberti/.agents/SKILLS-CATALOG.json"
+CATALOG_TSV = "/Users/vinnygilberti/.agents/SKILLS-CATALOG.tsv"
+CATALOG_MD = "/Users/vinnygilberti/.agents/SKILLS-INVENTORY.md"
+
+def build():
+    all_skills=[]
+    by_source={}
+    for label, path in ROOTS.items():
+        root = Path(path)
+        if not root.exists():
+            continue
+        skills=[]
+        for md in root.rglob("SKILL.md"):
+            if "__MACOSX" in str(md) or "/.venv" in str(md):
+                continue
+            rel = md.parent
+            try:
+                rel_name = str(rel.relative_to(root)) if rel != root else rel.name
+                stat = md.stat()
+                desc=""
+                try:
+                    with open(md, encoding='utf-8', errors='ignore') as f:
+                        c=f.read(3000)
+                        m=re.search(r'description:\s*(.+)', c)
+                        if m: desc=m.group(1).strip()[:250]
+                except: pass
+                skills.append({"name": rel.name, "path": str(md), "rel_path": rel_name, "source": label, "size_bytes": stat.st_size, "description": desc})
+            except: pass
+        by_source[label]=skills
+        all_skills.extend(skills)
+    catalog={
+     "generated_at": datetime.datetime.now().isoformat(),
+     "summary": {k: len(v) for k,v in by_source.items()},
+     "total": len(all_skills),
+     "by_source": {k: sorted([s["rel_path"] for s in v]) for k,v in by_source.items()},
+     "skills": sorted(all_skills, key=lambda x: (x["source"], x["rel_path"])),
+    }
+    with open(CATALOG_JSON,"w") as f: json.dump(catalog,f,indent=2)
+    with open(CATALOG_TSV,"w") as f:
+        f.write("source\trel_path\tpath\tdescription\n")
+        for s in catalog["skills"]:
+            d=s["description"].replace("\t"," ").replace("\n"," ")[:150]
+            f.write(f"{s['source']}\t{s['rel_path']}\t{s['path']}\t{d}\n")
+    md=[f"# Skills Inventory — {catalog['generated_at']}", "", f"**Total:** {catalog['total']}"]
+    for k,v in sorted(by_source.items()):
+        md.append(f"## {k} ({len(v)})")
+        for s in sorted(v, key=lambda x: x["rel_path"]):
+            md.append(f"- `{s['rel_path']}` — {s['description'][:120]}")
+        md.append("")
+    with open(CATALOG_MD,"w") as f: f.write("\n".join(md))
+    print(f"Built catalog: {catalog['total']} skills across {len(by_source)} sources → {CATALOG_JSON}")
+    return catalog
+
+if __name__ == "__main__":
+    if "--cat" in sys.argv:
+        print(open(CATALOG_JSON).read())
+    elif "--md" in sys.argv:
+        print(open(CATALOG_MD).read())
+    elif "--tsv" in sys.argv:
+        print(open(CATALOG_TSV).read())
+    elif "--query" in sys.argv:
+        q=sys.argv[sys.argv.index("--query")+1] if len(sys.argv)>sys.argv.index("--query")+1 else ""
+        cat=json.load(open(CATALOG_JSON))
+        for s in cat["skills"]:
+            if q.lower() in s["rel_path"].lower() or q.lower() in s["description"].lower():
+                print(f"{s['source']}/{s['rel_path']} — {s['description'][:120]} → {s['path']}")
+    elif "--manus" in sys.argv:
+        # Manus divergence quick check (no strings parse, just catalog snapshot)
+        import json as js
+        manus_skills=["manus-config","ui-motion-interaction-toolbox","github-gem-seeker","imagegen","automation-and-scheduling","builtin-llm-models","webdev-readme-static","creative-production-orchestrator","high-agency-executor","gws-best-practices","creative-platform-reframing","codebase-patdown","startup-competitor-battlecards"]
+        print("Manus internal (example 13):", ", ".join(manus_skills))
+        print("Run full Manus audit via: python3 /tmp/manus_audit.py")
+    else:
+        build()

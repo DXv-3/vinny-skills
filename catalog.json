@@ -1,0 +1,2563 @@
+{
+  "generated_at": "2026-08-20T20:56:51.579102",
+  "summary": {
+    "agents_canonical": 141,
+    "agents_archive": 110,
+    "opencode": 3,
+    "saaas_primary": 14,
+    "saaas_toto": 14
+  },
+  "total": 282,
+  "by_source": {
+    "agents_canonical": [
+      "accessorysetupkit",
+      "activitykit",
+      "adattributionkit",
+      "agent-browser",
+      "agent-tools",
+      "agent-ui",
+      "alarmkit",
+      "app-clips",
+      "app-intents",
+      "app-store-optimization",
+      "app-store-review",
+      "apple-on-device-ai",
+      "appmigrationkit",
+      "audioaccessorykit",
+      "authentication",
+      "avkit",
+      "background-processing",
+      "brainstorming",
+      "browserenginekit",
+      "callkit",
+      "carplay",
+      "chat-archaeologist",
+      "clipboardlux-macos-debugging",
+      "cloudkit",
+      "contacts-framework",
+      "continue-claude-work",
+      "core-bluetooth",
+      "core-data",
+      "core-motion",
+      "core-nfc",
+      "coreml",
+      "cryptokit",
+      "cryptotokenkit",
+      "custom-brainstorm-storm",
+      "debugging-instruments",
+      "deep-research",
+      "deep-research-free",
+      "device-integrity",
+      "dockkit",
+      "energykit",
+      "eventkit",
+      "executing-plans",
+      "financekit",
+      "find-skills",
+      "find-skills/out/scaffold",
+      "firecrawl-deep-research",
+      "focus-engine",
+      "frontend-design",
+      "gamekit",
+      "github-deep-research",
+      "healthkit",
+      "homekit",
+      "ios-accessibility",
+      "ios-ai-integration",
+      "ios-animation-master",
+      "ios-camera-ar-pipeline",
+      "ios-data-persistence",
+      "ios-deep-link-universal",
+      "ios-ettrace-performance",
+      "ios-fullstack",
+      "ios-localization",
+      "ios-memgraph-analysis",
+      "ios-networking",
+      "ios-offline-first",
+      "ios-performance-debug",
+      "ios-release-polish",
+      "ios-security-auth",
+      "ios-simulator",
+      "ios-swift-development",
+      "macos-gui-automation",
+      "mapkit",
+      "metrickit",
+      "microsoft-foundry",
+      "microsoft-foundry/finetuning",
+      "microsoft-foundry/models/deploy-model",
+      "microsoft-foundry/models/deploy-model/capacity",
+      "microsoft-foundry/models/deploy-model/customize",
+      "microsoft-foundry/models/deploy-model/preset",
+      "modern-web-guidance",
+      "musickit",
+      "natural-language",
+      "osint-datasets",
+      "paperkit",
+      "parallel-deep-research",
+      "passkit",
+      "pdfkit",
+      "pencilkit",
+      "permissionkit",
+      "photokit",
+      "pop-motion",
+      "progress-report",
+      "push-notifications",
+      "realitykit",
+      "relevancekit",
+      "scenekit",
+      "sensorkit",
+      "shareplay-activities",
+      "skill-workflow",
+      "speech-recognition",
+      "spm-build-analysis",
+      "spritekit",
+      "storekit",
+      "swift-api-design-guidelines",
+      "swift-architecture",
+      "swift-charts",
+      "swift-codable",
+      "swift-concurrency",
+      "swift-formatstyle",
+      "swift-language",
+      "swift-security",
+      "swift-testing",
+      "swiftdata",
+      "swiftlint",
+      "swiftui-animation",
+      "swiftui-gestures",
+      "swiftui-layout-components",
+      "swiftui-liquid-glass",
+      "swiftui-navigation",
+      "swiftui-patterns",
+      "swiftui-performance",
+      "swiftui-uikit-interop",
+      "swiftui-webkit",
+      "systematic-debugging",
+      "tabletopkit",
+      "test-driven-development",
+      "tipkit",
+      "tools-ui",
+      "ui-ux-pro-max",
+      "using-superpowers",
+      "vision-framework",
+      "weatherkit",
+      "web-artifacts-builder",
+      "web-search",
+      "widgetkit",
+      "writing-plans",
+      "xcode-build-benchmark",
+      "xcode-build-fixer",
+      "xcode-build-orchestrator",
+      "xcode-compilation-analyzer",
+      "xcode-project-analyzer",
+      "xcode-project-setup"
+    ],
+    "agents_archive": [
+      "ai-automation-workflows",
+      "ai-avatar-video",
+      "ai-content-pipeline",
+      "ai-image-generation",
+      "ai-marketing-videos",
+      "ai-music-generation",
+      "ai-podcast-creation",
+      "ai-product-photography",
+      "ai-rag-pipeline",
+      "ai-social-media-content",
+      "ai-video-generation",
+      "ai-voice-cloning",
+      "algorithmic-art",
+      "app-store-screenshots",
+      "audit-website",
+      "background-removal",
+      "book-cover-design",
+      "brand-guidelines",
+      "building-inferencesh-apps",
+      "canvas-design",
+      "case-study-writing",
+      "character-design-sheet",
+      "chat-ui",
+      "ckm-banner-design",
+      "ckm-brand",
+      "ckm-design",
+      "ckm-design-system",
+      "ckm-slides",
+      "ckm-ui-styling",
+      "claude-api",
+      "competitor-teardown",
+      "content-repurposing",
+      "customer-persona",
+      "data-visualization",
+      "dialogue-audio",
+      "dispatching-parallel-agents",
+      "doc-coauthoring",
+      "docx",
+      "dogfood",
+      "electron",
+      "elevenlabs-dialogue",
+      "elevenlabs-dubbing",
+      "elevenlabs-music",
+      "elevenlabs-sound-effects",
+      "elevenlabs-stt",
+      "elevenlabs-tts",
+      "elevenlabs-voice-changer",
+      "elevenlabs-voice-isolator",
+      "email-design",
+      "explainer-video-guide",
+      "finishing-a-development-branch",
+      "flux-image",
+      "google-veo",
+      "image-to-video",
+      "image-upscaling",
+      "infsh-cli",
+      "internal-comms",
+      "javascript-sdk",
+      "landing-page-design",
+      "linkedin-content",
+      "llm-models",
+      "logo-design-guide",
+      "mcp-builder",
+      "nano-banana",
+      "nano-banana-2",
+      "newsletter-curation",
+      "og-image-design",
+      "p-image",
+      "p-video",
+      "pdf",
+      "pitch-deck-visuals",
+      "pptx",
+      "press-release-writing",
+      "product-changelog",
+      "product-hunt-launch",
+      "product-photography",
+      "prompt-engineering",
+      "python-executor",
+      "python-sdk",
+      "qwen-image-2",
+      "qwen-image-2-pro",
+      "receiving-code-review",
+      "related-skill",
+      "remotion-render",
+      "requesting-code-review",
+      "seo-content-brief",
+      "skill-creator",
+      "slack",
+      "slack-gif-creator",
+      "social-media-carousel",
+      "speech-to-text",
+      "storyboard-creation",
+      "subagent-driven-development",
+      "talking-head-production",
+      "technical-blog-writing",
+      "template-skill",
+      "text-to-speech",
+      "theme-factory",
+      "twitter-automation",
+      "twitter-thread-creation",
+      "using-git-worktrees",
+      "vercel-sandbox",
+      "verification-before-completion",
+      "video-ad-specs",
+      "video-prompting-guide",
+      "webapp-testing",
+      "widgets-ui",
+      "writing-skills",
+      "xlsx",
+      "youtube-thumbnail-design"
+    ],
+    "opencode": [
+      "chain-orchestrator",
+      "code-doctor",
+      "hallmark"
+    ],
+    "saaas_primary": [
+      "ASR",
+      "LLM",
+      "TTS",
+      "VLM",
+      "code-review",
+      "docx",
+      "frontend-design",
+      "image-generation",
+      "pdf",
+      "pptx",
+      "video-generation",
+      "web-reader",
+      "web-search",
+      "xlsx"
+    ],
+    "saaas_toto": [
+      "ASR",
+      "LLM",
+      "TTS",
+      "VLM",
+      "code-review",
+      "docx",
+      "frontend-design",
+      "image-generation",
+      "pdf",
+      "pptx",
+      "video-generation",
+      "web-reader",
+      "web-search",
+      "xlsx"
+    ]
+  },
+  "skills": [
+    {
+      "name": "ai-automation-workflows",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-automation-workflows/SKILL.md",
+      "rel_path": "ai-automation-workflows",
+      "source": "agents_archive",
+      "size_bytes": 10220,
+      "description": "\"Build automated AI workflows combining multiple models and services. Patterns: batch processing, scheduled tasks, event-driven pipelines, agent loops. Tools: inference.sh CLI, bash scripting, Python SDK, webhook integration. Use for: content automat"
+    },
+    {
+      "name": "ai-avatar-video",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-avatar-video/SKILL.md",
+      "rel_path": "ai-avatar-video",
+      "source": "agents_archive",
+      "size_bytes": 4673,
+      "description": "\"Create AI avatar and talking head videos with OmniHuman, Fabric, PixVerse via inference.sh CLI. Models: OmniHuman 1.5, OmniHuman 1.0, Fabric 1.0, PixVerse Lipsync. Capabilities: audio-driven avatars, lipsync videos, talking head generation, virtual "
+    },
+    {
+      "name": "ai-content-pipeline",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-content-pipeline/SKILL.md",
+      "rel_path": "ai-content-pipeline",
+      "source": "agents_archive",
+      "size_bytes": 7348,
+      "description": "\"Build multi-step AI content creation pipelines combining image, video, audio, and text. Workflow examples: generate image -> animate -> add voiceover -> merge with music. Tools: FLUX, Veo, Kokoro TTS, OmniHuman, media merger, upscaling. Use for: You"
+    },
+    {
+      "name": "ai-image-generation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-image-generation/SKILL.md",
+      "rel_path": "ai-image-generation",
+      "source": "agents_archive",
+      "size_bytes": 4676,
+      "description": "\"Generate AI images with FLUX, Gemini, Grok, Seedream, Reve and 50+ models via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA, Gemini 3 Pro Image, Grok Imagine, Seedream 4.5, Reve, ImagineArt. Capabilities: text-to-image, image-to-image, "
+    },
+    {
+      "name": "ai-marketing-videos",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-marketing-videos/SKILL.md",
+      "rel_path": "ai-marketing-videos",
+      "source": "agents_archive",
+      "size_bytes": 8532,
+      "description": "\"Create AI marketing videos for ads, promos, product launches, and brand content. Models: Veo, Seedance, Wan, FLUX for visuals, Kokoro for voiceover. Types: product demos, testimonials, explainers, social ads, brand videos. Use for: Facebook ads, You"
+    },
+    {
+      "name": "ai-music-generation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-music-generation/SKILL.md",
+      "rel_path": "ai-music-generation",
+      "source": "agents_archive",
+      "size_bytes": 4039,
+      "description": "\"Generate AI music and songs with ElevenLabs, Diffrythm, Tencent Song Generation via inference.sh CLI. Models: ElevenLabs Music (up to 10 min, commercial license), Diffrythm (fast song generation), Tencent Song Generation (full songs with vocals). Ca"
+    },
+    {
+      "name": "ai-podcast-creation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-podcast-creation/SKILL.md",
+      "rel_path": "ai-podcast-creation",
+      "source": "agents_archive",
+      "size_bytes": 7951,
+      "description": "\"Create AI-powered podcasts with text-to-speech, music, and audio editing. Tools: Kokoro TTS, DIA TTS, Chatterbox, AI music generation, media merger. Capabilities: multi-voice conversations, background music, intro/outro, full episodes. Use for: podc"
+    },
+    {
+      "name": "ai-product-photography",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-product-photography/SKILL.md",
+      "rel_path": "ai-product-photography",
+      "source": "agents_archive",
+      "size_bytes": 7757,
+      "description": "\"Generate professional AI product photography and commercial images. Models: FLUX, Imagen 3, Grok, Seedream for product shots, lifestyle images, mockups. Capabilities: studio lighting, lifestyle scenes, packaging, e-commerce photos. Use for: e-commer"
+    },
+    {
+      "name": "ai-rag-pipeline",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-rag-pipeline/SKILL.md",
+      "rel_path": "ai-rag-pipeline",
+      "source": "agents_archive",
+      "size_bytes": 8002,
+      "description": "\"Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs. Tools: Tavily Search, Exa Search, Exa Answer, Claude, GPT-4, Gemini via OpenRouter. Capabilities: research, fact-checking, grounded responses, knowledge retrieval. Use fo"
+    },
+    {
+      "name": "ai-social-media-content",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-social-media-content/SKILL.md",
+      "rel_path": "ai-social-media-content",
+      "source": "agents_archive",
+      "size_bytes": 7310,
+      "description": "\"Create AI-powered social media content for TikTok, Instagram, YouTube, Twitter/X. Generate: images, videos, reels, shorts, thumbnails, captions, hashtags. Tools: FLUX, Veo, Seedance, Wan, Kokoro TTS, Claude for copywriting. Use for: content creators"
+    },
+    {
+      "name": "ai-video-generation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-video-generation/SKILL.md",
+      "rel_path": "ai-video-generation",
+      "source": "agents_archive",
+      "size_bytes": 5436,
+      "description": "\"Generate AI videos with Google Veo, Seedance, Wan, Grok and 40+ models via inference.sh CLI. Models: Veo 3.1, Veo 3, Seedance 1.5 Pro, Wan 2.5, Grok Imagine Video, OmniHuman, Fabric, HunyuanVideo. Capabilities: text-to-video, image-to-video, lipsync"
+    },
+    {
+      "name": "ai-voice-cloning",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ai-voice-cloning/SKILL.md",
+      "rel_path": "ai-voice-cloning",
+      "source": "agents_archive",
+      "size_bytes": 7798,
+      "description": "\"AI voice generation, text-to-speech, and voice synthesis via inference.sh CLI. Models: ElevenLabs (22+ premium voices, 32 languages), Kokoro TTS, DIA, Chatterbox, Higgs, VibeVoice for natural speech. Capabilities: multiple voices, emotions, accents,"
+    },
+    {
+      "name": "algorithmic-art",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/algorithmic-art/SKILL.md",
+      "rel_path": "algorithmic-art",
+      "source": "agents_archive",
+      "size_bytes": 19769,
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art"
+    },
+    {
+      "name": "app-store-screenshots",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/app-store-screenshots/SKILL.md",
+      "rel_path": "app-store-screenshots",
+      "source": "agents_archive",
+      "size_bytes": 8963,
+      "description": "\"App Store and Google Play screenshot creation with exact platform specs. Covers iOS/Android dimensions, gallery ordering, device mockups, and preview videos. Use for: app store optimization, ASO, app screenshots, app preview, play store listing. Tri"
+    },
+    {
+      "name": "audit-website",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/audit-website/SKILL.md",
+      "rel_path": "audit-website",
+      "source": "agents_archive",
+      "size_bytes": 17058,
+      "description": "Audit websites for SEO, performance, security, technical, content, and 15 other issue cateories with 230+ rules using the squirrelscan CLI. Returns LLM-optimized reports with health scores, broken links, meta tag analysis, and actionable recommendati"
+    },
+    {
+      "name": "background-removal",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/background-removal/SKILL.md",
+      "rel_path": "background-removal",
+      "source": "agents_archive",
+      "size_bytes": 2617,
+      "description": "\"Remove backgrounds from images with BiRefNet via inference.sh CLI. Model: BiRefNet (high accuracy background removal). Use for: product photos, portraits, e-commerce, transparent PNGs, photo editing. Triggers: remove background, background removal, "
+    },
+    {
+      "name": "book-cover-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/book-cover-design/SKILL.md",
+      "rel_path": "book-cover-design",
+      "source": "agents_archive",
+      "size_bytes": 8992,
+      "description": "\"Book cover design with genre-specific conventions, typography rules, and AI image generation. Covers fiction and non-fiction genres, sizing, thumbnail testing, and iteration workflows. Use for: self-publishing, ebook covers, print covers, audiobook "
+    },
+    {
+      "name": "brand-guidelines",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/brand-guidelines/SKILL.md",
+      "rel_path": "brand-guidelines",
+      "source": "agents_archive",
+      "size_bytes": 2235,
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply."
+    },
+    {
+      "name": "building-inferencesh-apps",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/building-inferencesh-apps/SKILL.md",
+      "rel_path": "building-inferencesh-apps",
+      "source": "agents_archive",
+      "size_bytes": 11229,
+      "description": "\"Build and deploy applications on inference.sh. Use when getting started, understanding the platform, creating apps, configuring resources, or needing an overview of inference.sh app development. Supports both Python and Node.js. Triggers: inference."
+    },
+    {
+      "name": "canvas-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/canvas-design/SKILL.md",
+      "rel_path": "canvas-design",
+      "source": "agents_archive",
+      "size_bytes": 11939,
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artis"
+    },
+    {
+      "name": "case-study-writing",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/case-study-writing/SKILL.md",
+      "rel_path": "case-study-writing",
+      "source": "agents_archive",
+      "size_bytes": 8341,
+      "description": "\"B2B case study writing with STAR framework, data visualization, and research. Covers structure, customer quotes, metrics presentation, and distribution formats. Use for: customer success stories, portfolio pieces, sales enablement, marketing content"
+    },
+    {
+      "name": "character-design-sheet",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/character-design-sheet/SKILL.md",
+      "rel_path": "character-design-sheet",
+      "source": "agents_archive",
+      "size_bytes": 10915,
+      "description": "\"Character consistency across AI-generated images with reference sheets and LoRA techniques. Covers turnaround views, expression sheets, color palettes, and style consistency tricks. Use for: character design, game art, illustration, animation, comic"
+    },
+    {
+      "name": "chat-ui",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/chat-ui/SKILL.md",
+      "rel_path": "chat-ui",
+      "source": "agents_archive",
+      "size_bytes": 3292,
+      "description": "\"Chat UI building blocks for React/Next.js from ui.inference.sh. Components: container, messages, input, typing indicators, avatars. Capabilities: chat interfaces, message lists, input handling, streaming. Use for: building custom chat UIs, messaging"
+    },
+    {
+      "name": "ckm-banner-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ckm-banner-design/SKILL.md",
+      "rel_path": "ckm-banner-design",
+      "source": "agents_archive",
+      "size_bytes": 8146,
+      "description": "\"Design banners for social media, ads, website heroes, creative assets, and print. Multiple art direction options with AI-generated visuals. Actions: design, create, generate banner. Platforms: Facebook, Twitter/X, LinkedIn, YouTube, Instagram, Googl"
+    },
+    {
+      "name": "ckm-brand",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ckm-brand/SKILL.md",
+      "rel_path": "ckm-brand",
+      "source": "agents_archive",
+      "size_bytes": 2943,
+      "description": "Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides."
+    },
+    {
+      "name": "ckm-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ckm-design/SKILL.md",
+      "rel_path": "ckm-design",
+      "source": "agents_archive",
+      "size_bytes": 11946,
+      "description": "\"Comprehensive design skill: brand identity, design tokens, UI styling, logo generation (55 styles, Gemini AI), corporate identity program (50 deliverables, CIP mockups), HTML presentations (Chart.js), banner design (22 styles, social/ads/web/print),"
+    },
+    {
+      "name": "ckm-design-system",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ckm-design-system/SKILL.md",
+      "rel_path": "ckm-design-system",
+      "source": "agents_archive",
+      "size_bytes": 6879,
+      "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive\u2192semantic\u2192component), CSS variables, spacing/typography scales, component specs, strategic slide creation. Use for design tokens, systematic design, bran"
+    },
+    {
+      "name": "ckm-slides",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ckm-slides/SKILL.md",
+      "rel_path": "ckm-slides",
+      "source": "agents_archive",
+      "size_bytes": 1166,
+      "description": "Create strategic HTML presentations with Chart.js, design tokens, responsive layouts, copywriting formulas, and contextual slide strategies."
+    },
+    {
+      "name": "ckm-ui-styling",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/ckm-ui-styling/SKILL.md",
+      "rel_path": "ckm-ui-styling",
+      "source": "agents_archive",
+      "size_bytes": 10049,
+      "description": "Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user interfaces, implementing design systems, creating respo"
+    },
+    {
+      "name": "claude-api",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/claude-api/SKILL.md",
+      "rel_path": "claude-api",
+      "source": "agents_archive",
+      "size_bytes": 18276,
+      "description": "\"Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, ge"
+    },
+    {
+      "name": "competitor-teardown",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/competitor-teardown/SKILL.md",
+      "rel_path": "competitor-teardown",
+      "source": "agents_archive",
+      "size_bytes": 10245,
+      "description": "\"Structured competitive analysis with feature matrices, SWOT, positioning maps, and UX review. Covers research frameworks, pricing comparison, review mining, and visual deliverables. Use for: market research, competitive intelligence, investor decks,"
+    },
+    {
+      "name": "content-repurposing",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/content-repurposing/SKILL.md",
+      "rel_path": "content-repurposing",
+      "source": "agents_archive",
+      "size_bytes": 8822,
+      "description": "\"Content atomization \u2014 turn one piece of content into many formats. Covers blog-to-thread, blog-to-carousel, podcast-to-blog, video-to-quotes, and more. Use for: content marketing, social media, multi-platform distribution, content strategy. Triggers"
+    },
+    {
+      "name": "customer-persona",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/customer-persona/SKILL.md",
+      "rel_path": "customer-persona",
+      "source": "agents_archive",
+      "size_bytes": 10568,
+      "description": "\"Research-backed customer persona creation with market data and avatar generation. Covers demographics, psychographics, jobs-to-be-done, journey mapping, and anti-personas. Use for: marketing strategy, product development, UX research, sales enableme"
+    },
+    {
+      "name": "data-visualization",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/data-visualization/SKILL.md",
+      "rel_path": "data-visualization",
+      "source": "agents_archive",
+      "size_bytes": 13184,
+      "description": "\"Data visualization with chart selection, color theory, and annotation best practices. Covers chart types (bar, line, scatter, heatmap), axes rules, and storytelling with data. Use for: charts, graphs, dashboards, reports, presentations, infographics"
+    },
+    {
+      "name": "dialogue-audio",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/dialogue-audio/SKILL.md",
+      "rel_path": "dialogue-audio",
+      "source": "agents_archive",
+      "size_bytes": 8183,
+      "description": "\"Multi-speaker dialogue audio creation with ElevenLabs and Dia TTS. Covers speaker tags, emotion control, pacing, conversation flow, and post-production. Use for: podcasts, audiobooks, explainers, character dialogue, conversational content. Triggers:"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/dispatching-parallel-agents/SKILL.md",
+      "rel_path": "dispatching-parallel-agents",
+      "source": "agents_archive",
+      "size_bytes": 6441,
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"
+    },
+    {
+      "name": "doc-coauthoring",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/doc-coauthoring/SKILL.md",
+      "rel_path": "doc-coauthoring",
+      "source": "agents_archive",
+      "size_bytes": 15815,
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, re"
+    },
+    {
+      "name": "docx",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/docx/SKILL.md",
+      "rel_path": "docx",
+      "source": "agents_archive",
+      "size_bytes": 20084,
+      "description": "\"Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like table"
+    },
+    {
+      "name": "dogfood",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/dogfood/SKILL.md",
+      "rel_path": "dogfood",
+      "source": "agents_archive",
+      "size_bytes": 10605,
+      "description": "Systematically explore and test a web application to find bugs, UX issues, and other problems. Use when asked to \"dogfood\", \"QA\", \"exploratory test\", \"find issues\", \"bug hunt\", \"test this app/site/platform\", or review the quality of a web application"
+    },
+    {
+      "name": "electron",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/electron/SKILL.md",
+      "rel_path": "electron",
+      "source": "agents_archive",
+      "size_bytes": 6832,
+      "description": "Automate Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify, etc.) using agent-browser via Chrome DevTools Protocol. Use when the user needs to interact with an Electron app, automate a desktop app, connect to a running app, contr"
+    },
+    {
+      "name": "elevenlabs-dialogue",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-dialogue/SKILL.md",
+      "rel_path": "elevenlabs-dialogue",
+      "source": "agents_archive",
+      "size_bytes": 7798,
+      "description": "\"ElevenLabs multi-speaker dialogue generation - create conversations with different voices in a single audio file via inference.sh CLI. Capabilities: multi-voice dialogue, script-based generation, voice direction, conversation audio. Use for: podcast"
+    },
+    {
+      "name": "elevenlabs-dubbing",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-dubbing/SKILL.md",
+      "rel_path": "elevenlabs-dubbing",
+      "source": "agents_archive",
+      "size_bytes": 4281,
+      "description": "\"ElevenLabs automatic dubbing - translate and dub audio/video into 29 languages while preserving speaker voice via inference.sh CLI. Capabilities: auto speaker detection, voice-preserving translation, video dubbing, audio localization. Use for: conte"
+    },
+    {
+      "name": "elevenlabs-music",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-music/SKILL.md",
+      "rel_path": "elevenlabs-music",
+      "source": "agents_archive",
+      "size_bytes": 5599,
+      "description": "\"ElevenLabs AI music generation - create original music from text prompts via inference.sh CLI. Capabilities: text-to-music, custom duration up to 10 minutes, genre/mood/instrument control, royalty-free commercial use. Use for: background music, soun"
+    },
+    {
+      "name": "elevenlabs-sound-effects",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-sound-effects/SKILL.md",
+      "rel_path": "elevenlabs-sound-effects",
+      "source": "agents_archive",
+      "size_bytes": 5359,
+      "description": "\"Generate AI sound effects from text descriptions with ElevenLabs via inference.sh CLI. Capabilities: text-to-sound-effect, custom duration, royalty-free audio. Use for: video production, game audio, podcasts, films, presentations, social media. Trig"
+    },
+    {
+      "name": "elevenlabs-stt",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-stt/SKILL.md",
+      "rel_path": "elevenlabs-stt",
+      "source": "agents_archive",
+      "size_bytes": 4448,
+      "description": "\"ElevenLabs speech-to-text with Scribe models and forced alignment via inference.sh CLI. Models: Scribe v1/v2 (98%+ accuracy, 90+ languages). Capabilities: transcription, speaker diarization, audio event tagging, word-level timestamps, forced alignme"
+    },
+    {
+      "name": "elevenlabs-tts",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-tts/SKILL.md",
+      "rel_path": "elevenlabs-tts",
+      "source": "agents_archive",
+      "size_bytes": 5900,
+      "description": "\"ElevenLabs text-to-speech with 22+ premium voices, multilingual support, and voice tuning via inference.sh CLI. Models: eleven_multilingual_v2 (highest quality), eleven_turbo_v2_5 (low latency), eleven_flash_v2_5 (ultra-fast). Capabilities: text-to-"
+    },
+    {
+      "name": "elevenlabs-voice-changer",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-voice-changer/SKILL.md",
+      "rel_path": "elevenlabs-voice-changer",
+      "source": "agents_archive",
+      "size_bytes": 4499,
+      "description": "\"ElevenLabs voice changer - transform any voice to a different voice while preserving speech content and emotion via inference.sh CLI. Models: eleven_multilingual_sts_v2 (70+ languages), eleven_english_sts_v2. Capabilities: speech-to-speech, voice tr"
+    },
+    {
+      "name": "elevenlabs-voice-isolator",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/elevenlabs-voice-isolator/SKILL.md",
+      "rel_path": "elevenlabs-voice-isolator",
+      "source": "agents_archive",
+      "size_bytes": 3906,
+      "description": "\"ElevenLabs voice isolator - remove background noise and isolate vocals from audio via inference.sh CLI. Capabilities: noise removal, voice extraction, audio cleanup, background removal. Use for: podcast cleanup, interview audio, music vocals, noisy "
+    },
+    {
+      "name": "email-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/email-design/SKILL.md",
+      "rel_path": "email-design",
+      "source": "agents_archive",
+      "size_bytes": 10562,
+      "description": "\"Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails, transactional templates, and mobile optimization. Use for: email marketing, newsletter design, drip campaigns"
+    },
+    {
+      "name": "explainer-video-guide",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/explainer-video-guide/SKILL.md",
+      "rel_path": "explainer-video-guide",
+      "source": "agents_archive",
+      "size_bytes": 8654,
+      "description": "\"Explainer video production guide: scripting, voiceover, visuals, and assembly. Covers script formulas, pacing rules, scene planning, and multi-tool pipelines. Use for: product demos, how-it-works videos, onboarding videos, social explainers. Trigger"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/finishing-a-development-branch/SKILL.md",
+      "rel_path": "finishing-a-development-branch",
+      "source": "agents_archive",
+      "size_bytes": 4250,
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup"
+    },
+    {
+      "name": "flux-image",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/flux-image/SKILL.md",
+      "rel_path": "flux-image",
+      "source": "agents_archive",
+      "size_bytes": 3112,
+      "description": "\"Generate images with FLUX models (Black Forest Labs) via inference.sh CLI. Models: FLUX Dev LoRA, FLUX.2 Klein LoRA with custom style adaptation. Capabilities: text-to-image, image-to-image, LoRA fine-tuning, custom styles. Triggers: flux, flux.2, f"
+    },
+    {
+      "name": "google-veo",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/google-veo/SKILL.md",
+      "rel_path": "google-veo",
+      "source": "agents_archive",
+      "size_bytes": 3396,
+      "description": "\"Generate videos with Google Veo models via inference.sh CLI. Models: Veo 3.1, Veo 3.1 Fast, Veo 3, Veo 3 Fast, Veo 2. Capabilities: text-to-video, cinematic output, high quality video generation. Triggers: veo, google veo, veo 3, veo 2, veo 3.1, ver"
+    },
+    {
+      "name": "image-to-video",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/image-to-video/SKILL.md",
+      "rel_path": "image-to-video",
+      "source": "agents_archive",
+      "size_bytes": 9192,
+      "description": "\"Still-to-video conversion guide: model selection, motion prompting, and camera movement. Covers Wan 2.5 i2v, Seedance, Fabric, Grok Video with when to use each. Use for: animating images, creating video from stills, adding motion, product animations"
+    },
+    {
+      "name": "image-upscaling",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/image-upscaling/SKILL.md",
+      "rel_path": "image-upscaling",
+      "source": "agents_archive",
+      "size_bytes": 2609,
+      "description": "\"Upscale and enhance images with Real-ESRGAN, Thera, Topaz, FLUX Upscaler via inference.sh CLI. Models: Real-ESRGAN, Thera (any size), FLUX Dev Upscaler, Topaz Image Upscaler. Use for: enhance low-res images, upscale AI art, restore old photos, incre"
+    },
+    {
+      "name": "infsh-cli",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/infsh-cli/SKILL.md",
+      "rel_path": "infsh-cli",
+      "source": "agents_archive",
+      "size_bytes": 6105,
+      "description": "\"Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generatin"
+    },
+    {
+      "name": "internal-comms",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/internal-comms/SKILL.md",
+      "rel_path": "internal-comms",
+      "source": "agents_archive",
+      "size_bytes": 1511,
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3"
+    },
+    {
+      "name": "javascript-sdk",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/javascript-sdk/SKILL.md",
+      "rel_path": "javascript-sdk",
+      "source": "agents_archive",
+      "size_bytes": 13171,
+      "description": "\"JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models. Package: @inferencesh/sdk (npm install). Full TypeScript support, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API"
+    },
+    {
+      "name": "landing-page-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/landing-page-design/SKILL.md",
+      "rel_path": "landing-page-design",
+      "source": "agents_archive",
+      "size_bytes": 10121,
+      "description": "\"Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof placement, mobile design, and F-pattern reading. Use for: startup landing pages, product pages, SaaS marketi"
+    },
+    {
+      "name": "linkedin-content",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/linkedin-content/SKILL.md",
+      "rel_path": "linkedin-content",
+      "source": "agents_archive",
+      "size_bytes": 9677,
+      "description": "\"LinkedIn post writing with hook formulas, formatting rules, and engagement patterns. Covers post types, algorithm signals, character limits, and content pillars. Use for: LinkedIn posts, professional content, thought leadership, B2B content, persona"
+    },
+    {
+      "name": "llm-models",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/llm-models/SKILL.md",
+      "rel_path": "llm-models",
+      "source": "agents_archive",
+      "size_bytes": 3994,
+      "description": "\"Access Claude, Gemini, Kimi, GLM and 100+ LLMs via inference.sh CLI using OpenRouter. Models: Claude Opus 4.5, Claude Sonnet 4.5, Claude Haiku 4.5, Gemini 3 Pro, Kimi K2, GLM-4.6, Intellect 3. One API for all models with automatic fallback and cost "
+    },
+    {
+      "name": "logo-design-guide",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/logo-design-guide/SKILL.md",
+      "rel_path": "logo-design-guide",
+      "source": "agents_archive",
+      "size_bytes": 7040,
+      "description": "\"Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules, and iteration workflows. Use for: brand identity, startup logos, app icons, favicons, logo concepts. Trigge"
+    },
+    {
+      "name": "mcp-builder",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/mcp-builder/SKILL.md",
+      "rel_path": "mcp-builder",
+      "source": "agents_archive",
+      "size_bytes": 9092,
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or"
+    },
+    {
+      "name": "nano-banana",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/nano-banana/SKILL.md",
+      "rel_path": "nano-banana",
+      "source": "agents_archive",
+      "size_bytes": 4198,
+      "description": "\"Generate images with Google Gemini native image models via inference.sh CLI. Models: Gemini 3 Pro Image, Gemini 2.5 Flash Image. Capabilities: text-to-image, image editing, multi-image input. Triggers: nano banana, gemini image, gemini 3 pro image, "
+    },
+    {
+      "name": "nano-banana-2",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/nano-banana-2/SKILL.md",
+      "rel_path": "nano-banana-2",
+      "source": "agents_archive",
+      "size_bytes": 4786,
+      "description": "\"Generate images with Google Gemini 3.1 Flash Image Preview (Nano Banana 2) via inference.sh CLI. Capabilities: text-to-image, image editing, multi-image input (up to 14 images), Google Search grounding. Triggers: nano banana 2, nanobanana 2, gemini "
+    },
+    {
+      "name": "newsletter-curation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/newsletter-curation/SKILL.md",
+      "rel_path": "newsletter-curation",
+      "source": "agents_archive",
+      "size_bytes": 9427,
+      "description": "\"Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, commentary style, and sending cadence. Use for: email newsletters, link roundups, weekly digests, curated conte"
+    },
+    {
+      "name": "og-image-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/og-image-design/SKILL.md",
+      "rel_path": "og-image-design",
+      "source": "agents_archive",
+      "size_bytes": 10453,
+      "description": "\"Open Graph and social sharing image design with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn previews, and dynamic generation. Use for: social sharing images, blog thumbnails, link previews, social cards"
+    },
+    {
+      "name": "p-image",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/p-image/SKILL.md",
+      "rel_path": "p-image",
+      "source": "agents_archive",
+      "size_bytes": 4030,
+      "description": "\"Generate images with Pruna P-Image models via inference.sh CLI. Models: P-Image, P-Image-LoRA, P-Image-Edit, P-Image-Edit-LoRA. Capabilities: text-to-image, image editing, LoRA styles, multi-image compositing, fast inference. Pruna optimizes models "
+    },
+    {
+      "name": "p-video",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/p-video/SKILL.md",
+      "rel_path": "p-video",
+      "source": "agents_archive",
+      "size_bytes": 3839,
+      "description": "\"Generate videos with Pruna P-Video and WAN models via inference.sh CLI. Models: P-Video, WAN-T2V, WAN-I2V. Capabilities: text-to-video, image-to-video, audio support, 720p/1080p, fast inference. Pruna optimizes models for speed without quality loss."
+    },
+    {
+      "name": "pdf",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/pdf/SKILL.md",
+      "rel_path": "pdf",
+      "source": "agents_archive",
+      "size_bytes": 8072,
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, "
+    },
+    {
+      "name": "pitch-deck-visuals",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/pitch-deck-visuals/SKILL.md",
+      "rel_path": "pitch-deck-visuals",
+      "source": "agents_archive",
+      "size_bytes": 11882,
+      "description": "\"Investor pitch deck structure with slide-by-slide framework, visual design rules, and data presentation. Covers the 12-slide framework, chart types, team slides, and common investor turn-offs. Use for: fundraising decks, investor presentations, star"
+    },
+    {
+      "name": "pptx",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/pptx/SKILL.md",
+      "rel_path": "pptx",
+      "source": "agents_archive",
+      "size_bytes": 9182,
+      "description": "\"Use this skill any time a .pptx file is involved in any way \u2014 as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will"
+    },
+    {
+      "name": "press-release-writing",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/press-release-writing/SKILL.md",
+      "rel_path": "press-release-writing",
+      "source": "agents_archive",
+      "size_bytes": 9146,
+      "description": "\"Press release writing in AP style with inverted pyramid structure. Covers formatting, datelines, quotes, boilerplates, and fact-checking. Use for: product launches, funding announcements, partnerships, company news, events. Triggers: press release, "
+    },
+    {
+      "name": "product-changelog",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/product-changelog/SKILL.md",
+      "rel_path": "product-changelog",
+      "source": "agents_archive",
+      "size_bytes": 8419,
+      "description": "\"Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution. Use for: release notes, changelogs, product updates, feature announcements, versioning. Triggers: changelog, releas"
+    },
+    {
+      "name": "product-hunt-launch",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/product-hunt-launch/SKILL.md",
+      "rel_path": "product-hunt-launch",
+      "source": "agents_archive",
+      "size_bytes": 9077,
+      "description": "\"Product Hunt launch optimization with specific specs, timing, and gallery strategy. Covers taglines, gallery images, maker comments, and launch day tactics. Use for: product launches, startup launches, side project launches, Product Hunt optimizatio"
+    },
+    {
+      "name": "product-photography",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/product-photography/SKILL.md",
+      "rel_path": "product-photography",
+      "source": "agents_archive",
+      "size_bytes": 11553,
+      "description": "\"AI product photography with studio lighting, lifestyle shots, and packshot conventions. Covers angles, backgrounds, shadow types, hero shots, and e-commerce image requirements. Use for: product photos, e-commerce images, Amazon listings, packshots, "
+    },
+    {
+      "name": "prompt-engineering",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/prompt-engineering/SKILL.md",
+      "rel_path": "prompt-engineering",
+      "source": "agents_archive",
+      "size_bytes": 9716,
+      "description": "\"Master prompt engineering for AI models: LLMs, image generators, video models. Techniques: chain-of-thought, few-shot, system prompts, negative prompts. Models: Claude, GPT-4, Gemini, FLUX, Veo, Stable Diffusion prompting. Use for: better AI outputs"
+    },
+    {
+      "name": "python-executor",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/python-executor/SKILL.md",
+      "rel_path": "python-executor",
+      "source": "agents_archive",
+      "size_bytes": 6122,
+      "description": "\"Execute Python code in a safe sandboxed environment via [inference.sh](https://inference.sh). Pre-installed: NumPy, Pandas, Matplotlib, requests, BeautifulSoup, Selenium, Playwright, MoviePy, Pillow, OpenCV, trimesh, and 100+ more libraries. Use for"
+    },
+    {
+      "name": "python-sdk",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/python-sdk/SKILL.md",
+      "rel_path": "python-sdk",
+      "source": "agents_archive",
+      "size_bytes": 11201,
+      "description": "\"Python SDK for inference.sh - run AI apps, build agents, and integrate with 150+ models. Package: inferencesh (pip install inferencesh). Supports sync/async, streaming, file uploads. Build agents with template or ad-hoc patterns, tool builder API, s"
+    },
+    {
+      "name": "qwen-image-2",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/qwen-image-2/SKILL.md",
+      "rel_path": "qwen-image-2",
+      "source": "agents_archive",
+      "size_bytes": 5460,
+      "description": "\"Generate and edit images with Alibaba Qwen-Image-2.0 models via inference.sh CLI. Models: Qwen-Image-2.0 (fast), Qwen-Image-2.0-Pro (professional text rendering). Capabilities: text-to-image, multi-image editing, complex text rendering. Triggers: qw"
+    },
+    {
+      "name": "qwen-image-2-pro",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/qwen-image-2-pro/SKILL.md",
+      "rel_path": "qwen-image-2-pro",
+      "source": "agents_archive",
+      "size_bytes": 6368,
+      "description": "\"Generate images with Alibaba Qwen-Image-2.0-Pro via inference.sh CLI. Professional text rendering, fine-grained realism, enhanced semantic adherence. Ideal for posters, banners, and text-heavy designs. Triggers: qwen image pro, qwen-image-pro, qwen "
+    },
+    {
+      "name": "receiving-code-review",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/receiving-code-review/SKILL.md",
+      "rel_path": "receiving-code-review",
+      "source": "agents_archive",
+      "size_bytes": 6314,
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation"
+    },
+    {
+      "name": "related-skill",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/related-skill/SKILL.md",
+      "rel_path": "related-skill",
+      "source": "agents_archive",
+      "size_bytes": 3956,
+      "description": "\"Discover and install related skills from inference.sh skill registry. Helps find complementary skills for your AI workflow. Use for: skill discovery, workflow expansion, capability exploration. Triggers: related skills, find skills, skill discovery,"
+    },
+    {
+      "name": "remotion-render",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/remotion-render/SKILL.md",
+      "rel_path": "remotion-render",
+      "source": "agents_archive",
+      "size_bytes": 7935,
+      "description": "\"Render videos from React/Remotion component code via inference.sh. Pass TSX code, get MP4. Supports all Remotion APIs: useCurrentFrame, useVideoConfig, spring, interpolate, AbsoluteFill, Sequence. Configurable resolution, FPS, duration, codec. Use f"
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/requesting-code-review/SKILL.md",
+      "rel_path": "requesting-code-review",
+      "source": "agents_archive",
+      "size_bytes": 2935,
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements"
+    },
+    {
+      "name": "seo-content-brief",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/seo-content-brief/SKILL.md",
+      "rel_path": "seo-content-brief",
+      "source": "agents_archive",
+      "size_bytes": 11058,
+      "description": "\"SEO content brief creation with keyword research, search intent analysis, and content structure. Covers SERP analysis, heading hierarchy, word count targets, and internal linking strategy. Use for: content briefs, SEO writing, blog strategy, content"
+    },
+    {
+      "name": "skill-creator",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/skill-creator/SKILL.md",
+      "rel_path": "skill-creator",
+      "source": "agents_archive",
+      "size_bytes": 33168,
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analys"
+    },
+    {
+      "name": "slack",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/slack/SKILL.md",
+      "rel_path": "slack",
+      "source": "agents_archive",
+      "size_bytes": 8289,
+      "description": "Interact with Slack workspaces using browser automation. Use when the user needs to check unread channels, navigate Slack, send messages, extract data, find information, search conversations, or automate any Slack task. Triggers include \"check my Sla"
+    },
+    {
+      "name": "slack-gif-creator",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/slack-gif-creator/SKILL.md",
+      "rel_path": "slack-gif-creator",
+      "source": "agents_archive",
+      "size_bytes": 7841,
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\""
+    },
+    {
+      "name": "social-media-carousel",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/social-media-carousel/SKILL.md",
+      "rel_path": "social-media-carousel",
+      "source": "agents_archive",
+      "size_bytes": 8634,
+      "description": "\"Multi-slide carousel design for Instagram, LinkedIn, and Twitter/X with layout rules and hooks. Covers slide structure, text hierarchy, swipe psychology, and platform-specific specs. Use for: carousel posts, Instagram carousels, LinkedIn carousels, "
+    },
+    {
+      "name": "speech-to-text",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/speech-to-text/SKILL.md",
+      "rel_path": "speech-to-text",
+      "source": "agents_archive",
+      "size_bytes": 4212,
+      "description": "\"Transcribe audio to text with ElevenLabs Scribe and Whisper models via inference.sh CLI. Models: ElevenLabs Scribe v2 (98%+ accuracy, diarization), Fast Whisper Large V3, Whisper V3 Large. Capabilities: transcription, translation, multi-language, ti"
+    },
+    {
+      "name": "storyboard-creation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/storyboard-creation/SKILL.md",
+      "rel_path": "storyboard-creation",
+      "source": "agents_archive",
+      "size_bytes": 10419,
+      "description": "\"Film and video storyboarding with shot vocabulary, continuity rules, and panel layout. Covers shot types, camera angles, movement, 180-degree rule, and annotation format. Use for: video planning, film pre-production, ad storyboards, music video plan"
+    },
+    {
+      "name": "subagent-driven-development",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/subagent-driven-development/SKILL.md",
+      "rel_path": "subagent-driven-development",
+      "source": "agents_archive",
+      "size_bytes": 12139,
+      "description": "Use when executing implementation plans with independent tasks in the current session"
+    },
+    {
+      "name": "talking-head-production",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/talking-head-production/SKILL.md",
+      "rel_path": "talking-head-production",
+      "source": "agents_archive",
+      "size_bytes": 7735,
+      "description": "\"Talking head video production with AI avatars, lipsync, and voiceover. Covers portrait requirements, audio quality, OmniHuman, PixVerse lipsync, Dia TTS. Use for: spokesperson videos, course content, social media, presentations, demos. Triggers: tal"
+    },
+    {
+      "name": "technical-blog-writing",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/technical-blog-writing/SKILL.md",
+      "rel_path": "technical-blog-writing",
+      "source": "agents_archive",
+      "size_bytes": 12256,
+      "description": "\"Technical blog post writing with structure, code examples, and developer audience conventions. Covers post types, code formatting, explanation depth, and developer-specific engagement patterns. Use for: engineering blogs, dev tutorials, technical wr"
+    },
+    {
+      "name": "template-skill",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/template-skill/SKILL.md",
+      "rel_path": "template-skill",
+      "source": "agents_archive",
+      "size_bytes": 140,
+      "description": "Replace with description of the skill and when Claude should use it."
+    },
+    {
+      "name": "text-to-speech",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/text-to-speech/SKILL.md",
+      "rel_path": "text-to-speech",
+      "source": "agents_archive",
+      "size_bytes": 4260,
+      "description": "\"Convert text to natural speech with ElevenLabs, DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI. Models: ElevenLabs (premium, 22+ voices, 32 languages), DIA TTS (conversational), Kokoro TTS, Chatterbox, Higgs Audio, VibeVoice (podcasts). "
+    },
+    {
+      "name": "theme-factory",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/theme-factory/SKILL.md",
+      "rel_path": "theme-factory",
+      "source": "agents_archive",
+      "size_bytes": 3124,
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme"
+    },
+    {
+      "name": "twitter-automation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/twitter-automation/SKILL.md",
+      "rel_path": "twitter-automation",
+      "source": "agents_archive",
+      "size_bytes": 4170,
+      "description": "\"Automate Twitter/X with posting, engagement, and user management via inference.sh CLI. Apps: x/post-tweet, x/post-create (with media), x/post-like, x/post-retweet, x/dm-send, x/user-follow. Capabilities: post tweets, schedule content, like posts, re"
+    },
+    {
+      "name": "twitter-thread-creation",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/twitter-thread-creation/SKILL.md",
+      "rel_path": "twitter-thread-creation",
+      "source": "agents_archive",
+      "size_bytes": 8610,
+      "description": "\"Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media attachments, and posting strategies. Use for: Twitter threads, X posts, tweet storms, Twitter content, social "
+    },
+    {
+      "name": "using-git-worktrees",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/using-git-worktrees/SKILL.md",
+      "rel_path": "using-git-worktrees",
+      "source": "agents_archive",
+      "size_bytes": 5635,
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - creates isolated git worktrees with smart directory selection and safety verification"
+    },
+    {
+      "name": "vercel-sandbox",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/vercel-sandbox/SKILL.md",
+      "rel_path": "vercel-sandbox",
+      "source": "agents_archive",
+      "size_bytes": 9671,
+      "description": "Run agent-browser + Chrome inside Vercel Sandbox microVMs for browser automation from any Vercel-deployed app. Use when the user needs browser automation in a Vercel app (Next.js, SvelteKit, Nuxt, Remix, Astro, etc.), wants to run headless Chrome wit"
+    },
+    {
+      "name": "verification-before-completion",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/verification-before-completion/SKILL.md",
+      "rel_path": "verification-before-completion",
+      "source": "agents_archive",
+      "size_bytes": 4201,
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always"
+    },
+    {
+      "name": "video-ad-specs",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/video-ad-specs/SKILL.md",
+      "rel_path": "video-ad-specs",
+      "source": "agents_archive",
+      "size_bytes": 8649,
+      "description": "\"Video ad creation with exact platform-specific specs for TikTok, Instagram, YouTube, Facebook, LinkedIn. Covers dimensions, duration limits, AIDA framework, and caption requirements. Use for: video ads, social media ads, paid media creative, video m"
+    },
+    {
+      "name": "video-prompting-guide",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/video-prompting-guide/SKILL.md",
+      "rel_path": "video-prompting-guide",
+      "source": "agents_archive",
+      "size_bytes": 7760,
+      "description": "\"Best practices and techniques for writing effective AI video generation prompts. Covers: Veo, Seedance, Wan, Grok, Kling, Runway, Pika, Sora prompting strategies. Learn: shot types, camera movements, lighting, pacing, style keywords, negative prompt"
+    },
+    {
+      "name": "webapp-testing",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/webapp-testing/SKILL.md",
+      "rel_path": "webapp-testing",
+      "source": "agents_archive",
+      "size_bytes": 3913,
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs."
+    },
+    {
+      "name": "widgets-ui",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/widgets-ui/SKILL.md",
+      "rel_path": "widgets-ui",
+      "source": "agents_archive",
+      "size_bytes": 4948,
+      "description": "\"Declarative UI widgets from JSON for React/Next.js from ui.inference.sh. Render rich interactive UIs from structured agent responses. Capabilities: forms, buttons, cards, layouts, inputs, selects, checkboxes. Use for: agent-generated UIs, dynamic fo"
+    },
+    {
+      "name": "writing-skills",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/writing-skills/SKILL.md",
+      "rel_path": "writing-skills",
+      "source": "agents_archive",
+      "size_bytes": 22465,
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment"
+    },
+    {
+      "name": "xlsx",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/xlsx/SKILL.md",
+      "rel_path": "xlsx",
+      "source": "agents_archive",
+      "size_bytes": 11463,
+      "description": "\"Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, char"
+    },
+    {
+      "name": "youtube-thumbnail-design",
+      "path": "/Users/vinnygilberti/.agents/skills-archive/youtube-thumbnail-design/SKILL.md",
+      "rel_path": "youtube-thumbnail-design",
+      "source": "agents_archive",
+      "size_bytes": 9587,
+      "description": "\"YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face expression psychology, and A/B testing. Use for: YouTube thumbnails, video cover images, click-through optimi"
+    },
+    {
+      "name": "accessorysetupkit",
+      "path": "/Users/vinnygilberti/.agents/skills/accessorysetupkit/SKILL.md",
+      "rel_path": "accessorysetupkit",
+      "source": "agents_canonical",
+      "size_bytes": 14190,
+      "description": "\"Discover and configure Bluetooth and Wi-Fi accessories using AccessorySetupKit. Use when presenting a privacy-preserving accessory picker, defining discovery descriptors for BLE or Wi-Fi devices, handling accessory session events, migrating from Cor"
+    },
+    {
+      "name": "activitykit",
+      "path": "/Users/vinnygilberti/.agents/skills/activitykit/SKILL.md",
+      "rel_path": "activitykit",
+      "source": "agents_canonical",
+      "size_bytes": 18492,
+      "description": "\"Implement, review, or improve Live Activities and Dynamic Island experiences in iOS apps using ActivityKit. Use when building real-time updating widgets for the Lock Screen and Dynamic Island \u2014 delivery tracking, sports scores, ride-sharing status, "
+    },
+    {
+      "name": "adattributionkit",
+      "path": "/Users/vinnygilberti/.agents/skills/adattributionkit/SKILL.md",
+      "rel_path": "adattributionkit",
+      "source": "agents_canonical",
+      "size_bytes": 13924,
+      "description": "\"Measure ad effectiveness with privacy-preserving attribution using AdAttributionKit. Use when registering ad impressions, handling attribution postbacks, updating conversion values, implementing re-engagement attribution, configuring publisher or ad"
+    },
+    {
+      "name": "agent-browser",
+      "path": "/Users/vinnygilberti/.agents/skills/agent-browser/SKILL.md",
+      "rel_path": "agent-browser",
+      "source": "agents_canonical",
+      "size_bytes": 9733,
+      "description": ">-"
+    },
+    {
+      "name": "agent-tools",
+      "path": "/Users/vinnygilberti/.agents/skills/agent-tools/SKILL.md",
+      "rel_path": "agent-tools",
+      "source": "agents_canonical",
+      "size_bytes": 6107,
+      "description": "\"Run 150+ AI apps via inference.sh CLI - image generation, video creation, LLMs, search, 3D, Twitter automation. Models: FLUX, Veo, Gemini, Grok, Claude, Seedance, OmniHuman, Tavily, Exa, OpenRouter, and many more. Use when running AI apps, generatin"
+    },
+    {
+      "name": "agent-ui",
+      "path": "/Users/vinnygilberti/.agents/skills/agent-ui/SKILL.md",
+      "rel_path": "agent-ui",
+      "source": "agents_canonical",
+      "size_bytes": 3530,
+      "description": "\"Batteries-included agent component for React/Next.js from ui.inference.sh. One component with runtime, tools, streaming, approvals, and widgets built in. Capabilities: drop-in agent, human-in-the-loop, client-side tools, form filling. Use for: build"
+    },
+    {
+      "name": "alarmkit",
+      "path": "/Users/vinnygilberti/.agents/skills/alarmkit/SKILL.md",
+      "rel_path": "alarmkit",
+      "source": "agents_canonical",
+      "size_bytes": 13211,
+      "description": "\"Implement AlarmKit alarms and countdown timers for iOS and iPadOS with Lock Screen, Dynamic Island, StandBy, and paired Apple Watch system UI. Covers AlarmManager scheduling, AlarmAttributes and AlarmPresentation, system Stop and AlarmButton seconda"
+    },
+    {
+      "name": "app-clips",
+      "path": "/Users/vinnygilberti/.agents/skills/app-clips/SKILL.md",
+      "rel_path": "app-clips",
+      "source": "agents_canonical",
+      "size_bytes": 8485,
+      "description": "\"Build iOS App Clips with invocation URLs, App Clip Codes, NFC, QR codes, Safari banners, Maps, Messages, target setup, App Store Connect experiences, size/capability constraints, NSUserActivity routing, SKOverlay promotion, App Group/keychain handof"
+    },
+    {
+      "name": "app-intents",
+      "path": "/Users/vinnygilberti/.agents/skills/app-intents/SKILL.md",
+      "rel_path": "app-intents",
+      "source": "agents_canonical",
+      "size_bytes": 16820,
+      "description": "\"Implement App Intents for Siri, Shortcuts, Spotlight, widgets, Control Center, and Apple Intelligence on iOS. Covers AppIntent actions, AppEntity and EntityQuery models, AppShortcutsProvider phrases, IndexedEntity Spotlight indexing, WidgetConfigura"
+    },
+    {
+      "name": "app-store-optimization",
+      "path": "/Users/vinnygilberti/.agents/skills/app-store-optimization/SKILL.md",
+      "rel_path": "app-store-optimization",
+      "source": "agents_canonical",
+      "size_bytes": 17145,
+      "description": "\"Optimize App Store product pages for search visibility and conversion. Use for App Store Optimization (ASO), keyword research, app name/subtitle/keyword-field strategy, conversion-focused descriptions and promotional text, screenshot captions and or"
+    },
+    {
+      "name": "app-store-review",
+      "path": "/Users/vinnygilberti/.agents/skills/app-store-review/SKILL.md",
+      "rel_path": "app-store-review",
+      "source": "agents_canonical",
+      "size_bytes": 13511,
+      "description": "\"Audits App Store submission readiness and rejection risk across current review guidelines, PrivacyInfo.xcprivacy and required-reason APIs, privacy labels, ATT, StoreKit payments, metadata, entitlements, widgets, and Live Activities. Use when prepari"
+    },
+    {
+      "name": "apple-on-device-ai",
+      "path": "/Users/vinnygilberti/.agents/skills/apple-on-device-ai/SKILL.md",
+      "rel_path": "apple-on-device-ai",
+      "source": "agents_canonical",
+      "size_bytes": 13690,
+      "description": "\"Build private, on-device AI features on iPhone, iPad, and Mac with Foundation Models, Core ML, MLX Swift, or llama.cpp. Use when choosing an Apple-local model runtime, building an Apple Intelligence chatbot or tool-calling feature, running an LLM on"
+    },
+    {
+      "name": "appmigrationkit",
+      "path": "/Users/vinnygilberti/.agents/skills/appmigrationkit/SKILL.md",
+      "rel_path": "appmigrationkit",
+      "source": "agents_canonical",
+      "size_bytes": 17992,
+      "description": "\"Transfer app data to or from other platforms using AppMigrationKit. Use when implementing system-orchestrated one-time migration between iOS and Android or another platform, building an AppMigrationExtension, packaging transportable resources with R"
+    },
+    {
+      "name": "audioaccessorykit",
+      "path": "/Users/vinnygilberti/.agents/skills/audioaccessorykit/SKILL.md",
+      "rel_path": "audioaccessorykit",
+      "source": "agents_canonical",
+      "size_bytes": 13187,
+      "description": "\"Support automatic audio switching for paired third-party Bluetooth headphones or earbuds with AudioAccessoryKit. Use when a companion app registers an audio accessory, an app extension reports worn/removed placement or connected source-device change"
+    },
+    {
+      "name": "authentication",
+      "path": "/Users/vinnygilberti/.agents/skills/authentication/SKILL.md",
+      "rel_path": "authentication",
+      "source": "agents_canonical",
+      "size_bytes": 14896,
+      "description": "\"Implement iOS authentication flows with AuthenticationServices and LocalAuthentication. Use when building Sign in with Apple, passkey/WebAuthn registration or sign-in with ASAuthorizationPlatformPublicKeyCredentialProvider, ASAuthorizationController"
+    },
+    {
+      "name": "avkit",
+      "path": "/Users/vinnygilberti/.agents/skills/avkit/SKILL.md",
+      "rel_path": "avkit",
+      "source": "agents_canonical",
+      "size_bytes": 17253,
+      "description": "\"Create media playback experiences using AVKit. Use when adding video players with AVPlayerViewController, enabling Picture-in-Picture, routing media with AirPlay, using SwiftUI VideoPlayer views, configuring transport controls, displaying subtitles "
+    },
+    {
+      "name": "background-processing",
+      "path": "/Users/vinnygilberti/.agents/skills/background-processing/SKILL.md",
+      "rel_path": "background-processing",
+      "source": "agents_canonical",
+      "size_bytes": 15052,
+      "description": "\"Schedule and execute background work on iOS using BGTaskScheduler. Use when registering BGAppRefreshTask for short background fetches, BGProcessingTask for long-running maintenance, BGContinuedProcessingTask (iOS 26+) for foreground-started work tha"
+    },
+    {
+      "name": "brainstorming",
+      "path": "/Users/vinnygilberti/.agents/skills/brainstorming/SKILL.md",
+      "rel_path": "brainstorming",
+      "source": "agents_canonical",
+      "size_bytes": 10571,
+      "description": "\"You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.\""
+    },
+    {
+      "name": "browserenginekit",
+      "path": "/Users/vinnygilberti/.agents/skills/browserenginekit/SKILL.md",
+      "rel_path": "browserenginekit",
+      "source": "agents_canonical",
+      "size_bytes": 17802,
+      "description": "\"Build alternative browser engines using BrowserEngineKit. Use when developing a non-WebKit browser engine for iOS/iPadOS in supported regions, managing web content/rendering/networking extension processes, configuring GPU and networking process capa"
+    },
+    {
+      "name": "callkit",
+      "path": "/Users/vinnygilberti/.agents/skills/callkit/SKILL.md",
+      "rel_path": "callkit",
+      "source": "agents_canonical",
+      "size_bytes": 16847,
+      "description": "\"Implement VoIP calling with CallKit and PushKit. Use when building incoming/outgoing call flows, registering for VoIP push notifications, configuring CXProvider and CXCallController, handling call actions, coordinating audio sessions, or creating Ca"
+    },
+    {
+      "name": "carplay",
+      "path": "/Users/vinnygilberti/.agents/skills/carplay/SKILL.md",
+      "rel_path": "carplay",
+      "source": "agents_canonical",
+      "size_bytes": 18544,
+      "description": "\"Build CarPlay-enabled apps using the CarPlay framework. Use when creating navigation, audio, communication, EV charging, parking, or food ordering apps for the car display, working with CPTemplateApplicationScene, CPInterfaceController template hier"
+    },
+    {
+      "name": "chat-archaeologist",
+      "path": "/Users/vinnygilberti/.agents/skills/chat-archaeologist/SKILL.md",
+      "rel_path": "chat-archaeologist",
+      "source": "agents_canonical",
+      "size_bytes": 10109,
+      "description": ""
+    },
+    {
+      "name": "clipboardlux-macos-debugging",
+      "path": "/Users/vinnygilberti/.agents/skills/clipboardlux-macos-debugging/SKILL.md",
+      "rel_path": "clipboardlux-macos-debugging",
+      "source": "agents_canonical",
+      "size_bytes": 15739,
+      "description": ""
+    },
+    {
+      "name": "cloudkit",
+      "path": "/Users/vinnygilberti/.agents/skills/cloudkit/SKILL.md",
+      "rel_path": "cloudkit",
+      "source": "agents_canonical",
+      "size_bytes": 19100,
+      "description": "\"Implement, review, or improve CloudKit and iCloud sync in iOS/macOS apps. Use when working with CKContainer, CKRecord, CKQuery, CKSubscription, CKSyncEngine, CKShare, NSUbiquitousKeyValueStore, or iCloud Drive file coordination; when syncing SwiftDa"
+    },
+    {
+      "name": "contacts-framework",
+      "path": "/Users/vinnygilberti/.agents/skills/contacts-framework/SKILL.md",
+      "rel_path": "contacts-framework",
+      "source": "agents_canonical",
+      "size_bytes": 16233,
+      "description": "\"Read, create, update, and pick contacts using the Contacts and ContactsUI frameworks. Use when fetching contact data, saving new contacts, wrapping CNContactPickerViewController in SwiftUI, handling contact permissions, or working with CNContactStor"
+    },
+    {
+      "name": "continue-claude-work",
+      "path": "/Users/vinnygilberti/.agents/skills/continue-claude-work/SKILL.md",
+      "rel_path": "continue-claude-work",
+      "source": "agents_canonical",
+      "size_bytes": 7679,
+      "description": "Recover actionable context from local session artifacts (Claude Code `~/.claude/projects` OR Kilo Code `~/.kilocode/tasks`) and continue interrupted work. Use when the user provides a session/task ID, asks to continue prior work from local history, o"
+    },
+    {
+      "name": "core-bluetooth",
+      "path": "/Users/vinnygilberti/.agents/skills/core-bluetooth/SKILL.md",
+      "rel_path": "core-bluetooth",
+      "source": "agents_canonical",
+      "size_bytes": 15260,
+      "description": "\"Build direct Bluetooth Low Energy workflows with Core Bluetooth. Use when implementing BLE central or peripheral GATT communication, scanning or connecting with CBCentralManager, discovering services and characteristics, reading/writing/subscribing "
+    },
+    {
+      "name": "core-data",
+      "path": "/Users/vinnygilberti/.agents/skills/core-data/SKILL.md",
+      "rel_path": "core-data",
+      "source": "agents_canonical",
+      "size_bytes": 16567,
+      "description": "\"Build, review, or improve Core Data persistence in apps that have not adopted SwiftData. Use when working with NSManagedObject subclasses, NSFetchedResultsController for list-driven UI, NSBatchInsertRequest / NSBatchDeleteRequest / NSBatchUpdateRequ"
+    },
+    {
+      "name": "core-motion",
+      "path": "/Users/vinnygilberti/.agents/skills/core-motion/SKILL.md",
+      "rel_path": "core-motion",
+      "source": "agents_canonical",
+      "size_bytes": 12849,
+      "description": "\"Access Core Motion accelerometer, gyroscope, magnetometer, device-motion, pedometer, activity-recognition, altitude, headphone motion, batched high-frequency workout motion, and water-submersion/depth data. Use when reading device sensors, counting "
+    },
+    {
+      "name": "core-nfc",
+      "path": "/Users/vinnygilberti/.agents/skills/core-nfc/SKILL.md",
+      "rel_path": "core-nfc",
+      "source": "agents_canonical",
+      "size_bytes": 12980,
+      "description": "\"Read and write NFC tags using CoreNFC. Use when scanning NDEF tags, reading ISO7816/ISO15693/FeliCa/MIFARE tags, writing NDEF messages, handling NFC session lifecycle, configuring NFC entitlements, or implementing background tag reading in iOS apps."
+    },
+    {
+      "name": "coreml",
+      "path": "/Users/vinnygilberti/.agents/skills/coreml/SKILL.md",
+      "rel_path": "coreml",
+      "source": "agents_canonical",
+      "size_bytes": 16264,
+      "description": "\"Integrate Core ML models in iOS apps for on-device machine learning inference. Covers model loading (.mlmodel, .mlpackage, .mlmodelc), predictions with auto-generated classes and MLFeatureProvider, compute unit configuration (CPU, GPU, Neural Engine"
+    },
+    {
+      "name": "cryptokit",
+      "path": "/Users/vinnygilberti/.agents/skills/cryptokit/SKILL.md",
+      "rel_path": "cryptokit",
+      "source": "agents_canonical",
+      "size_bytes": 14231,
+      "description": "\"Use Apple CryptoKit for Swift cryptographic primitives. Use when hashing with SHA-2 or SHA-3, generating HMACs, encrypting with AES-GCM or ChaChaPoly, signing with P256/P384/P521/Curve25519 or ML-DSA keys, performing ECDH, HPKE, ML-KEM, or X-Wing ke"
+    },
+    {
+      "name": "cryptotokenkit",
+      "path": "/Users/vinnygilberti/.agents/skills/cryptotokenkit/SKILL.md",
+      "rel_path": "cryptotokenkit",
+      "source": "agents_canonical",
+      "size_bytes": 17918,
+      "description": "\"Access security tokens and smart cards using CryptoTokenKit. Use when building TKTokenDriver or TKSmartCardTokenDriver extensions, communicating with smart cards via TKSmartCard/TKSmartCardSlotManager, using iOS 26+ NFC smart-card sessions, register"
+    },
+    {
+      "name": "custom-brainstorm-storm",
+      "path": "/Users/vinnygilberti/.agents/skills/custom-brainstorm-storm/SKILL.md",
+      "rel_path": "custom-brainstorm-storm",
+      "source": "agents_canonical",
+      "size_bytes": 11100,
+      "description": "Custom Stanford-tuned build synthesized from STORM/Co-STORM parts. A custom Stanford-tuned brainstorm+STORM engine with pluggable deliberation tiers: divergent brainstorm and fishbowl perspective surfacing, council/jury/panel/debate verdicts with a m"
+    },
+    {
+      "name": "debugging-instruments",
+      "path": "/Users/vinnygilberti/.agents/skills/debugging-instruments/SKILL.md",
+      "rel_path": "debugging-instruments",
+      "source": "agents_canonical",
+      "size_bytes": 14459,
+      "description": "\"Debug iOS apps and profile performance using LLDB, the interactive Memory Graph Debugger, and Instruments. Use for crashes, retain-cycle inspection, hangs, build failures, and generic CPU, memory, energy, or network profiling. Use ios-memgraph-analy"
+    },
+    {
+      "name": "deep-research",
+      "path": "/Users/vinnygilberti/.agents/skills/deep-research/SKILL.md",
+      "rel_path": "deep-research",
+      "source": "agents_canonical",
+      "size_bytes": 4343,
+      "description": "Use when the user needs multi-source research with citation tracking, evidence persistence, and structured report generation. Triggers on \"deep research\", \"comprehensive analysis\", \"research report\", \"compare X vs Y\", \"analyze trends\", or \"state of t"
+    },
+    {
+      "name": "deep-research-free",
+      "path": "/Users/vinnygilberti/.agents/skills/deep-research-free/SKILL.md",
+      "rel_path": "deep-research-free",
+      "source": "agents_canonical",
+      "size_bytes": 12873,
+      "description": ">"
+    },
+    {
+      "name": "device-integrity",
+      "path": "/Users/vinnygilberti/.agents/skills/device-integrity/SKILL.md",
+      "rel_path": "device-integrity",
+      "source": "agents_canonical",
+      "size_bytes": 17684,
+      "description": "\"Verify device legitimacy and app integrity using DeviceCheck (DCDevice per-device bits) and App Attest (DCAppAttestService key generation, attestation, and assertion flows). Use when implementing fraud prevention, detecting compromised devices, vali"
+    },
+    {
+      "name": "dockkit",
+      "path": "/Users/vinnygilberti/.agents/skills/dockkit/SKILL.md",
+      "rel_path": "dockkit",
+      "source": "agents_canonical",
+      "size_bytes": 17344,
+      "description": "\"Control motorized camera docks and enable intelligent subject tracking using DockKit. Use when discovering DockKit-compatible accessories, implementing camera subject tracking for faces or bodies, controlling dock motors for pan and tilt, configurin"
+    },
+    {
+      "name": "energykit",
+      "path": "/Users/vinnygilberti/.agents/skills/energykit/SKILL.md",
+      "rel_path": "energykit",
+      "source": "agents_canonical",
+      "size_bytes": 16977,
+      "description": "\"Query grid electricity forecasts and submit load events using EnergyKit to help users optimize home electricity usage. Use when building smart home apps, EV charger controls, HVAC scheduling, or energy management dashboards that guide users to use p"
+    },
+    {
+      "name": "eventkit",
+      "path": "/Users/vinnygilberti/.agents/skills/eventkit/SKILL.md",
+      "rel_path": "eventkit",
+      "source": "agents_canonical",
+      "size_bytes": 15312,
+      "description": "\"Create, read, and manage calendar events and reminders using EventKit and EventKitUI. Use when adding events to the user's calendar, creating reminders, setting recurrence rules, requesting calendar or reminders access, presenting event editors, cho"
+    },
+    {
+      "name": "executing-plans",
+      "path": "/Users/vinnygilberti/.agents/skills/executing-plans/SKILL.md",
+      "rel_path": "executing-plans",
+      "source": "agents_canonical",
+      "size_bytes": 2459,
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints"
+    },
+    {
+      "name": "financekit",
+      "path": "/Users/vinnygilberti/.agents/skills/financekit/SKILL.md",
+      "rel_path": "financekit",
+      "source": "agents_canonical",
+      "size_bytes": 18805,
+      "description": "\"Access eligible Wallet financial data using FinanceKit and FinanceKitUI. Use when querying transactions or balances, reading Apple Card, Apple Cash, Savings, or U.K. connected-account data, requesting financial-data authorization, using TransactionP"
+    },
+    {
+      "name": "find-skills",
+      "path": "/Users/vinnygilberti/.agents/skills/find-skills/SKILL.md",
+      "rel_path": "find-skills",
+      "source": "agents_canonical",
+      "size_bytes": 18947,
+      "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for fu"
+    },
+    {
+      "name": "scaffold",
+      "path": "/Users/vinnygilberti/.agents/skills/find-skills/out/scaffold/SKILL.md",
+      "rel_path": "find-skills/out/scaffold",
+      "source": "agents_canonical",
+      "size_bytes": 11124,
+      "description": "Custom Stanford-tuned build synthesized from STORM/Co-STORM parts. A custom Stanford-tuned brainstorm+STORM engine with pluggable deliberation tiers: divergent brainstorm and fishbowl perspective surfacing, council/jury/panel/debate verdicts with a m"
+    },
+    {
+      "name": "firecrawl-deep-research",
+      "path": "/Users/vinnygilberti/.agents/skills/firecrawl-deep-research/SKILL.md",
+      "rel_path": "firecrawl-deep-research",
+      "source": "agents_canonical",
+      "size_bytes": 3474,
+      "description": "|"
+    },
+    {
+      "name": "focus-engine",
+      "path": "/Users/vinnygilberti/.agents/skills/focus-engine/SKILL.md",
+      "rel_path": "focus-engine",
+      "source": "agents_canonical",
+      "size_bytes": 9769,
+      "description": "\"Implements keyboard, directional, and scene-level focus behavior across SwiftUI and UIKit. Use when managing @FocusState, defaultFocus, focused values, focusable interactions, focus sections, tvOS geometric focus and Siri Remote navigation, watchOS "
+    },
+    {
+      "name": "frontend-design",
+      "path": "/Users/vinnygilberti/.agents/skills/frontend-design/SKILL.md",
+      "rel_path": "frontend-design",
+      "source": "agents_canonical",
+      "size_bytes": 4440,
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React comp"
+    },
+    {
+      "name": "gamekit",
+      "path": "/Users/vinnygilberti/.agents/skills/gamekit/SKILL.md",
+      "rel_path": "gamekit",
+      "source": "agents_canonical",
+      "size_bytes": 15676,
+      "description": "\"Integrate Game Center features using GameKit. Use when authenticating GKLocalPlayer, checking player restrictions, submitting leaderboard scores, reporting achievements, implementing real-time or turn-based matchmaking, handling GKMatch data, showin"
+    },
+    {
+      "name": "github-deep-research",
+      "path": "/Users/vinnygilberti/.agents/skills/github-deep-research/SKILL.md",
+      "rel_path": "github-deep-research",
+      "source": "agents_canonical",
+      "size_bytes": 10647,
+      "description": "Exhaustive GitHub research \u2014 recursive topic following, multi-tool search, commit archeology, issue mining, cross-repo dependency mapping. Leaves NO stone unturned. Use when the user wants comprehensive GitHub discovery for any topic, technology comp"
+    },
+    {
+      "name": "healthkit",
+      "path": "/Users/vinnygilberti/.agents/skills/healthkit/SKILL.md",
+      "rel_path": "healthkit",
+      "source": "agents_canonical",
+      "size_bytes": 16795,
+      "description": "\"Read, write, and query Apple Health data using HealthKit. Covers HKHealthStore authorization, sample queries, statistics queries, statistics collection queries for charts, saving HKQuantitySample data, background delivery, workout sessions with HKWo"
+    },
+    {
+      "name": "homekit",
+      "path": "/Users/vinnygilberti/.agents/skills/homekit/SKILL.md",
+      "rel_path": "homekit",
+      "source": "agents_canonical",
+      "size_bytes": 12424,
+      "description": "\"Control smart-home accessories and commission Matter devices using HomeKit and MatterSupport. Use when managing homes/rooms/accessories, creating action sets or triggers, reading accessory characteristics, onboarding Matter devices, or building a th"
+    },
+    {
+      "name": "ios-accessibility",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-accessibility/SKILL.md",
+      "rel_path": "ios-accessibility",
+      "source": "agents_canonical",
+      "size_bytes": 18598,
+      "description": "\"Build and audit SwiftUI, UIKit, and AppKit accessibility for VoiceOver, Voice Control, Switch Control, Full Keyboard Access, Dynamic Type, focus restoration, labels/traits/actions, traversal, custom rotors, NSAccessibility, XCTest checks, adaptive s"
+    },
+    {
+      "name": "ios-ai-integration",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-ai-integration/SKILL.md",
+      "rel_path": "ios-ai-integration",
+      "source": "agents_canonical",
+      "size_bytes": 20893,
+      "description": ""
+    },
+    {
+      "name": "ios-animation-master",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-animation-master/SKILL.md",
+      "rel_path": "ios-animation-master",
+      "source": "agents_canonical",
+      "size_bytes": 19345,
+      "description": ""
+    },
+    {
+      "name": "ios-camera-ar-pipeline",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-camera-ar-pipeline/SKILL.md",
+      "rel_path": "ios-camera-ar-pipeline",
+      "source": "agents_canonical",
+      "size_bytes": 23284,
+      "description": ""
+    },
+    {
+      "name": "ios-data-persistence",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-data-persistence/SKILL.md",
+      "rel_path": "ios-data-persistence",
+      "source": "agents_canonical",
+      "size_bytes": 17393,
+      "description": ""
+    },
+    {
+      "name": "ios-deep-link-universal",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-deep-link-universal/SKILL.md",
+      "rel_path": "ios-deep-link-universal",
+      "source": "agents_canonical",
+      "size_bytes": 17457,
+      "description": ""
+    },
+    {
+      "name": "ios-ettrace-performance",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-ettrace-performance/SKILL.md",
+      "rel_path": "ios-ettrace-performance",
+      "source": "agents_canonical",
+      "size_bytes": 8755,
+      "description": "\"Use when capturing or analyzing ETTrace profiles for a focused iOS launch or runtime flow, including exact-build dSYM UUID matching, Simulator or device capture, processed per-thread flamegraph JSON, sampled inclusive/exclusive time, unresolved symb"
+    },
+    {
+      "name": "ios-fullstack",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-fullstack/SKILL.md",
+      "rel_path": "ios-fullstack",
+      "source": "agents_canonical",
+      "size_bytes": 14502,
+      "description": ""
+    },
+    {
+      "name": "ios-localization",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-localization/SKILL.md",
+      "rel_path": "ios-localization",
+      "source": "agents_canonical",
+      "size_bytes": 14387,
+      "description": "\"Implement, review, or improve localization and internationalization in iOS/macOS apps \u2014 String Catalogs (.xcstrings), generated localizable symbols, stable key naming, LocalizedStringKey, LocalizedStringResource, pluralization, FormatStyle for numbe"
+    },
+    {
+      "name": "ios-memgraph-analysis",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-memgraph-analysis/SKILL.md",
+      "rel_path": "ios-memgraph-analysis",
+      "source": "agents_canonical",
+      "size_bytes": 9636,
+      "description": "\"Use when capturing or analyzing an iOS .memgraph, especially when the task mentions a memory leak, heap growth, persistent memory increase, ownership path, or matched-capture comparison with Apple CLI tools. Covers unambiguous Simulator capture, lea"
+    },
+    {
+      "name": "ios-networking",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-networking/SKILL.md",
+      "rel_path": "ios-networking",
+      "source": "agents_canonical",
+      "size_bytes": 16801,
+      "description": "\"Build, review, or improve networking code in iOS/macOS apps using URLSession with async/await, structured concurrency, and modern Swift patterns. Use when working with REST APIs, downloading files, uploading data, WebSocket connections, pagination, "
+    },
+    {
+      "name": "ios-offline-first",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-offline-first/SKILL.md",
+      "rel_path": "ios-offline-first",
+      "source": "agents_canonical",
+      "size_bytes": 14564,
+      "description": ""
+    },
+    {
+      "name": "ios-performance-debug",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-performance-debug/SKILL.md",
+      "rel_path": "ios-performance-debug",
+      "source": "agents_canonical",
+      "size_bytes": 13312,
+      "description": ""
+    },
+    {
+      "name": "ios-release-polish",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-release-polish/SKILL.md",
+      "rel_path": "ios-release-polish",
+      "source": "agents_canonical",
+      "size_bytes": 13732,
+      "description": ""
+    },
+    {
+      "name": "ios-security-auth",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-security-auth/SKILL.md",
+      "rel_path": "ios-security-auth",
+      "source": "agents_canonical",
+      "size_bytes": 18620,
+      "description": ""
+    },
+    {
+      "name": "ios-simulator",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-simulator/SKILL.md",
+      "rel_path": "ios-simulator",
+      "source": "agents_canonical",
+      "size_bytes": 16099,
+      "description": "\"Manages iOS Simulator devices and app tests with xcrun simctl: lifecycle, install/launch, push and location simulation, privacy permissions, deep links, status-bar overrides, screenshots/video, log streaming, app containers, and targetEnvironment(si"
+    },
+    {
+      "name": "ios-swift-development",
+      "path": "/Users/vinnygilberti/.agents/skills/ios-swift-development/SKILL.md",
+      "rel_path": "ios-swift-development",
+      "source": "agents_canonical",
+      "size_bytes": 2527,
+      "description": ">"
+    },
+    {
+      "name": "macos-gui-automation",
+      "path": "/Users/vinnygilberti/.agents/skills/macos-gui-automation/SKILL.md",
+      "rel_path": "macos-gui-automation",
+      "source": "agents_canonical",
+      "size_bytes": 3284,
+      "description": ""
+    },
+    {
+      "name": "mapkit",
+      "path": "/Users/vinnygilberti/.agents/skills/mapkit/SKILL.md",
+      "rel_path": "mapkit",
+      "source": "agents_canonical",
+      "size_bytes": 16429,
+      "description": "\"Implement, review, or improve maps and location features in iOS/macOS apps using MapKit and CoreLocation. Use when working with Map views, annotations, markers, polylines, user location tracking, geocoding, reverse geocoding, search/autocomplete, di"
+    },
+    {
+      "name": "metrickit",
+      "path": "/Users/vinnygilberti/.agents/skills/metrickit/SKILL.md",
+      "rel_path": "metrickit",
+      "source": "agents_canonical",
+      "size_bytes": 14435,
+      "description": "Use when collecting or analyzing production iOS or iPadOS performance telemetry with MetricKit, including iOS 27 MetricManager async metric or diagnostic reports, hang or crash triage, custom signposts, extended launch measurement, durable export, or"
+    },
+    {
+      "name": "microsoft-foundry",
+      "path": "/Users/vinnygilberti/.agents/skills/microsoft-foundry/SKILL.md",
+      "rel_path": "microsoft-foundry",
+      "source": "agents_canonical",
+      "size_bytes": 20131,
+      "description": "\"Deploy, evaluate, fine-tune, and manage Foundry agents end-to-end: Docker build, ACR push, hosted/prompt agent create, batch eval, continuous eval, prompt optimizer, Agent Optimizer scaffold, agent.yaml, dataset curation from traces, model fine-tuni"
+    },
+    {
+      "name": "finetuning",
+      "path": "/Users/vinnygilberti/.agents/skills/microsoft-foundry/finetuning/SKILL.md",
+      "rel_path": "microsoft-foundry/finetuning",
+      "source": "agents_canonical",
+      "size_bytes": 5507,
+      "description": "\"Fine-tune models on Azure AI Foundry using SFT (supervised), DPO (preference), or RFT (reinforcement with graders). Covers dataset preparation, training job submission, deployment, and evaluation. USE FOR: fine-tune, SFT, DPO, RFT, training data, gr"
+    },
+    {
+      "name": "deploy-model",
+      "path": "/Users/vinnygilberti/.agents/skills/microsoft-foundry/models/deploy-model/SKILL.md",
+      "rel_path": "microsoft-foundry/models/deploy-model",
+      "source": "agents_canonical",
+      "size_bytes": 6666,
+      "description": "\"Unified Azure OpenAI model deployment skill with intelligent intent-based routing. Handles quick preset deployments, fully customized deployments (version/SKU/capacity/RAI policy), and capacity discovery across regions and projects. USE FOR: deploy "
+    },
+    {
+      "name": "capacity",
+      "path": "/Users/vinnygilberti/.agents/skills/microsoft-foundry/models/deploy-model/capacity/SKILL.md",
+      "rel_path": "microsoft-foundry/models/deploy-model/capacity",
+      "source": "agents_canonical",
+      "size_bytes": 7011,
+      "description": "\"Discovers available Azure OpenAI model capacity across regions and projects. Analyzes quota limits, compares availability, and recommends optimal deployment locations based on capacity requirements. USE FOR: find capacity, check quota, where can I d"
+    },
+    {
+      "name": "customize",
+      "path": "/Users/vinnygilberti/.agents/skills/microsoft-foundry/models/deploy-model/customize/SKILL.md",
+      "rel_path": "microsoft-foundry/models/deploy-model/customize",
+      "source": "agents_canonical",
+      "size_bytes": 8986,
+      "description": "\"Interactive guided deployment flow for Azure OpenAI models with full customization control. Step-by-step selection of model version, SKU (GlobalStandard/Standard/ProvisionedManaged), capacity, RAI policy (content filter), and advanced options (dynam"
+    },
+    {
+      "name": "preset",
+      "path": "/Users/vinnygilberti/.agents/skills/microsoft-foundry/models/deploy-model/preset/SKILL.md",
+      "rel_path": "microsoft-foundry/models/deploy-model/preset",
+      "source": "agents_canonical",
+      "size_bytes": 4932,
+      "description": "\"Intelligently deploys Azure OpenAI models to optimal regions by analyzing capacity across all available regions. Automatically checks current region first and shows alternatives if needed. USE FOR: quick deployment, optimal region, best region, auto"
+    },
+    {
+      "name": "modern-web-guidance",
+      "path": "/Users/vinnygilberti/.agents/skills/modern-web-guidance/SKILL.md",
+      "rel_path": "modern-web-guidance",
+      "source": "agents_canonical",
+      "size_bytes": 5624,
+      "description": "|"
+    },
+    {
+      "name": "musickit",
+      "path": "/Users/vinnygilberti/.agents/skills/musickit/SKILL.md",
+      "rel_path": "musickit",
+      "source": "agents_canonical",
+      "size_bytes": 12430,
+      "description": "\"Integrate Apple Music playback, catalog search, and Now Playing metadata using MusicKit and MediaPlayer. Use when adding music search, Apple Music subscription flows, queue management, playback controls, remote command handling, or Now Playing info "
+    },
+    {
+      "name": "natural-language",
+      "path": "/Users/vinnygilberti/.agents/skills/natural-language/SKILL.md",
+      "rel_path": "natural-language",
+      "source": "agents_canonical",
+      "size_bytes": 14150,
+      "description": "\"Tokenize, tag, and analyze natural language text using Apple's NaturalLanguage framework and translate between languages with the Translation framework. Use when adding language identification, sentiment analysis, named entity recognition, part-of-s"
+    },
+    {
+      "name": "osint-datasets",
+      "path": "/Users/vinnygilberti/.agents/skills/osint-datasets/SKILL.md",
+      "rel_path": "osint-datasets",
+      "source": "agents_canonical",
+      "size_bytes": 3609,
+      "description": ""
+    },
+    {
+      "name": "paperkit",
+      "path": "/Users/vinnygilberti/.agents/skills/paperkit/SKILL.md",
+      "rel_path": "paperkit",
+      "source": "agents_canonical",
+      "size_bytes": 16732,
+      "description": "\"Add drawings, shapes, and a consistent markup experience using PaperKit. Use when integrating PaperMarkupViewController for markup editing, adding shape recognition, working with PaperMarkup data models, embedding markup tools in document editors, o"
+    },
+    {
+      "name": "parallel-deep-research",
+      "path": "/Users/vinnygilberti/.agents/skills/parallel-deep-research/SKILL.md",
+      "rel_path": "parallel-deep-research",
+      "source": "agents_canonical",
+      "size_bytes": 8588,
+      "description": "\"ONLY use when user explicitly says 'deep research', 'exhaustive', 'comprehensive report', or 'thorough investigation'. Slower and more expensive than parallel-web-search. For normal research/lookup requests, use parallel-web-search instead. Supports"
+    },
+    {
+      "name": "passkit",
+      "path": "/Users/vinnygilberti/.agents/skills/passkit/SKILL.md",
+      "rel_path": "passkit",
+      "source": "agents_canonical",
+      "size_bytes": 14482,
+      "description": "\"Integrate Apple Pay payments and Wallet passes using PassKit. Use when adding Apple Pay buttons, creating payment requests, handling payment authorization, adding passes to Wallet, configuring merchant capabilities, managing shipping/contact fields,"
+    },
+    {
+      "name": "pdfkit",
+      "path": "/Users/vinnygilberti/.agents/skills/pdfkit/SKILL.md",
+      "rel_path": "pdfkit",
+      "source": "agents_canonical",
+      "size_bytes": 14052,
+      "description": "\"Display and manipulate PDF documents using PDFKit. Use when embedding PDFView to show PDF files, creating or modifying PDFDocument instances, adding annotations (highlights, notes, signature widgets), extracting text with PDFSelection, navigating pa"
+    },
+    {
+      "name": "pencilkit",
+      "path": "/Users/vinnygilberti/.agents/skills/pencilkit/SKILL.md",
+      "rel_path": "pencilkit",
+      "source": "agents_canonical",
+      "size_bytes": 15486,
+      "description": "\"Add Apple Pencil drawing with PKCanvasView, PKToolPicker, PKDrawing serialization/export, stroke inspection, and PencilKit/PaperKit handoffs. Use when building drawing apps, annotation features, handwriting capture, signature fields, content-version"
+    },
+    {
+      "name": "permissionkit",
+      "path": "/Users/vinnygilberti/.agents/skills/permissionkit/SKILL.md",
+      "rel_path": "permissionkit",
+      "source": "agents_canonical",
+      "size_bytes": 13703,
+      "description": "\"Create child communication safety experiences using PermissionKit to request parental permission for children. Use when building apps that involve child-to-contact communication, need to check communication limits, request parent/guardian approval, "
+    },
+    {
+      "name": "photokit",
+      "path": "/Users/vinnygilberti/.agents/skills/photokit/SKILL.md",
+      "rel_path": "photokit",
+      "source": "agents_canonical",
+      "size_bytes": 16114,
+      "description": "\"Implement, review, or improve photo picking, camera capture, and media handling in iOS apps using PhotoKit and AVFoundation. Use when working with PhotosPicker, PHPickerViewController, camera capture sessions (AVCaptureSession), photo library access"
+    },
+    {
+      "name": "pop-motion",
+      "path": "/Users/vinnygilberti/.agents/skills/pop-motion/SKILL.md",
+      "rel_path": "pop-motion",
+      "source": "agents_canonical",
+      "size_bytes": 6425,
+      "description": "\"Enforce VinnyOS Pop Motion animation style on any project. Use when building or reviewing UI that needs GPU-accelerated entrance sequences, staggered micro-interactions, comic/slam personality animations, or professional subtle motion. Applies motio"
+    },
+    {
+      "name": "progress-report",
+      "path": "/Users/vinnygilberti/.agents/skills/progress-report/SKILL.md",
+      "rel_path": "progress-report",
+      "source": "agents_canonical",
+      "size_bytes": 5864,
+      "description": ""
+    },
+    {
+      "name": "push-notifications",
+      "path": "/Users/vinnygilberti/.agents/skills/push-notifications/SKILL.md",
+      "rel_path": "push-notifications",
+      "source": "agents_canonical",
+      "size_bytes": 20896,
+      "description": "\"Implement, review, or debug push notifications in iOS/macOS apps \u2014 local notifications, remote (APNs) notifications, rich notifications, notification actions, silent pushes, and notification service/content extensions. Use when working with UNUserNo"
+    },
+    {
+      "name": "realitykit",
+      "path": "/Users/vinnygilberti/.agents/skills/realitykit/SKILL.md",
+      "rel_path": "realitykit",
+      "source": "agents_canonical",
+      "size_bytes": 14600,
+      "description": "\"Build iOS augmented reality and 3D experiences with RealityKit and ARKit. Use when adding RealityView content, loading entities or USDZ models, anchoring objects to planes or world positions, distinguishing entity hit tests from ARKit real-world ray"
+    },
+    {
+      "name": "relevancekit",
+      "path": "/Users/vinnygilberti/.agents/skills/relevancekit/SKILL.md",
+      "rel_path": "relevancekit",
+      "source": "agents_canonical",
+      "size_bytes": 16004,
+      "description": "\"Increase widget visibility on Apple Watch using RelevanceKit. Use when providing contextual relevance signals for watchOS widgets, declaring time-based or location-based relevance, combining multiple relevance providers, helping the system surface t"
+    },
+    {
+      "name": "scenekit",
+      "path": "/Users/vinnygilberti/.agents/skills/scenekit/SKILL.md",
+      "rel_path": "scenekit",
+      "source": "agents_canonical",
+      "size_bytes": 16104,
+      "description": "\"Maintain and extend existing SceneKit 3D scenes and visualizations. Use when working with SCNView, SCNScene, SCNNode scene graphs, SceneKit geometry/materials/lights/cameras, SCNAction animation, SCNPhysicsBody physics, SCNParticleSystem effects, .s"
+    },
+    {
+      "name": "sensorkit",
+      "path": "/Users/vinnygilberti/.agents/skills/sensorkit/SKILL.md",
+      "rel_path": "sensorkit",
+      "source": "agents_canonical",
+      "size_bytes": 13121,
+      "description": "\"Access research-grade sensor data using SensorKit for approved studies. Use when an app needs SensorKit entitlement setup, Research Sensor & Usage Data authorization, ambient light, recorded motion, device usage, keyboard metrics, visits, speech, fa"
+    },
+    {
+      "name": "shareplay-activities",
+      "path": "/Users/vinnygilberti/.agents/skills/shareplay-activities/SKILL.md",
+      "rel_path": "shareplay-activities",
+      "source": "agents_canonical",
+      "size_bytes": 14890,
+      "description": "\"Build shared real-time experiences using GroupActivities and SharePlay. Use when implementing shared media playback, collaborative app features, synchronized game state, or any FaceTime, Messages, AirDrop, or nearby visionOS group activity on iOS, m"
+    },
+    {
+      "name": "skill-workflow",
+      "path": "/Users/vinnygilberti/.agents/skills/skill-workflow/SKILL.md",
+      "rel_path": "skill-workflow",
+      "source": "agents_canonical",
+      "size_bytes": 12028,
+      "description": "\"Meta-skill that scans all available agent skills, analyzes the current conversation/context, and recommends a workflow of skills to apply 'at this moment.' Uses multi-perspective analysis ('book club') with 7 personalities to arrive at a confident, "
+    },
+    {
+      "name": "speech-recognition",
+      "path": "/Users/vinnygilberti/.agents/skills/speech-recognition/SKILL.md",
+      "rel_path": "speech-recognition",
+      "source": "agents_canonical",
+      "size_bytes": 14612,
+      "description": "\"Transcribe speech to text using Apple's Speech framework. Use when implementing live microphone transcription with AVAudioEngine, recognizing recorded audio files, handling speech and microphone authorization, choosing on-device vs server-backed SFS"
+    },
+    {
+      "name": "spm-build-analysis",
+      "path": "/Users/vinnygilberti/.agents/skills/spm-build-analysis/SKILL.md",
+      "rel_path": "spm-build-analysis",
+      "source": "agents_canonical",
+      "size_bytes": 6117,
+      "description": "Analyze Swift Package Manager dependencies, package plugins, module variants, and CI-oriented build overhead that slow Xcode builds. Use when a developer suspects packages, plugins, or dependency graph shape are hurting clean or incremental build per"
+    },
+    {
+      "name": "spritekit",
+      "path": "/Users/vinnygilberti/.agents/skills/spritekit/SKILL.md",
+      "rel_path": "spritekit",
+      "source": "agents_canonical",
+      "size_bytes": 15380,
+      "description": "\"Build 2D games and animations using SpriteKit. Use when creating game scenes with SKScene and SKView, adding sprites with SKSpriteNode, animating with SKAction sequences, simulating physics with SKPhysicsBody and contact detection, creating particle"
+    },
+    {
+      "name": "storekit",
+      "path": "/Users/vinnygilberti/.agents/skills/storekit/SKILL.md",
+      "rel_path": "storekit",
+      "source": "agents_canonical",
+      "size_bytes": 17171,
+      "description": "\"Implement, review, or improve in-app purchases and subscriptions using StoreKit 2. Use when building paywalls with SubscriptionStoreView or ProductView, processing transactions with Product and Transaction APIs, verifying entitlements, handling purc"
+    },
+    {
+      "name": "swift-api-design-guidelines",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-api-design-guidelines/SKILL.md",
+      "rel_path": "swift-api-design-guidelines",
+      "source": "agents_canonical",
+      "size_bytes": 13159,
+      "description": "\"Apply Swift API Design Guidelines to name, label, and document Swift APIs. Covers argument label rules (prepositional phrase rule, grammatical phrase rule, first-label omission), mutating/nonmutating pair naming (-ed/-ing participle pattern, form- p"
+    },
+    {
+      "name": "swift-architecture",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-architecture/SKILL.md",
+      "rel_path": "swift-architecture",
+      "source": "agents_canonical",
+      "size_bytes": 7499,
+      "description": "\"Selects, reviews, and migrates Apple-platform app architectures across MV with Observation, MVVM, MVI, TCA, Clean Architecture, Coordinator, and legacy VIPER. Use when choosing module and dependency boundaries, escalating a feature beyond simple Swi"
+    },
+    {
+      "name": "swift-charts",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-charts/SKILL.md",
+      "rel_path": "swift-charts",
+      "source": "agents_canonical",
+      "size_bytes": 15337,
+      "description": "\"Implement, review, or improve data visualizations using Swift Charts. Use when building bar, line, area, point, pie, donut, or iOS 26 3D charts; when adding chart selection, scrolling, annotations, axes, scales, legends, or foregroundStyle grouping;"
+    },
+    {
+      "name": "swift-codable",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-codable/SKILL.md",
+      "rel_path": "swift-codable",
+      "source": "agents_canonical",
+      "size_bytes": 13818,
+      "description": "\"Implement Swift Codable models for JSON and property-list encoding and decoding with JSONDecoder, JSONEncoder, CodingKeys, and custom init(from:) or encode(to:). Use when parsing API responses, remapping keys, flattening nested JSON, handling date o"
+    },
+    {
+      "name": "swift-concurrency",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-concurrency/SKILL.md",
+      "rel_path": "swift-concurrency",
+      "source": "agents_canonical",
+      "size_bytes": 18837,
+      "description": "\"Resolve Swift concurrency compiler errors, adopt approachable concurrency (SE-0466), and write data-race-safe async code. Use when fixing Sendable conformance errors, actor isolation warnings, or strict concurrency diagnostics; when adopting default"
+    },
+    {
+      "name": "swift-formatstyle",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-formatstyle/SKILL.md",
+      "rel_path": "swift-formatstyle",
+      "source": "agents_canonical",
+      "size_bytes": 7928,
+      "description": "\"Formats and parses locale-aware numbers, decimals, currencies, percentages, dates, durations, measurements, names, lists, byte counts, and URLs with Foundation FormatStyle and ParseableFormatStyle. Use when replacing legacy Formatter subclasses, des"
+    },
+    {
+      "name": "swift-language",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-language/SKILL.md",
+      "rel_path": "swift-language",
+      "source": "agents_canonical",
+      "size_bytes": 15202,
+      "description": "\"Apply modern Swift language patterns and idioms for non-concurrency, non-SwiftUI code. Covers if/switch expressions (Swift 5.9+), typed throws (Swift 6+), result builders, property wrappers, opaque and existential types (some vs any), guard patterns"
+    },
+    {
+      "name": "swift-security",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-security/SKILL.md",
+      "rel_path": "swift-security",
+      "source": "agents_canonical",
+      "size_bytes": 12978,
+      "description": "Use when working with iOS/macOS Keychain Services (SecItem queries, kSecClass, OSStatus errors), biometric authentication (LAContext, Face ID, Touch ID), CryptoKit (AES-GCM, ChaChaPoly, ECDSA, ECDH, HPKE, ML-KEM), Secure Enclave, secure credential st"
+    },
+    {
+      "name": "swift-testing",
+      "path": "/Users/vinnygilberti/.agents/skills/swift-testing/SKILL.md",
+      "rel_path": "swift-testing",
+      "source": "agents_canonical",
+      "size_bytes": 11344,
+      "description": "\"Writes and migrates Swift Testing framework tests with @Test, @Suite, #expect, #require, confirmation, traits, withKnownIssue, Attachment.record, processExitsWith exit tests and capture lists, Test.cancel, Issue.record warnings/manual failures, XCTe"
+    },
+    {
+      "name": "swiftdata",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftdata/SKILL.md",
+      "rel_path": "swiftdata",
+      "source": "agents_canonical",
+      "size_bytes": 15741,
+      "description": "\"Implement, review, or improve data persistence using SwiftData. Use when defining @Model classes with @Attribute, @Relationship, @Transient, #Unique, or #Index; when querying with @Query, #Predicate, FetchDescriptor, or SortDescriptor; when configur"
+    },
+    {
+      "name": "swiftlint",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftlint/SKILL.md",
+      "rel_path": "swiftlint",
+      "source": "agents_canonical",
+      "size_bytes": 15276,
+      "description": "\"Configures and enforces SwiftLint in Swift projects using build tool plugins, run scripts, and CI. Covers .swiftlint.yml configuration, disabled_rules, opt_in_rules, only_rules, analyzer_rules, baselines, autocorrect, swiftlint:disable suppressions,"
+    },
+    {
+      "name": "swiftui-animation",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-animation/SKILL.md",
+      "rel_path": "swiftui-animation",
+      "source": "agents_canonical",
+      "size_bytes": 15609,
+      "description": "\"Implement, diagnose, or review SwiftUI motion using explicit and scoped implicit animations, springs, transitions, PhaseAnimator, KeyframeAnimator, matched geometry or navigation zoom, SF Symbol effects, and custom Animation types. Use when views sh"
+    },
+    {
+      "name": "swiftui-gestures",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-gestures/SKILL.md",
+      "rel_path": "swiftui-gestures",
+      "source": "agents_canonical",
+      "size_bytes": 14344,
+      "description": "\"Implement, review, or improve SwiftUI gesture handling. Use when adding tap, long press, drag, magnify, or rotate gestures, composing gestures with simultaneously/sequenced/exclusively, managing transient state with @GestureState, resolving parent/c"
+    },
+    {
+      "name": "swiftui-layout-components",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-layout-components/SKILL.md",
+      "rel_path": "swiftui-layout-components",
+      "source": "agents_canonical",
+      "size_bytes": 11736,
+      "description": "\"Build SwiftUI layouts using stacks, grids, lists, scroll views, forms, and controls. Covers VStack/HStack/ZStack, LazyVGrid/LazyHGrid, List with sections and swipe actions, ScrollView with ScrollPosition and scroll-driven reveal surfaces, Form with "
+    },
+    {
+      "name": "swiftui-liquid-glass",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-liquid-glass/SKILL.md",
+      "rel_path": "swiftui-liquid-glass",
+      "source": "agents_canonical",
+      "size_bytes": 10942,
+      "description": "\"Implement, review, or improve SwiftUI Liquid Glass effects for iOS 26+. Covers glassEffect modifier, GlassEffectContainer, glass button styles, glass toolbar/tab bar, static status badges vs interactive controls, morphing transitions, tinting, inter"
+    },
+    {
+      "name": "swiftui-navigation",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-navigation/SKILL.md",
+      "rel_path": "swiftui-navigation",
+      "source": "agents_canonical",
+      "size_bytes": 11404,
+      "description": "\"Implement SwiftUI navigation patterns including NavigationStack, NavigationSplitView, sheet presentation, tab-based navigation, and deep linking. Use when building push navigation, programmatic routing, multi-column layouts, modal sheets, tab bars, "
+    },
+    {
+      "name": "swiftui-patterns",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-patterns/SKILL.md",
+      "rel_path": "swiftui-patterns",
+      "source": "agents_canonical",
+      "size_bytes": 19799,
+      "description": "\"Builds and reviews SwiftUI views with modern MV architecture, state, composition, isolated previews, and migration guidance. Covers @Observable ownership, @State/@Bindable/@Environment wiring, view decomposition, ViewModifiers, environment values, ."
+    },
+    {
+      "name": "swiftui-performance",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-performance/SKILL.md",
+      "rel_path": "swiftui-performance",
+      "source": "agents_canonical",
+      "size_bytes": 11833,
+      "description": "\"Profile, diagnose, and remediate SwiftUI runtime performance using code review, Instruments, and repeatable measurements. Use when a SwiftUI screen renders slowly, scrolling or animations hitch, view bodies update excessively, list identity churns, "
+    },
+    {
+      "name": "swiftui-uikit-interop",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-uikit-interop/SKILL.md",
+      "rel_path": "swiftui-uikit-interop",
+      "source": "agents_canonical",
+      "size_bytes": 18695,
+      "description": "\"Bridges UIKit and SwiftUI with UIViewRepresentable, UIViewControllerRepresentable, UIHostingController, UIHostingConfiguration, coordinator delegates, and UIKit automatic observation tracking for shared @Observable state. Use when wrapping UIKit-onl"
+    },
+    {
+      "name": "swiftui-webkit",
+      "path": "/Users/vinnygilberti/.agents/skills/swiftui-webkit/SKILL.md",
+      "rel_path": "swiftui-webkit",
+      "source": "agents_canonical",
+      "size_bytes": 11798,
+      "description": "\"Embeds and controls web content in SwiftUI with WebKit for SwiftUI, including WebView, WebPage, navigation policies, JavaScript execution, observable page state, link interception, local HTML or data loading, and custom URL schemes. Use when buildin"
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "/Users/vinnygilberti/.agents/skills/systematic-debugging/SKILL.md",
+      "rel_path": "systematic-debugging",
+      "source": "agents_canonical",
+      "size_bytes": 9884,
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes"
+    },
+    {
+      "name": "tabletopkit",
+      "path": "/Users/vinnygilberti/.agents/skills/tabletopkit/SKILL.md",
+      "rel_path": "tabletopkit",
+      "source": "agents_canonical",
+      "size_bytes": 18314,
+      "description": "\"Builds multiplayer spatial board games using TabletopKit on visionOS. Use when creating tabletop game experiences with boards, pieces, cards, or dice; managing seats, turns, equipment state, TabletopAction flows, or TabletopInteraction delegates; sy"
+    },
+    {
+      "name": "test-driven-development",
+      "path": "/Users/vinnygilberti/.agents/skills/test-driven-development/SKILL.md",
+      "rel_path": "test-driven-development",
+      "source": "agents_canonical",
+      "size_bytes": 9867,
+      "description": "Use when implementing any feature or bugfix, before writing implementation code"
+    },
+    {
+      "name": "tipkit",
+      "path": "/Users/vinnygilberti/.agents/skills/tipkit/SKILL.md",
+      "rel_path": "tipkit",
+      "source": "agents_canonical",
+      "size_bytes": 13185,
+      "description": "\"Implement and review Apple TipKit feature-discovery UI for iOS 17+ apps. Use when adding or auditing in-app tips, contextual help, coach marks, Tip, TipView, popoverTip, rules, events, actions, display frequency, testing overrides, reusable tip iden"
+    },
+    {
+      "name": "tools-ui",
+      "path": "/Users/vinnygilberti/.agents/skills/tools-ui/SKILL.md",
+      "rel_path": "tools-ui",
+      "source": "agents_canonical",
+      "size_bytes": 3895,
+      "description": "\"Tool lifecycle UI components for React/Next.js from ui.inference.sh. Display tool calls: pending, progress, approval required, results. Capabilities: tool status, progress indicators, approval flows, results display. Use for: showing agent tool call"
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "path": "/Users/vinnygilberti/.agents/skills/ui-ux-pro-max/SKILL.md",
+      "rel_path": "ui-ux-pro-max",
+      "source": "agents_canonical",
+      "size_bytes": 44776,
+      "description": "\"UI/UX design intelligence for web and mobile. Includes 50+ styles, 161 color palettes, 57 font pairings, 161 product types, 99 UX guidelines, and 25 chart types across 10 stacks (React, Next.js, Vue, Svelte, SwiftUI, React Native, Flutter, Tailwind,"
+    },
+    {
+      "name": "using-superpowers",
+      "path": "/Users/vinnygilberti/.agents/skills/using-superpowers/SKILL.md",
+      "rel_path": "using-superpowers",
+      "source": "agents_canonical",
+      "size_bytes": 6133,
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring Skill tool invocation before ANY response including clarifying questions"
+    },
+    {
+      "name": "vision-framework",
+      "path": "/Users/vinnygilberti/.agents/skills/vision-framework/SKILL.md",
+      "rel_path": "vision-framework",
+      "source": "agents_canonical",
+      "size_bytes": 18713,
+      "description": "\"Implement computer vision features including text recognition (OCR), face detection, barcode scanning, image segmentation, object tracking, and document scanning in iOS apps. Covers both the modern Swift-native Vision API (iOS 18+) and legacy VNRequ"
+    },
+    {
+      "name": "weatherkit",
+      "path": "/Users/vinnygilberti/.agents/skills/weatherkit/SKILL.md",
+      "rel_path": "weatherkit",
+      "source": "agents_canonical",
+      "size_bytes": 13916,
+      "description": "\"Fetch WeatherKit current, minute, hourly, and daily forecasts; weather alerts; iOS 18+ changes, historical comparisons, summaries, and statistics; and required Apple Weather attribution. Use when integrating weather data, showing forecasts or alerts"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "path": "/Users/vinnygilberti/.agents/skills/web-artifacts-builder/SKILL.md",
+      "rel_path": "web-artifacts-builder",
+      "source": "agents_canonical",
+      "size_bytes": 3087,
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for "
+    },
+    {
+      "name": "web-search",
+      "path": "/Users/vinnygilberti/.agents/skills/web-search/SKILL.md",
+      "rel_path": "web-search",
+      "source": "agents_canonical",
+      "size_bytes": 4043,
+      "description": "\"Web search and content extraction with Tavily and Exa via inference.sh CLI. Apps: Tavily Search, Tavily Extract, Exa Search, Exa Answer, Exa Extract. Capabilities: AI-powered search, content extraction, direct answers, research. Use for: research, R"
+    },
+    {
+      "name": "widgetkit",
+      "path": "/Users/vinnygilberti/.agents/skills/widgetkit/SKILL.md",
+      "rel_path": "widgetkit",
+      "source": "agents_canonical",
+      "size_bytes": 18051,
+      "description": "\"Implement, review, or improve WidgetKit widgets and controls. Use when building Home Screen, Lock Screen, StandBy, or CarPlay widgets with timeline providers; configurable widgets with AppIntentTimelineProvider; interactive widgets or Control Center"
+    },
+    {
+      "name": "writing-plans",
+      "path": "/Users/vinnygilberti/.agents/skills/writing-plans/SKILL.md",
+      "rel_path": "writing-plans",
+      "source": "agents_canonical",
+      "size_bytes": 5399,
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code"
+    },
+    {
+      "name": "xcode-build-benchmark",
+      "path": "/Users/vinnygilberti/.agents/skills/xcode-build-benchmark/SKILL.md",
+      "rel_path": "xcode-build-benchmark",
+      "source": "agents_canonical",
+      "size_bytes": 4608,
+      "description": "Benchmark Xcode clean and incremental builds with repeatable inputs, timing summaries, and timestamped `.build-benchmark/` artifacts. Use when a developer wants a baseline, wants to compare before and after changes, asks to measure build performance,"
+    },
+    {
+      "name": "xcode-build-fixer",
+      "path": "/Users/vinnygilberti/.agents/skills/xcode-build-fixer/SKILL.md",
+      "rel_path": "xcode-build-fixer",
+      "source": "agents_canonical",
+      "size_bytes": 12323,
+      "description": "Apply approved Xcode build optimization changes following best practices, then re-benchmark to verify improvement. Use when a developer has an approved optimization plan from xcode-build-orchestrator, wants to apply specific build fixes, needs help i"
+    },
+    {
+      "name": "xcode-build-orchestrator",
+      "path": "/Users/vinnygilberti/.agents/skills/xcode-build-orchestrator/SKILL.md",
+      "rel_path": "xcode-build-orchestrator",
+      "source": "agents_canonical",
+      "size_bytes": 11513,
+      "description": "Orchestrate Xcode build optimization by benchmarking first, running the specialist analysis skills, prioritizing findings, requesting explicit approval, delegating approved fixes to xcode-build-fixer, and re-benchmarking after changes. Use when a dev"
+    },
+    {
+      "name": "xcode-compilation-analyzer",
+      "path": "/Users/vinnygilberti/.agents/skills/xcode-compilation-analyzer/SKILL.md",
+      "rel_path": "xcode-compilation-analyzer",
+      "source": "agents_canonical",
+      "size_bytes": 5446,
+      "description": "Analyze Swift and mixed-language compile hotspots using build timing summaries and Swift frontend diagnostics, then produce a recommend-first source-level optimization plan. Use when a developer reports slow compilation, type-checking warnings, expen"
+    },
+    {
+      "name": "xcode-project-analyzer",
+      "path": "/Users/vinnygilberti/.agents/skills/xcode-project-analyzer/SKILL.md",
+      "rel_path": "xcode-project-analyzer",
+      "source": "agents_canonical",
+      "size_bytes": 4890,
+      "description": "Audit Xcode project configuration, build settings, scheme behavior, and script phases to find build-time improvements with explicit approval gates. Use when a developer wants project-level build analysis, slow incremental builds, guidance on target d"
+    },
+    {
+      "name": "xcode-project-setup",
+      "path": "/Users/vinnygilberti/.agents/skills/xcode-project-setup/SKILL.md",
+      "rel_path": "xcode-project-setup",
+      "source": "agents_canonical",
+      "size_bytes": 6069,
+      "description": "Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project needs dependencies installed (e.g. Firebase, Alamofire)."
+    },
+    {
+      "name": "chain-orchestrator",
+      "path": "/Users/vinnygilberti/.config/opencode/skills/chain-orchestrator/SKILL.md",
+      "rel_path": "chain-orchestrator",
+      "source": "opencode",
+      "size_bytes": 10180,
+      "description": "4-phase orchestrator that chains VALIDATE \u2192 DISCOVER \u2192 BUILD \u2192 VERIFY. Triggers the right sub-skills at the right time. One command to rule them all."
+    },
+    {
+      "name": "code-doctor",
+      "path": "/Users/vinnygilberti/.config/opencode/skills/code-doctor/SKILL.md",
+      "rel_path": "code-doctor",
+      "source": "opencode",
+      "size_bytes": 16418,
+      "description": "\"Forced chain for debugging, fixing, and reviewing code. Use when the user says 'review and fix', 'debug this', 'check my code', 'what's broken', or wants a thorough code audit. Runs a mandatory 7-phase chain \u2014 no skipping, no partial reviews.\""
+    },
+    {
+      "name": "hallmark",
+      "path": "/Users/vinnygilberti/.config/opencode/skills/hallmark/SKILL.md",
+      "rel_path": "hallmark",
+      "source": "opencode",
+      "size_bytes": 67444,
+      "description": "\"Anti-AI-slop design skill for greenfield pages, audits, redesigns, and design extraction from URLs or screenshots. Use when the user asks to build a new app or landing page, wants to redesign something, invokes Hallmark by name, or uses audit/redesi"
+    },
+    {
+      "name": "ASR",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/ASR/SKILL.md",
+      "rel_path": "ASR",
+      "source": "saaas_primary",
+      "size_bytes": 15470,
+      "description": "Implement speech-to-text (ASR/automatic speech recognition) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to transcribe audio files, convert speech to text, build voice input features, or process audio recordings. Suppor"
+    },
+    {
+      "name": "LLM",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/LLM/SKILL.md",
+      "rel_path": "LLM",
+      "source": "saaas_primary",
+      "size_bytes": 21913,
+      "description": "Implement large language model (LLM) chat completions using the z-ai-web-dev-sdk. Use this skill when the user needs to build conversational AI applications, chatbots, AI assistants, or any text generation features. Supports multi-turn conversations,"
+    },
+    {
+      "name": "TTS",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/TTS/SKILL.md",
+      "rel_path": "TTS",
+      "source": "saaas_primary",
+      "size_bytes": 20054,
+      "description": "Implement text-to-speech (TTS) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to convert text into natural-sounding speech, create audio content, build voice-enabled applications, or generate spoken audio files. Supports "
+    },
+    {
+      "name": "VLM",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/VLM/SKILL.md",
+      "rel_path": "VLM",
+      "source": "saaas_primary",
+      "size_bytes": 14384,
+      "description": "Implement vision-based AI chat capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to analyze images, describe visual content, or create applications that combine image understanding with conversational AI. Supports image URLs"
+    },
+    {
+      "name": "code-review",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/code-review/SKILL.md",
+      "rel_path": "code-review",
+      "source": "saaas_primary",
+      "size_bytes": 2926,
+      "description": "Perform comprehensive code reviews of diffs, patches, PRs, or file changes. Use when asked to review, audit, or check code for bugs, regressions, security issues, performance problems, data integrity risks, or missing tests; also use for reviewing re"
+    },
+    {
+      "name": "docx",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/docx/SKILL.md",
+      "rel_path": "docx",
+      "source": "saaas_primary",
+      "size_bytes": 10150,
+      "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2)"
+    },
+    {
+      "name": "frontend-design",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/frontend-design/SKILL.md",
+      "rel_path": "frontend-design",
+      "source": "saaas_primary",
+      "size_bytes": 28228,
+      "description": "Transform UI style requirements into production-ready frontend code with systematic design tokens, accessibility compliance, and creative execution. Use when building websites, web applications, React/Vue components, dashboards, landing pages, or any"
+    },
+    {
+      "name": "image-generation",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/image-generation/SKILL.md",
+      "rel_path": "image-generation",
+      "source": "saaas_primary",
+      "size_bytes": 15134,
+      "description": "Implement AI image generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to create images from text descriptions, generate visual content, create artwork, design assets, or build applications with AI-powered image cre"
+    },
+    {
+      "name": "pdf",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/pdf/SKILL.md",
+      "rel_path": "pdf",
+      "source": "saaas_primary",
+      "size_bytes": 7068,
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scal"
+    },
+    {
+      "name": "pptx",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/pptx/SKILL.md",
+      "rel_path": "pptx",
+      "source": "saaas_primary",
+      "size_bytes": 25551,
+      "description": "\"Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any ot"
+    },
+    {
+      "name": "video-generation",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/video-generation/SKILL.md",
+      "rel_path": "video-generation",
+      "source": "saaas_primary",
+      "size_bytes": 29821,
+      "description": "Implement AI-powered video generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to generate videos from text prompts or images, create video content programmatically, or build applications that produce video outputs."
+    },
+    {
+      "name": "web-reader",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/web-reader/SKILL.md",
+      "rel_path": "web-reader",
+      "source": "saaas_primary",
+      "size_bytes": 28366,
+      "description": "Implement web page content extraction capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to scrape web pages, extract article content, retrieve page metadata, or build applications that process web content. Supports automatic"
+    },
+    {
+      "name": "web-search",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/web-search/SKILL.md",
+      "rel_path": "web-search",
+      "source": "saaas_primary",
+      "size_bytes": 22563,
+      "description": "Implement web search capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to search the web, retrieve current information, find relevant content, or build applications with real-time web search functionality. Returns structured"
+    },
+    {
+      "name": "xlsx",
+      "path": "/Users/vinnygilberti/Documents/05_PERSONAL/SAAAS/skills/xlsx/SKILL.md",
+      "rel_path": "xlsx",
+      "source": "saaas_primary",
+      "size_bytes": 10632,
+      "description": "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with fo"
+    },
+    {
+      "name": "ASR",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/ASR/SKILL.md",
+      "rel_path": "ASR",
+      "source": "saaas_toto",
+      "size_bytes": 15470,
+      "description": "Implement speech-to-text (ASR/automatic speech recognition) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to transcribe audio files, convert speech to text, build voice input features, or process audio recordings. Suppor"
+    },
+    {
+      "name": "LLM",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/LLM/SKILL.md",
+      "rel_path": "LLM",
+      "source": "saaas_toto",
+      "size_bytes": 21913,
+      "description": "Implement large language model (LLM) chat completions using the z-ai-web-dev-sdk. Use this skill when the user needs to build conversational AI applications, chatbots, AI assistants, or any text generation features. Supports multi-turn conversations,"
+    },
+    {
+      "name": "TTS",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/TTS/SKILL.md",
+      "rel_path": "TTS",
+      "source": "saaas_toto",
+      "size_bytes": 20054,
+      "description": "Implement text-to-speech (TTS) capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to convert text into natural-sounding speech, create audio content, build voice-enabled applications, or generate spoken audio files. Supports "
+    },
+    {
+      "name": "VLM",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/VLM/SKILL.md",
+      "rel_path": "VLM",
+      "source": "saaas_toto",
+      "size_bytes": 14384,
+      "description": "Implement vision-based AI chat capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to analyze images, describe visual content, or create applications that combine image understanding with conversational AI. Supports image URLs"
+    },
+    {
+      "name": "code-review",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/code-review/SKILL.md",
+      "rel_path": "code-review",
+      "source": "saaas_toto",
+      "size_bytes": 2926,
+      "description": "Perform comprehensive code reviews of diffs, patches, PRs, or file changes. Use when asked to review, audit, or check code for bugs, regressions, security issues, performance problems, data integrity risks, or missing tests; also use for reviewing re"
+    },
+    {
+      "name": "docx",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/docx/SKILL.md",
+      "rel_path": "docx",
+      "source": "saaas_toto",
+      "size_bytes": 10150,
+      "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2)"
+    },
+    {
+      "name": "frontend-design",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/frontend-design/SKILL.md",
+      "rel_path": "frontend-design",
+      "source": "saaas_toto",
+      "size_bytes": 28228,
+      "description": "Transform UI style requirements into production-ready frontend code with systematic design tokens, accessibility compliance, and creative execution. Use when building websites, web applications, React/Vue components, dashboards, landing pages, or any"
+    },
+    {
+      "name": "image-generation",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/image-generation/SKILL.md",
+      "rel_path": "image-generation",
+      "source": "saaas_toto",
+      "size_bytes": 15134,
+      "description": "Implement AI image generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to create images from text descriptions, generate visual content, create artwork, design assets, or build applications with AI-powered image cre"
+    },
+    {
+      "name": "pdf",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/pdf/SKILL.md",
+      "rel_path": "pdf",
+      "source": "saaas_toto",
+      "size_bytes": 7068,
+      "description": "Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents, and handling forms. When Claude needs to fill in a PDF form or programmatically process, generate, or analyze PDF documents at scal"
+    },
+    {
+      "name": "pptx",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/pptx/SKILL.md",
+      "rel_path": "pptx",
+      "source": "saaas_toto",
+      "size_bytes": 25551,
+      "description": "\"Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Creating new presentations, (2) Modifying or editing content, (3) Working with layouts, (4) Adding comments or speaker notes, or any ot"
+    },
+    {
+      "name": "video-generation",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/video-generation/SKILL.md",
+      "rel_path": "video-generation",
+      "source": "saaas_toto",
+      "size_bytes": 29821,
+      "description": "Implement AI-powered video generation capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to generate videos from text prompts or images, create video content programmatically, or build applications that produce video outputs."
+    },
+    {
+      "name": "web-reader",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/web-reader/SKILL.md",
+      "rel_path": "web-reader",
+      "source": "saaas_toto",
+      "size_bytes": 28366,
+      "description": "Implement web page content extraction capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to scrape web pages, extract article content, retrieve page metadata, or build applications that process web content. Supports automatic"
+    },
+    {
+      "name": "web-search",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/web-search/SKILL.md",
+      "rel_path": "web-search",
+      "source": "saaas_toto",
+      "size_bytes": 22563,
+      "description": "Implement web search capabilities using the z-ai-web-dev-sdk. Use this skill when the user needs to search the web, retrieve current information, find relevant content, or build applications with real-time web search functionality. Returns structured"
+    },
+    {
+      "name": "xlsx",
+      "path": "/Users/vinnygilberti/Documents/01_ACTIVE/toto-ecosystem/TOTO_Resources/04_UI_UX/SAAAS/skills/xlsx/SKILL.md",
+      "rel_path": "xlsx",
+      "source": "saaas_toto",
+      "size_bytes": 10632,
+      "description": "\"Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and visualization. When Claude needs to work with spreadsheets (.xlsx, .xlsm, .csv, .tsv, etc) for: (1) Creating new spreadsheets with fo"
+    }
+  ]
+}

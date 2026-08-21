@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node if dashboard later
+node_modules/
+dist/
+.build/
+.next/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Secrets - NEVER commit
+vault.enc.json
+*.enc
+.session_id
+.env
+.env.local

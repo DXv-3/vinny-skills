@@ -1,0 +1,13 @@
+{
+  "total": 282,
+  "by_source": {
+    "agents_canonical": 141,
+    "agents_archive": 110,
+    "opencode": 3,
+    "saaas_primary": 14,
+    "saaas_toto": 14
+  },
+  "manus_internal": 31,
+  "generated_at": "2026-08-20T20:56:51.579102",
+  "version": "1.0.0"
+}
