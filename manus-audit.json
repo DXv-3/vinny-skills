@@ -10,6 +10,24 @@
         "gmail-paper-list-export",
         "ma7p-config",
         "webdev-llm-integration"
+      ],
+      "skills_list": [
+        "codebase-patdown",
+        "creative-platform-reframing",
+        "creative-production-orchestrator",
+        "finance-pro-playbooks",
+        "github-gem-seeker",
+        "gmail-paper-list-export",
+        "gws-best-practices",
+        "imagegen",
+        "ma7p-config",
+        "manus-config",
+        "persistent-computing",
+        "skill-creator",
+        "ui-motion-interaction-toolbox",
+        "webdev-llm-integration",
+        "webdev-readme-fullstack",
+        "webdev-readme-static"
       ]
     },
     {
@@ -20,6 +38,24 @@
         "skillx",
         "ui-ux-pro-max",
         "ma6p-config"
+      ],
+      "skills_list": [
+        "automation-and-scheduling",
+        "builtin-llm-models",
+        "creative-platform-reframing",
+        "creative-production-orchestrator",
+        "finance-pro-playbooks",
+        "github-gem-seeker",
+        "gws-best-practices",
+        "imagegen",
+        "ma6p-config",
+        "manus-config",
+        "persistent-computing",
+        "skill-creator",
+        "skillx",
+        "ui-motion-interaction-toolbox",
+        "ui-ux-pro-max",
+        "webdev-readme-static"
       ]
     },
     {
@@ -34,6 +70,22 @@
         "portable-ai-work-state",
         "unknown-unknowns-discovery",
         "webdev-owner-notifications"
+      ],
+      "skills_list": [
+        "automation-and-scheduling",
+        "builtin-llm-models",
+        "cinematic-scroll-experiences",
+        "demo-first-design-engineering",
+        "github-gem-seeker",
+        "gws-drive",
+        "high-agency-executor",
+        "imagegen",
+        "manus-api",
+        "manus-config",
+        "portable-ai-work-state",
+        "unknown-unknowns-discovery",
+        "webdev-owner-notifications",
+        "webdev-readme-fullstack"
       ]
     },
     {
@@ -41,6 +93,15 @@
       "size_mb": 3.7,
       "skills": 7,
       "only": [
+        "startup-competitor-battlecards",
+        "startup-investor-pitch-prep"
+      ],
+      "skills_list": [
+        "builtin-llm-models",
+        "finance-pro-playbooks",
+        "github-gem-seeker",
+        "high-agency-executor",
+        "manus-config",
         "startup-competitor-battlecards",
         "startup-investor-pitch-prep"
       ]
@@ -54,48 +115,58 @@
         "evidence-driven-agent-delivery",
         "openalex",
         "read-special-images"
+      ],
+      "skills_list": [
+        "automation-and-scheduling",
+        "cinematic-scroll-experiences",
+        "evidence-driven-agent-delivery",
+        "github-gem-seeker",
+        "imagegen",
+        "openalex",
+        "read-special-images",
+        "reference-cinematic-page-production",
+        "skill-creator"
       ]
     }
   ],
   "all_internal": [
-    "manus-config",
-    "ui-motion-interaction-toolbox",
-    "github-gem-seeker",
-    "imagegen",
     "automation-and-scheduling",
     "builtin-llm-models",
-    "webdev-readme-static",
-    "creative-production-orchestrator",
-    "high-agency-executor",
-    "gws-best-practices",
-    "creative-platform-reframing",
-    "codebase-patdown",
-    "startup-competitor-battlecards",
-    "webdev-readme-fullstack",
-    "finance-pro-playbooks",
-    "skillx",
-    "skill-creator",
-    "webdev-llm-integration",
-    "persistent-computing",
-    "ui-ux-pro-max",
-    "demo-first-design-engineering",
-    "unknown-unknowns-discovery",
-    "startup-investor-pitch-prep",
-    "ma7p-config",
-    "gmail-paper-list-export",
-    "ma6p-config",
     "cinematic-scroll-experiences",
-    "webdev-owner-notifications",
-    "gws-drive",
-    "portable-ai-work-state",
-    "manus-api",
-    "reference-cinematic-page-production",
+    "codebase-patdown",
+    "creative-platform-reframing",
+    "creative-production-orchestrator",
+    "demo-first-design-engineering",
     "evidence-driven-agent-delivery",
+    "finance-pro-playbooks",
+    "github-gem-seeker",
+    "gmail-paper-list-export",
+    "gws-best-practices",
+    "gws-drive",
+    "high-agency-executor",
+    "imagegen",
+    "ma6p-config",
+    "ma7p-config",
+    "manus-api",
+    "manus-config",
     "openalex",
-    "read-special-images"
+    "persistent-computing",
+    "portable-ai-work-state",
+    "read-special-images",
+    "reference-cinematic-page-production",
+    "skill-creator",
+    "skillx",
+    "startup-competitor-battlecards",
+    "startup-investor-pitch-prep",
+    "ui-motion-interaction-toolbox",
+    "ui-ux-pro-max",
+    "unknown-unknowns-discovery",
+    "webdev-llm-integration",
+    "webdev-owner-notifications",
+    "webdev-readme-fullstack",
+    "webdev-readme-static"
   ],
   "common_to_all": [
-    "manus-config",
     "github-gem-seeker"
   ],
   "accounts": [
@@ -104,5 +175,6 @@
     "vinny.gilberti@gmail.com",
     "promptployboy@gmail.com",
     "tobealive.03@gmail.com"
-  ]
+  ],
+  "internal_count": 35
 }
