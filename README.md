@@ -1,5 +1,8 @@
 # Vinny Skills — Entire Skill Index
 
+[![Skills](https://img.shields.io/badge/skills-282-blue)](./catalog.json) [![Manus](https://img.shields.io/badge/manus-31%20internal-orange)](./manus-audit.json) [![Indexer](https://img.shields.io/badge/indexer-0.003s-green)](./skills-indexer) [![Claude Marketplace](https://img.shields.io/badge/marketplace-claude--code-purple)](./.claude-plugin/marketplace.json)
+
+
 > **282 skills** across **5 local sources** + **31 Manus internal** + **5 Manus profiles** — one searchable registry. Generated 2026-08-20.
 
 `cat catalog.json` in 0.003s instead of `find ... SKILL.md` in 120s. For agents, by agents.
