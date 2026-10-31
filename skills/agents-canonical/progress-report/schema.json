@@ -1,0 +1,238 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Progress Report Template Schema",
+  "description": "Schema for progress report template variables",
+  "type": "object",
+  "properties": {
+    "SESSION_ID": {
+      "type": "string",
+      "description": "Unique session identifier",
+      "pattern": "^[a-z0-9-]+$",
+      "examples": ["aoe-engine-2026-07-31"]
+    },
+    "DATE": {
+      "type": "string",
+      "description": "Session date in human-readable format",
+      "examples": ["July 31, 2026"]
+    },
+    "DURATION": {
+      "type": "string",
+      "description": "How long the session lasted",
+      "examples": ["Single session", "2 hours", "3 days"]
+    },
+    "USER_GOAL": {
+      "type": "string",
+      "description": "What the user wanted to achieve",
+      "examples": ["Build AOE Engine", "Fix login bug"]
+    },
+    "COMPLETED_TASKS": {
+      "type": "array",
+      "description": "List of completed tasks",
+      "items": {
+        "type": "object",
+        "properties": {
+          "TASK_NAME": {
+            "type": "string",
+            "description": "Name of the task"
+          },
+          "STATUS": {
+            "type": "string",
+            "enum": ["✅ Complete", "⚠️ Partial", "❌ Failed", "⏭️ Skipped"],
+            "description": "Task completion status"
+          },
+          "GRADE": {
+            "type": "string",
+            "enum": ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F"],
+            "description": "Task grade"
+          }
+        },
+        "required": ["TASK_NAME", "STATUS"]
+      }
+    },
+    "TASKS_COMPLETED": {
+      "type": "integer",
+      "description": "Number of tasks completed",
+      "minimum": 0
+    },
+    "TOTAL_TASKS": {
+      "type": "integer",
+      "description": "Total number of tasks attempted",
+      "minimum": 0
+    },
+    "FILES_CREATED": {
+      "type": "string",
+      "description": "Number of files created",
+      "examples": ["15+", "10", "5-10"]
+    },
+    "ISSUES_FOUND": {
+      "type": "integer",
+      "description": "Number of issues discovered",
+      "minimum": 0
+    },
+    "ISSUES_FIXED": {
+      "type": "integer",
+      "description": "Number of issues resolved",
+      "minimum": 0
+    },
+    "TESTS_PASSING": {
+      "type": "string",
+      "description": "Test results",
+      "examples": ["7/7 (100%)", "10/12 (83%)"]
+    },
+    "RESEARCH_SOURCES": {
+      "type": "integer",
+      "description": "Number of research sources consulted",
+      "minimum": 0
+    },
+    "ACHIEVEMENTS": {
+      "type": "array",
+      "description": "Major accomplishments",
+      "items": {
+        "type": "string"
+      }
+    },
+    "DOCUMENTS": {
+      "type": "array",
+      "description": "Documents created",
+      "items": {
+        "type": "object",
+        "properties": {
+          "NAME": {
+            "type": "string",
+            "description": "Document name"
+          },
+          "LOCATION": {
+            "type": "string",
+            "description": "File path"
+          },
+          "PURPOSE": {
+            "type": "string",
+            "description": "Document purpose"
+          }
+        },
+        "required": ["NAME", "LOCATION"]
+      }
+    },
+    "ASSETS": {
+      "type": "array",
+      "description": "Code/assets created",
+      "items": {
+        "type": "object",
+        "properties": {
+          "DIR": {
+            "type": "string",
+            "description": "Directory path"
+          },
+          "CONTENTS": {
+            "type": "string",
+            "description": "What's in the directory"
+          }
+        },
+        "required": ["DIR", "CONTENTS"]
+      }
+    },
+    "CODE_REVIEW_STATUS": {
+      "type": "string",
+      "description": "Code review results",
+      "examples": ["12 issues found, 12 fixed", "No issues found"]
+    },
+    "TESTING_STATUS": {
+      "type": "string",
+      "description": "Testing results",
+      "examples": ["All tests passing", "3 tests failing"]
+    },
+    "DOCUMENTATION_STATUS": {
+      "type": "string",
+      "description": "Documentation quality",
+      "examples": ["Comprehensive", "Basic", "Missing"]
+    },
+    "FUTURE_WORK": {
+      "type": "array",
+      "description": "Next steps",
+      "items": {
+        "type": "string"
+      }
+    },
+    "SPEED_SCORE": {
+      "type": "integer",
+      "description": "Speed rating (1-10)",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "ACCURACY_SCORE": {
+      "type": "integer",
+      "description": "Accuracy rating (1-10)",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "COMPLETENESS_SCORE": {
+      "type": "integer",
+      "description": "Completeness rating (1-10)",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "INNOVATION_SCORE": {
+      "type": "integer",
+      "description": "Innovation rating (1-10)",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "DOC_SCORE": {
+      "type": "integer",
+      "description": "Documentation rating (1-10)",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "OVERALL_EFFICIENCY": {
+      "type": "integer",
+      "description": "Overall efficiency percentage",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "OVERALL_GRADE": {
+      "type": "string",
+      "enum": ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F"],
+      "description": "Overall letter grade"
+    },
+    "STATUS": {
+      "type": "string",
+      "description": "Final status",
+      "examples": ["ALL OBJECTIVES COMPLETED", "PARTIALLY COMPLETED", "FAILED"]
+    },
+    "QUALITY": {
+      "type": "string",
+      "description": "Quality level",
+      "examples": ["PRODUCTION-READY", "DEVELOPMENT", "PROTOTYPE"]
+    },
+    "DOC_STATUS": {
+      "type": "string",
+      "description": "Documentation status",
+      "examples": ["COMPREHENSIVE", "BASIC", "MISSING"]
+    },
+    "DEPLOYMENT_STATUS": {
+      "type": "string",
+      "description": "Deployment status",
+      "examples": ["GITHUB LIVE", "LOCAL", "NOT DEPLOYED"]
+    },
+    "SESSION_GRADE": {
+      "type": "string",
+      "enum": ["A+", "A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F"],
+      "description": "Final session grade"
+    },
+    "GENERATION_DATE": {
+      "type": "string",
+      "description": "When the report was generated",
+      "examples": ["July 31, 2026"]
+    }
+  },
+  "required": [
+    "SESSION_ID",
+    "DATE",
+    "DURATION",
+    "USER_GOAL",
+    "COMPLETED_TASKS",
+    "TASKS_COMPLETED",
+    "TOTAL_TASKS"
+  ],
+  "additionalProperties": true
+}

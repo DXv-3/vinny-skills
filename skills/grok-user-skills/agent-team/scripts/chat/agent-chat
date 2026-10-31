@@ -1,0 +1,305 @@
+#!/usr/bin/env bash
+# agent-chat — two-way Grok Build ↔ Composer bus (user-friendly CLI)
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+# shellcheck source=lib.sh
+source "${SCRIPT_DIR}/lib.sh"
+
+agent_chat_require_jq
+
+CLI_NAME="agent-chat"
+CHAT_DIR=""
+PROJECT_CWD=""
+
+usage() {
+  cat <<EOF
+${CLI_NAME} — two-way chat between grok-build and Composer (two terminal tabs)
+
+QUICK START (from your project folder):
+  ${CLI_NAME} on                 # turn on + show what to paste in each tab
+  ${CLI_NAME} session build      # Tab 1: run this
+  ${CLI_NAME} session composer   # Tab 2: run this
+
+While chatting:
+  ${CLI_NAME} send build "message to composer"
+  ${CLI_NAME} send composer "message to build"
+  ${CLI_NAME} send all "broadcast"
+
+Other:
+  ${CLI_NAME} status             # bus location, watchers, recent messages
+  ${CLI_NAME} tail build         # follow incoming messages (optional split pane)
+  ${CLI_NAME} off                # stop background watchers
+  ${CLI_NAME} help
+
+Environment:
+  AGENT_CHAT_DIR    Override .agent-chat path
+  GROK_BIN          Path to grok
+EOF
+}
+
+resolve_paths() {
+  PROJECT_CWD="$(agent_chat_project_cwd)"
+  CHAT_DIR="$(agent_chat_resolve_bus_dir)"
+  if [[ "$CHAT_DIR" != /* ]]; then
+    CHAT_DIR="${PROJECT_CWD}/${CHAT_DIR}"
+  fi
+}
+
+cmd_init() {
+  resolve_paths
+  mkdir -p "$CHAT_DIR"
+  echo "$PROJECT_CWD" > "${CHAT_DIR}/cwd"
+  touch "${CHAT_DIR}/bus.jsonl"
+
+  cat > "${CHAT_DIR}/README.txt" <<'README'
+# agent-chat (two-way Build ↔ Composer)
+
+## Tab 1 — Build
+  agent-chat session build
+
+## Tab 2 — Composer
+  agent-chat session composer
+
+## Send a message (from either tab, new shell line)
+  agent-chat send build "your message"
+  agent-chat send composer "your message"
+
+## In Grok
+When you see a macOS notification or banner, paste the message into your
+session or tell Grok: "Read the latest messages in .agent-chat/bus.jsonl
+from <peer>."
+
+## Stop
+  agent-chat off
+README
+
+  if [[ ! -f "${CHAT_DIR}/prompt-build.txt" ]]; then
+    cat > "${CHAT_DIR}/prompt-build.txt" <<'P'
+You are in a two-way team chat with Composer (grok-composer-2.5-fast).
+Messages arrive via `agent-chat` in .agent-chat/bus.jsonl.
+When the user shares a Composer message, respond substantively.
+To reply to Composer, tell the user to run:
+  agent-chat send build "your reply"
+P
+  fi
+  if [[ ! -f "${CHAT_DIR}/prompt-composer.txt" ]]; then
+    cat > "${CHAT_DIR}/prompt-composer.txt" <<'P'
+You are in a two-way team chat with Build (grok-build).
+Messages arrive via `agent-chat` in .agent-chat/bus.jsonl.
+When the user shares a Build message, respond substantively.
+To reply to Build, tell the user to run:
+  agent-chat send composer "your reply"
+P
+  fi
+}
+
+watcher_pid_file() {
+  echo "${CHAT_DIR}/watch-$1.pid"
+}
+
+is_watcher_running() {
+  local role="$1"
+  local pf
+  pf="$(watcher_pid_file "$role")"
+  [[ -f "$pf" ]] || return 1
+  local pid
+  pid="$(cat "$pf")"
+  kill -0 "$pid" 2>/dev/null
+}
+
+start_watcher() {
+  local role="$1"
+  if is_watcher_running "$role"; then
+    return 0
+  fi
+  nohup "${SCRIPT_DIR}/watcher.sh" "$role" "$CHAT_DIR" \
+    >> "${CHAT_DIR}/watch-${role}.log" 2>&1 &
+  echo $! > "$(watcher_pid_file "$role")"
+}
+
+stop_watchers() {
+  local role
+  for role in build composer; do
+    local pf
+    pf="$(watcher_pid_file "$role")"
+    if [[ -f "$pf" ]]; then
+      local pid
+      pid="$(cat "$pf")"
+      kill "$pid" 2>/dev/null || true
+      rm -f "$pf"
+    fi
+  done
+}
+
+cmd_on() {
+  cmd_init
+  start_watcher build
+  start_watcher composer
+
+  local grok
+  grok="$(agent_chat_grok_bin)"
+  [[ -n "$grok" ]] || grok="grok"
+
+  agent_chat_banner "ON"
+  cat <<EOF
+Project:  ${PROJECT_CWD}
+Bus:      ${CHAT_DIR}/bus.jsonl
+Watchers: running (macOS notifications when peer messages you)
+
+┌─────────────────────────────────────────────────────────────────┐
+│  TAB 1 — paste this entire line:                                │
+│    ${CLI_NAME} session build                                      │
+├─────────────────────────────────────────────────────────────────┤
+│  TAB 2 — paste this entire line:                                │
+│    ${CLI_NAME} session composer                                   │
+└─────────────────────────────────────────────────────────────────┘
+
+Send between them (from either tab, Ctrl+C grok first or use a split):
+  ${CLI_NAME} send build "plan: …"
+  ${CLI_NAME} send composer "done: …"
+
+Tips:
+  • Notifications appear when the other role messages you.
+  • Optional: run \`${CLI_NAME} tail build\` in a split below Grok.
+  • Prompt hints: ${CHAT_DIR}/prompt-build.txt
+
+Turn off:  ${CLI_NAME} off
+EOF
+}
+
+cmd_off() {
+  resolve_paths
+  stop_watchers
+  agent_chat_banner "OFF"
+  echo "Watchers stopped. Bus preserved at: ${CHAT_DIR}/bus.jsonl"
+}
+
+cmd_send() {
+  local from="${1:?usage: agent-chat send <build|composer|all> <message>}"
+  shift
+  local body="$*"
+  [[ -n "$body" ]] || {
+    echo "usage: agent-chat send <build|composer|all> <message>" >&2
+    exit 1
+  }
+  case "$from" in
+    build|composer|all) ;;
+    *)
+      echo "from must be build, composer, or all" >&2
+      exit 1
+      ;;
+  esac
+  cmd_init
+  local to="all"
+  if [[ "$from" == "build" ]]; then
+    to="composer"
+  elif [[ "$from" == "composer" ]]; then
+    to="build"
+  fi
+  local event
+  event="$(jq -nc \
+    --arg from "$from" \
+    --arg to "$to" \
+    --arg body "$body" \
+    --arg ts "$(agent_chat_now_iso)" \
+    '{from:$from,to:$to,body:$body,ts:$ts}')"
+  echo "$event" >> "${CHAT_DIR}/bus.jsonl"
+  echo "sent (${from} → ${to})"
+}
+
+cmd_status() {
+  resolve_paths
+  if [[ ! -d "$CHAT_DIR" ]]; then
+    echo "agent-chat: not initialized — run: agent-chat on"
+    exit 1
+  fi
+  agent_chat_banner "status"
+  echo "Project:  ${PROJECT_CWD}"
+  echo "Bus:      ${CHAT_DIR}/bus.jsonl"
+  echo ""
+  echo "Watchers:"
+  for role in build composer; do
+    if is_watcher_running "$role"; then
+      echo "  ${role}: running (pid $(cat "$(watcher_pid_file "$role")"))"
+    else
+      echo "  ${role}: stopped"
+    fi
+  done
+  echo ""
+  echo "Recent messages:"
+  if [[ -f "${CHAT_DIR}/bus.jsonl" ]]; then
+    tail -n 8 "${CHAT_DIR}/bus.jsonl" | jq -c '{ts,from,to,body:(.body|tostring|.[:80])}'
+  else
+    echo "  (none)"
+  fi
+}
+
+cmd_tail() {
+  local role="${1:?usage: agent-chat tail <build|composer>}"
+  resolve_paths
+  touch "${CHAT_DIR}/watch-${role}.log"
+  echo "Following ${CHAT_DIR}/watch-${role}.log (Ctrl+C to stop)"
+  tail -f "${CHAT_DIR}/watch-${role}.log"
+}
+
+cmd_session() {
+  local role="${1:?usage: agent-chat session <build|composer>}"
+  case "$role" in
+    build|composer) ;;
+    *)
+      echo "role must be build or composer" >&2
+      exit 1
+      ;;
+  esac
+  cmd_init
+  start_watcher "$role"
+
+  local grok model prompt_file extra_rules
+  grok="$(agent_chat_grok_bin)"
+  [[ -n "$grok" ]] || {
+    echo "agent-chat: grok not found" >&2
+    exit 1
+  }
+  if [[ "$role" == "build" ]]; then
+    model="grok-build"
+    prompt_file="${CHAT_DIR}/prompt-build.txt"
+  else
+    model="grok-composer-2.5-fast"
+    prompt_file="${CHAT_DIR}/prompt-composer.txt"
+  fi
+  extra_rules="$(cat "$prompt_file")"
+
+  agent_chat_banner "session ${role}"
+  cat <<EOF
+Watcher active — you will get notifications when $(agent_chat_peer "$role") messages you.
+Send to peer:  ${CLI_NAME} send ${role} "message"
+
+Starting grok (${model})…
+EOF
+
+  cd "$PROJECT_CWD"
+  exec "$grok" -m "$model" --rules "$extra_rules"
+}
+
+main() {
+  local cmd="${1:-help}"
+  shift || true
+  case "$cmd" in
+    on) cmd_on "$@" ;;
+    off) cmd_off "$@" ;;
+    send) cmd_send "$@" ;;
+    status) cmd_status "$@" ;;
+    tail) cmd_tail "$@" ;;
+    session) cmd_session "$@" ;;
+    init) cmd_init; echo "initialized $(agent_chat_resolve_bus_dir)" ;;
+    help|-h|--help) usage ;;
+    *)
+      echo "unknown command: $cmd" >&2
+      usage
+      exit 1
+      ;;
+  esac
+}
+
+main "$@"

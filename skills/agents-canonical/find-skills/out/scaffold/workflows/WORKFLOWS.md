@@ -1,0 +1,19 @@
+- [STORM (Stanford OVAL)] Perspective discovery: survey existing articles on similar topics to enumerate diverse viewpoints before asking questions.
+- [STORM (Stanford OVAL)] Perspective-guided question asking: each discovered persona asks questions from its own angle (beats naive 'ask 30 questions').
+- [STORM (Stanford OVAL)] Simulated conversation: a writer-persona converses with a topic-expert grounded on trusted internet sources, updating understanding and asking follow-ups.
+- [STORM (Stanford OVAL)] Curation to outline: synthesize the collected Q&A into a structured outline (the core pre-writing artifact).
+- [STORM (Stanford OVAL)] Grounded writing stage: expand the outline into a full article with inline citations to the retrieved references.
+- [Co-STORM (Stanford/Yale)] Collaborative discourse protocol: a turn-management policy decides which agent speaks next to keep the multi-agent conversation productive.
+- [Co-STORM (Stanford/Yale)] Human-in-the-loop steering: agents ask questions on the user's behalf; the user mostly observes and can inject direction at any turn.
+- [Brainstorm Layer (custom)] Problem reframing: restate the prompt 5 ways before ideating — invert it, generalize it, tightly constrain it, analogize it to another domain, and reduce it to first principles.
+- [Brainstorm Layer (custom)] Perspective explosion: generate wildly diverse personas beyond Co-STORM's expert A/B — adversary, novice, historian, futurist, contrarian, cross-domain outsider. These feed STORM's perspective-discovery step.
+- [Brainstorm Layer (custom)] Divergent idea storm: run SCAMPER + random-stimulus + 'worst possible idea' passes to force quantity and novelty. No filtering yet — quantity first.
+- [Brainstorm Layer (custom)] Unknown-unknown probes: invert Co-STORM's mind map — explicitly ask 'what would we NOT think to ask?' to seed the multi-agent discourse with blind spots.
+- [Brainstorm Layer (custom)] Convergence gate: cluster and dedupe ideas, then score each by novelty × feasibility × fit; only survivors pass to STORM as perspectives + seed questions.
+- [Deliberation Structures] COUNCIL (3-stage): each agent answers the prompt independently, then anonymously ranks the other answers, then a chairman synthesizes one final response from the ranked set.
+- [Deliberation Structures] JURY/PANEL: 3+ judge agents independently evaluate, surface disagreement, run deliberation rounds toward consensus; compare jury accuracy vs a single judge.
+- [Deliberation Structures] DEBATE (MAD): 2+ debaters take positions and argue over N rounds with access to debate history; resolve via an LLM judge or self-consistency majority vote.
+- [Deliberation Structures] FISHBOWL turn policy: seed the inner circle with a few agents, keep 1-2 empty chairs; an outer-circle agent may take an empty chair (an inner agent then rotates out), continuously refreshing viewpoints.
+- [Swarm Simulation (MiroFish/OASIS)] Seed -> digital world: extract seed information (news, policy drafts, financial signals, or a story) and auto-construct a high-fidelity parallel world to run the crowd inside.
+- [Swarm Simulation (MiroFish/OASIS)] Graph building: build a GraphRAG knowledge graph with individual + collective memory injection, then dynamic temporal memory updates as the simulation runs.
+- [Swarm Simulation (MiroFish/OASIS)] Environment setup: extract entity relationships from the seed, auto-generate agent personas, and inject per-agent configuration before simulating.

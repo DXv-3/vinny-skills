@@ -1,0 +1,47 @@
+{
+  "interaction_id": "free-YYYYMMDD-xxxx",
+  "previous_interaction_id": null,
+  "engine": "deep-research-free",
+  "tier": "pro",
+  "topic": "",
+  "steer": "",
+  "filename": "",
+  "generated_at": "",
+  "output_dir": "~/Documents/research",
+  "sub_questions": [],
+  "surfaces_covered": [],
+  "surfaces_skipped": [],
+  "sources": [
+    {
+      "id": "S1",
+      "url": "",
+      "title": "",
+      "surface": "github",
+      "accessed": "",
+      "role": "primary"
+    }
+  ],
+  "claims": [
+    {
+      "claim": "",
+      "support": "confirmed",
+      "source_ids": ["S1"]
+    }
+  ],
+  "conflicts": [
+    {
+      "topic": "",
+      "positions": [],
+      "resolution": "unresolved"
+    }
+  ],
+  "recommendations": [],
+  "gaps": [],
+  "follow_up_hooks": [],
+  "methodology": {
+    "search_count": 0,
+    "primary_fetch_count": 0,
+    "critique_pass": true,
+    "limitations": []
+  }
+}

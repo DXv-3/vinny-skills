@@ -1,0 +1,78 @@
+# Image Spot cast library — named building blocks for scene "programming".
+# Define new entries in chat ("add character ..."); they get appended here.
+# Every generation assembles: style + setting + characters + act + global_guards.
+
+global_guards: >-
+  gay men only, no women, no 1girl, no female bodies, all characters are
+  masculine adult men, correct anatomy, no extra limbs, no floating hands,
+  exactly two hands per man, two consenting adults
+
+styles:
+  bara:
+    backend: wai
+    prompt: >-
+      masterpiece, best quality, highly detailed gay bara illustration,
+      bara doujinshi style, masculine gay erotica
+    notes: Default engine. Follows scenes well. Illustrated look only — cannot do photoreal.
+  photoreal:
+    backend: ponyrealism
+    prompt: >-
+      hyper-photorealistic photograph, raw photo, 8k uhd, dslr photo,
+      natural skin texture with pores, cinematic lighting
+    notes: UNRELIABLE — drops characters, ignores acts, sometimes draws women anyway.
+      Use only with mandatory human verification; prefer bara.
+
+settings:
+  showers:
+    prompt: >-
+      steamy locker room showers, water spraying from showerheads,
+      wet tiled walls, water droplets sparkling in the air,
+      wet glistening skin
+  dunes:
+    prompt: >-
+      beach sand dunes at sunset, tall grass swaying,
+      warm golden-hour light, sand underfoot
+  bathhouse:
+    prompt: >-
+      steamy bathhouse, wooden benches, thick steam in the air,
+      warm dramatic light cutting through the steam
+
+characters:
+  coach:
+    short: the coach
+    prompt: >-
+      a muscular naked 35-year-old male coach, strong square jaw,
+      thick bara physique, chest hair
+  swimmer:
+    short: the swimmer
+    prompt: >-
+      a 27-year-old athletic male swimmer, short masculine hair,
+      muscular build, flat male chest, wearing a tiny microspeedo swimsuit
+  older:
+    short: the older man
+    prompt: >-
+      a muscular 40-something-year-old naked man, rugged masculine face,
+      strong jaw, thick bara physique, body hair
+  youngman:
+    short: the young man
+    prompt: >-
+      a masculine man in his late 20s, short hair, strong square jaw,
+      muscular bara physique, flat male chest, clearly male
+    notes: Never describe as slim/pretty/young-athletic — the model feminizes that.
+
+acts:
+  blowjob:
+    prompt: >-
+      {a} kneels before {b}, mouth wrapped around {b}'s hard erect cock,
+      actively giving a blowjob, {b} standing over {a}
+  rimming:
+    prompt: >-
+      {a} bent over facing away, back deeply arched, legs in a wide stance,
+      {b} kneels behind {a}, both of {b}'s hands spreading {a}'s ass cheeks
+      wide apart, tongue pressed against {a}'s asshole, actively rimming
+  bukkake:
+    prompt: >-
+      {a} kneels blindfolded, hands bound behind the back,
+      face covered in cum, mouth open, {b} stands before {a}
+      with hard cock aimed at {a}'s face
+    notes: Group/circle variants collapse — the model merges figures. Keep to 1-2.

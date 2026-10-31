@@ -131,7 +131,7 @@ MIT — see `LICENSE`
 ## Honest Gaps (self-review 2026-10-31)
 
 - The 2026-08-21 gaps below are **resolved by this reindex**: Gemini/Grok/daimon/jcode sources were added to `skills-indexer` v2 ROOTS and are now in the catalog (10 active sources).
-- **Full skill content is NOT in this repo** (index only) — `~/.agents/skills/` is 233MB / 2,473 markdown files; only `skill-dashboard` ships as installable content. Publishing content = separate decision.
+- **Full skill content now included (2026-10-31):** `skills/agents-canonical/` (718 skills), `skills/agents-archive/` (107), `skills/grok-user-skills/` (13), `skills/opencode/` (5) — the real SKILL.md files, installable via `npx skills add DXv-3/vinny-skills`. Vendor mirrors (Gemini/Grok/jcode/daimon third-party copies) stay index-only to avoid republishing third-party content under this MIT license.
 - **AGENTS.md snapshots under `agents-md/` are point-in-time** from 2026-08-21; most source paths have since been removed from the machine.
 - **`.skill-lock.json` provenance omitted** — source GitHub URLs live in `~/.agents/.skill-lock.json` locally.
 - **tier-mapper API maps referenced but not committed** — see `~/Downloads/manus-mega-deliverables/tier-mapper/` (32 official endpoints + 9 sandbox routes).

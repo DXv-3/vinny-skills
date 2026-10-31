@@ -1,0 +1,65 @@
+# parts-hunt lanes — the quarry map
+# v1 lanes were mined 2026-09-16 for Make Vesper Real; re-scout for deltas only.
+
+v1:
+  - name: agent-harnesses
+    scope: Agent loop frameworks (ReAct, tool use, subagents, MCP wiring)
+    mined: 2026-09-16
+  - name: memory-knowledge
+    scope: Memory systems, knowledge bases, recall, consolidation
+    mined: 2026-09-16
+  - name: voice-embodied
+    scope: Voice assistants, wake word, STT/TTS pipelines
+    mined: 2026-09-16
+  - name: autonomous-agents
+    scope: Proactive agents, heartbeat/cron loops, event-driven behavior
+    mined: 2026-09-16
+  - name: desktop-os-control
+    scope: Computer use, OS automation, menu-bar agents, remote control
+    mined: 2026-09-16
+
+v2:
+  - name: on-device-voice
+    scope: >
+      On-device speech: streaming STT, neural TTS, wake-word engines, VAD —
+      Apple Silicon-first (Metal/Core ML/ANE, MLX, ONNX). The ear and mouth,
+      fully offline.
+    serves: Vesper voice loop (Wyoming bus, "Hey Vesper", Piper tier, whisper.cpp)
+    seeds: [whisper.cpp, mlx-whisper, sherpa-onnx, piper, openwakeword, silero-vad, wyoming]
+    avoid: cloud STT/TTS APIs, commercial hardware voice products
+  - name: mac-automation
+    scope: >
+      Mac-native automation: Hammerspoon, Swift/SwiftUI menu-bar apps, JXA/AppleScript
+      bridges, Shortcuts invocation from daemons, hotkey systems, clipboard pipelines.
+    serves: dispatcher OS-control, Vesper presence, read-aloud hotkey, Shortcut Forge/Bridge
+    seeds: [hammerspoon, jxa, applescript, mac menu bar app, shortcuts automation, hotkey daemon]
+    avoid: Windows/Linux-only automation, full RPA platforms as adoptions
+  - name: computer-use
+    scope: >
+      Screen grounding and action: vision-to-coordinate models, planner/grounder splits,
+      action verification loops (screenshot-verify), trajectory caps, app-oriented
+      tool vocabularies, background control without cursor hijack.
+    serves: MemoryForge computer-use, Vesper embodiment
+    seeds: [ui-tars, os-atlas, agent-s, cua, computer use, screen grounding]
+    avoid: research-license code (study only — flag IDEAS ONLY), paid computer-use APIs
+  - name: trust-approvals
+    scope: >
+      Approval and trust UX: policy files, send gates, pairing flows, one-step revoke,
+      audit ledgers, confirmation contracts, prompt-injection scanning, sandboxing.
+    serves: Vesper approval stack, dispatcher safety, standing orders
+    seeds: [human-in-the-loop approval, device pairing, audit ledger, prompt injection detection, sandbox]
+    avoid: enterprise IAM suites, anything cloud-shaped
+  - name: event-scheduling
+    scope: >
+      Event-driven automation: event graphs, change detection, digest agents,
+      cron-like schedulers, wake/injection primitives, notification buses.
+    serves: heartbeat loop, Deal Scout pipeline, morning receipt, crons-that-talk
+    seeds: [huginn, event graph, change detection, digest agent, cron alternative, self-hosted automation]
+    avoid: heavyweight workflow platforms as adoptions (steal patterns only), fair-code license traps on client work
+  - name: local-recall
+    scope: >
+      Local-first recall: hybrid search (FTS5 + vectors), sqlite-vec, embedding pipelines,
+      reranking, memory tiering, knowledge extraction pipelines with per-stage receipts.
+    serves: waterhole ask.py, memory consolidation (bi-temporal, reconcile, core blocks)
+    seeds: [sqlite-vec, hybrid search, fts5, local rag, nomic-embed, local rerank]
+    avoid: vector DB servers, cloud embedding APIs

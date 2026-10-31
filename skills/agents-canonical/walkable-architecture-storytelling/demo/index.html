@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Notebook — a walkable demo (original content)</title>
+<style>
+  /* Walkable-architecture demo, Mode 2 (CSS/DOM corridor). Zero deps.
+     Mechanics: waypoint thresholds → one active chapter → copy reveal. */
+  :root { --paper:#f3efe6; --ink:#191714; --accent:#b4552d; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.6 Georgia,serif; background:var(--ink); color:var(--paper); }
+  .hall { position:fixed; inset:0; perspective:700px; overflow:hidden; }
+  .frame { position:absolute; inset:0; transform-style:preserve-3d;
+           transition:transform .9s cubic-bezier(.23,1,.32,1); }
+  /* Rooms sit deeper and deeper in Z; walking = scaling the frame up */
+  .room { position:absolute; inset:0; display:flex; flex-direction:column;
+          align-items:center; justify-content:center; text-align:center;
+          padding:2rem; opacity:0; transition:opacity .7s ease; }
+  .room.active { opacity:1; }
+  .room h2 { font-size:clamp(1.6rem,4vw,2.6rem); font-weight:400; margin:0 0 .6rem; }
+  .room p { max-width:34rem; opacity:0; transform:translateY(14px); }
+  .room.active p { opacity:1; transform:none; transition:all .6s ease .25s; }
+  .room.active p + p { transition-delay:.4s; }
+  .door { width:min(62vw,420px); aspect-ratio:2/3.2; margin:0 auto 1.4rem;
+          border:2px solid var(--paper); border-radius:3px 3px 0 0;
+          display:grid; place-items:center; background:rgba(243,239,230,.04); }
+  .room.active .door { border-color:var(--accent); box-shadow:0 0 34px rgba(180,85,45,.35); }
+  .marker { font-size:.72rem; letter-spacing:.28em; text-transform:uppercase; opacity:.6; }
+  /* Waypoint dots (chapter-jump navigation) */
+  nav { position:fixed; right:1rem; top:50%; transform:translateY(-50%);
+        display:flex; flex-direction:column; gap:.9rem; z-index:10; }
+  nav a { width:9px; height:9px; border-radius:50%; background:rgba(243,239,230,.35); display:block; }
+  nav a.active { background:var(--accent); box-shadow:0 0 10px var(--accent); }
+  /* Scroll track: 3 rooms = 3 viewports of scroll driving the walk */
+  .scroll-space { height:300vh; }
+  footer { position:fixed; bottom:1rem; left:0; right:0; text-align:center;
+           font-size:.75rem; opacity:.55; z-index:5; }
+  /* Reduced motion: chapter-jump instead of scrub (mechanic 5) */
+  @media (prefers-reduced-motion: reduce) {
+    .frame, .room, .room p { transition:none; }
+  }
+</style>
+</head>
+<body>
+  <div class="hall"><div class="frame" id="frame">
+    <section class="room" data-room="0">
+      <div class="door"></div>
+      <div class="marker">Room One — The Entrance</div>
+      <h2>Notebooks for night thoughts</h2>
+      <p>Night Notebook binds its journals after dark, when the workshop is quiet
+         and the glue sets slowly.</p>
+      <p>Every walk starts at this door.</p>
+    </section>
+    <section class="room" data-room="1">
+      <div class="door"></div>
+      <div class="marker">Room Two — The Bindery</div>
+      <h2>Thread, paper, patience</h2>
+      <p>Signatures are sewn by hand, eighteen pages at a time, in linen thread
+         that outlives the cover.</p>
+      <p>The room smells of cedar and warm wax.</p>
+    </section>
+    <section class="room" data-room="2">
+      <div class="door"></div>
+      <div class="marker">Room Three — The Courtyard</div>
+      <h2>Leave with a blank page</h2>
+      <p>The walk ends where every notebook begins: an empty spread, waiting
+         for the first sentence.</p>
+    </section>
+  </div></div>
+
+  <nav id="dots" aria-label="Chapters"></nav>
+  <div class="scroll-space"></div>
+  <footer>Walkable-architecture demo · scroll to walk · original content</footer>
+
+<script>
+  // Mechanic 1: waypoints are the single source of truth.
+  const rooms = [...document.querySelectorAll(".room")];
+  const dots = document.getElementById("dots");
+  rooms.forEach((r, i) => {
+    const a = document.createElement("a");
+    a.href = "#" + i; a.setAttribute("aria-label", "Chapter " + (i + 1));
+    a.onclick = (e) => { e.preventDefault();
+      window.scrollTo({ top: (i / (rooms.length - 1)) * (document.body.scrollHeight - innerHeight), behavior: "smooth" }); };
+    dots.appendChild(a);
+  });
+  const dotEls = [...dots.children];
+  // Mechanic 2: thresholds → active chapter; copy derives from it.
+  const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  function walk() {
+    const p = scrollY / (document.body.scrollHeight - innerHeight || 1);
+    // Thresholds at 0, .5, 1 — the active waypoint is the nearest boundary.
+    const idx = Math.min(rooms.length - 1, Math.round(p * (rooms.length - 1)));
+    rooms.forEach((r, i) => r.classList.toggle("active", i === idx));
+    dotEls.forEach((d, i) => d.classList.toggle("active", i === idx));
+    // Mechanic: the frame scales toward the active room (the corridor illusion).
+    if (!reduced) {
+      document.getElementById("frame").style.transform =
+        `scale(${1 + idx * .18}) translateZ(${idx * -40}px)`;
+    }
+  }
+  addEventListener("scroll", walk, { passive: true });
+  walk();
+</script>
+</body>
+</html>

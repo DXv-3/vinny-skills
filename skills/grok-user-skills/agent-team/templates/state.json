@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "status": "active",
+  "turn": "build",
+  "round": 0,
+  "max_rounds": 8,
+  "task": "",
+  "cwd": "/absolute/path/to/project",
+  "models": {
+    "build": "grok-build",
+    "composer": "grok-composer-2.5-fast"
+  },
+  "last_role": null,
+  "updated_at": null
+}

@@ -1,0 +1,5 @@
+- [Co-STORM (Stanford/Yale)] Multi-agent roles: instantiate perspective-A agent, perspective-B agent, and a Moderator that steers and injects complementary information.
+- [Brainstorm Layer (custom)] Stanford academic framing: rewrite every surviving idea as a research question and flag its citation needs, so STORM's grounded-writing stage has concrete claims to ground.
+- [Deliberation Structures] COUNCIL roles: N peer members + 1 chairman; optionally assign adversarial roles to peers to prevent echo chambers.
+- [Deliberation Structures] DEBATE roles: proponent, opponent, and (optional) judge; assign adversarial personas to force genuine opposition and surface the premise left unsaid.
+- [Deliberation Structures] FISHBOWL fit: it lives in the DIVERGENT phase (Kaner's Diamond) — surface many perspectives before converging; pairs naturally with the Brainstorm Layer's perspective explosion.
