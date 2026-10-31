@@ -1,26 +1,23 @@
 {
-  "total": 592,
+  "total": 1022,
   "tiers": {
-    "active": 190,
-    "archived": 176,
-    "vendor-user": 226
+    "active": 741,
+    "archived": 166,
+    "vendor-user": 115
   },
   "by_source": {
-    "agents_canonical": 142,
-    "agents_archive": 110,
-    "opencode": 3,
-    "saaas_primary": 14,
-    "saaas_toto": 14,
+    "agents_canonical": 721,
+    "agents_archive": 107,
+    "opencode": 5,
     "gemini_plugins": 59,
     "gemini_antigravity": 8,
     "grok_user_skills": 13,
     "grok_installed_plugins": 38,
-    "jcode_mirror": 121,
-    "daimon_backup": 66,
-    "pep_engine": 1,
-    "vinnyos_sync": 2,
-    "vinnyos_skills": 1
+    "jcode_mirror": 10,
+    "daimon_backup": 59,
+    "pep_engine": 0,
+    "vinnyos_sync": 2
   },
-  "generated_at": "2026-08-21T14:30:41.354725",
-  "version": "2.0.0"
+  "generated_at": "2026-10-31T15:27:16.298319",
+  "version": "2.1"
 }

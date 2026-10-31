@@ -1,83 +1,65 @@
 {
   "name": "vinny-skills",
-  "description": "Vinny's entire skill index \u2014 592 skills across 14 sources (v2). Generated 2026-08-21",
+  "description": "Vinny's entire skill index \u2014 782 unique skills across 10 sources (v2.1). Generated 2026-10-31",
   "owner": {
     "name": "Vinny Gilberti",
     "github": "DXv-3"
   },
-  "version": "2.0.0",
-  "total": 592,
+  "version": "2.1.0",
+  "total": 782,
   "marketplace": {
+    "name": "Vinny Skills",
+    "owner": "DXv-3",
     "plugins": [
       {
         "name": "agents-canonical",
-        "description": "142 skills \u2014 agents_canonical",
-        "count": 142
+        "source": "./skills/agents-canonical",
+        "description": "721 skills from agents_canonical"
       },
       {
         "name": "agents-archive",
-        "description": "110 skills \u2014 agents_archive",
-        "count": 110
+        "source": "./skills/agents-archive",
+        "description": "107 skills from agents_archive"
       },
       {
         "name": "opencode",
-        "description": "3 skills \u2014 opencode",
-        "count": 3
-      },
-      {
-        "name": "saaas-primary",
-        "description": "14 skills \u2014 saaas_primary",
-        "count": 14
-      },
-      {
-        "name": "saaas-toto",
-        "description": "14 skills \u2014 saaas_toto",
-        "count": 14
+        "source": "./skills/opencode",
+        "description": "5 skills from opencode"
       },
       {
         "name": "gemini-plugins",
-        "description": "59 skills \u2014 gemini_plugins",
-        "count": 59
+        "source": "./skills/gemini-plugins",
+        "description": "59 skills from gemini_plugins"
       },
       {
         "name": "gemini-antigravity",
-        "description": "8 skills \u2014 gemini_antigravity",
-        "count": 8
+        "source": "./skills/gemini-antigravity",
+        "description": "8 skills from gemini_antigravity"
       },
       {
         "name": "grok-user-skills",
-        "description": "13 skills \u2014 grok_user_skills",
-        "count": 13
+        "source": "./skills/grok-user-skills",
+        "description": "13 skills from grok_user_skills"
       },
       {
         "name": "grok-installed-plugins",
-        "description": "38 skills \u2014 grok_installed_plugins",
-        "count": 38
+        "source": "./skills/grok-installed-plugins",
+        "description": "38 skills from grok_installed_plugins"
       },
       {
         "name": "jcode-mirror",
-        "description": "121 skills \u2014 jcode_mirror",
-        "count": 121
+        "source": "./skills/jcode-mirror",
+        "description": "10 skills from jcode_mirror"
       },
       {
         "name": "daimon-backup",
-        "description": "66 skills \u2014 daimon_backup",
-        "count": 66
-      },
-      {
-        "name": "pep-engine",
-        "description": "1 skills \u2014 pep_engine",
-        "count": 1
+        "source": "./skills/daimon-backup",
+        "description": "59 skills from daimon_backup"
       },
       {
         "name": "vinnyos-sync",
-        "description": "2 skills \u2014 vinnyos_sync",
-        "count": 2
-      },
-      {
-        "name": "vinnyos-skills",
-        "description": "1 skills \u2014 vinnyos_skills",
-        "count": 1
+        "source": "./skills/vinnyos-sync",
+        "description": "2 skills from vinnyos_sync"
       }
     ]
   }
